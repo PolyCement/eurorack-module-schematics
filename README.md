@@ -7,6 +7,7 @@ todo: this ;)
 ### modules:
 - ["death rattle" - dirty pt2399-based delay module](./modules/delay)
 - ["dirty doubler" - dual vco module](./modules/dual_vco)
+- ["green brick" - output module](./modules/output)
 - ["spread thin" - simple 1x 1-6/2x 1-3 passive multiple module](./modules/passive_multiple)
 - [misc circuit fragments](./modules/fragments)
 
