@@ -7,18 +7,70 @@
   </fileVersion>
   <title>New Project</title>
   <author>freya</author>
-  <width value="29.0" unit="cm"/>
-  <height value="21.0" unit="cm"/>
+  <width value="6.0" unit="cm"/>
+  <height value="12.75" unit="cm"/>
   <gridSpacing value="0.1" unit="in"/>
   <dotSpacing>1</dotSpacing>
   <components>
     <diylc.electromechanical.OpenJack1__8>
-      <name>J9</name>
+      <name>J1</name>
       <alpha>127</alpha>
       <controlPoints>
-        <point x="3.7" y="2.0"/>
-        <point x="3.4834936490538904" y="2.3750000000000004"/>
-        <point x="3.4834936490538904" y="2.125"/>
+        <point x="0.7" y="0.2"/>
+        <point x="0.8996588775097223" y="0.2995462442091997"/>
+        <point x="0.850105056331472" y="0.6499211646217731"/>
+      </controlPoints>
+      <orientation>DEFAULT</orientation>
+      <angle>0</angle>
+      <type>MONO</type>
+      <showLabels>true</showLabels>
+    </diylc.electromechanical.OpenJack1__8>
+    <diylc.electromechanical.OpenJack1__8>
+      <name>J2</name>
+      <alpha>127</alpha>
+      <controlPoints>
+        <point x="0.7" y="0.8"/>
+        <point x="0.8996588775097223" y="0.8995462442092003"/>
+        <point x="0.850105056331472" y="1.2499211646217725"/>
+      </controlPoints>
+      <orientation>DEFAULT</orientation>
+      <angle>0</angle>
+      <type>MONO</type>
+      <showLabels>true</showLabels>
+    </diylc.electromechanical.OpenJack1__8>
+    <diylc.electromechanical.OpenJack1__8>
+      <name>J3</name>
+      <alpha>127</alpha>
+      <controlPoints>
+        <point x="0.7" y="1.4"/>
+        <point x="0.8996588775097223" y="1.4995462442092002"/>
+        <point x="0.850105056331472" y="1.8499211646217737"/>
+      </controlPoints>
+      <orientation>DEFAULT</orientation>
+      <angle>0</angle>
+      <type>MONO</type>
+      <showLabels>true</showLabels>
+    </diylc.electromechanical.OpenJack1__8>
+    <diylc.electromechanical.OpenJack1__8>
+      <name>J4</name>
+      <alpha>127</alpha>
+      <controlPoints>
+        <point x="0.7" y="2.0"/>
+        <point x="0.8996588775097223" y="2.0995462442092"/>
+        <point x="0.8501050563314709" y="2.449921164621773"/>
+      </controlPoints>
+      <orientation>DEFAULT</orientation>
+      <angle>0</angle>
+      <type>MONO</type>
+      <showLabels>true</showLabels>
+    </diylc.electromechanical.OpenJack1__8>
+    <diylc.electromechanical.OpenJack1__8>
+      <name>J5</name>
+      <alpha>127</alpha>
+      <controlPoints>
+        <point x="0.7" y="2.6000000000000005"/>
+        <point x="0.48349364905389053" y="2.9750000000000005"/>
+        <point x="0.48349364905389053" y="2.7250000000000005"/>
       </controlPoints>
       <orientation>DEFAULT</orientation>
       <angle>0</angle>
@@ -26,104 +78,52 @@
       <showLabels>true</showLabels>
     </diylc.electromechanical.OpenJack1__8>
     <diylc.electromechanical.OpenJack1__8>
-      <name>J10</name>
+      <name>J6</name>
       <alpha>127</alpha>
       <controlPoints>
-        <point x="3.7" y="2.6"/>
-        <point x="3.4834936490538904" y="2.975"/>
-        <point x="3.4834936490538904" y="2.725"/>
+        <point x="0.7" y="3.2"/>
+        <point x="0.8996588775097228" y="3.2995462442092"/>
+        <point x="0.850105056331472" y="3.6499211646217735"/>
       </controlPoints>
       <orientation>DEFAULT</orientation>
       <angle>0</angle>
-      <type>SWITCHED</type>
+      <type>MONO</type>
       <showLabels>true</showLabels>
     </diylc.electromechanical.OpenJack1__8>
     <diylc.electromechanical.OpenJack1__8>
-      <name>J11</name>
+      <name>J7</name>
       <alpha>127</alpha>
       <controlPoints>
-        <point x="3.7" y="3.2"/>
-        <point x="3.4834936490538904" y="3.575"/>
-        <point x="3.4834936490538904" y="3.325"/>
+        <point x="0.7" y="3.8"/>
+        <point x="0.8996588775097223" y="3.8995462442092004"/>
+        <point x="0.8501050563314709" y="4.2499211646217745"/>
       </controlPoints>
       <orientation>DEFAULT</orientation>
       <angle>0</angle>
-      <type>SWITCHED</type>
+      <type>MONO</type>
       <showLabels>true</showLabels>
     </diylc.electromechanical.OpenJack1__8>
     <diylc.electromechanical.OpenJack1__8>
-      <name>J12</name>
+      <name>J8</name>
       <alpha>127</alpha>
       <controlPoints>
-        <point x="3.7" y="3.8"/>
-        <point x="3.4834936490538904" y="4.175"/>
-        <point x="3.4834936490538904" y="3.925"/>
+        <point x="0.7" y="4.4"/>
+        <point x="0.8996588775097217" y="4.4995462442092"/>
+        <point x="0.8501050563314709" y="4.849921164621773"/>
       </controlPoints>
       <orientation>DEFAULT</orientation>
       <angle>0</angle>
-      <type>SWITCHED</type>
-      <showLabels>true</showLabels>
-    </diylc.electromechanical.OpenJack1__8>
-    <diylc.electromechanical.OpenJack1__8>
-      <name>J13</name>
-      <alpha>127</alpha>
-      <controlPoints>
-        <point x="3.7" y="4.4"/>
-        <point x="3.4834936490538904" y="4.775"/>
-        <point x="3.4834936490538904" y="4.525"/>
-      </controlPoints>
-      <orientation>DEFAULT</orientation>
-      <angle>0</angle>
-      <type>SWITCHED</type>
-      <showLabels>true</showLabels>
-    </diylc.electromechanical.OpenJack1__8>
-    <diylc.electromechanical.OpenJack1__8>
-      <name>J14</name>
-      <alpha>127</alpha>
-      <controlPoints>
-        <point x="3.7" y="5.0"/>
-        <point x="3.4834936490538904" y="5.375"/>
-        <point x="3.4834936490538904" y="5.125"/>
-      </controlPoints>
-      <orientation>DEFAULT</orientation>
-      <angle>0</angle>
-      <type>SWITCHED</type>
-      <showLabels>true</showLabels>
-    </diylc.electromechanical.OpenJack1__8>
-    <diylc.electromechanical.OpenJack1__8>
-      <name>J15</name>
-      <alpha>127</alpha>
-      <controlPoints>
-        <point x="3.7" y="5.6"/>
-        <point x="3.4834936490538904" y="5.975"/>
-        <point x="3.4834936490538904" y="5.725"/>
-      </controlPoints>
-      <orientation>DEFAULT</orientation>
-      <angle>0</angle>
-      <type>SWITCHED</type>
-      <showLabels>true</showLabels>
-    </diylc.electromechanical.OpenJack1__8>
-    <diylc.electromechanical.OpenJack1__8>
-      <name>J16</name>
-      <alpha>127</alpha>
-      <controlPoints>
-        <point x="3.7" y="6.2"/>
-        <point x="3.4834936490538904" y="6.575"/>
-        <point x="3.4834936490538904" y="6.325"/>
-      </controlPoints>
-      <orientation>DEFAULT</orientation>
-      <angle>0</angle>
-      <type>SWITCHED</type>
+      <type>MONO</type>
       <showLabels>true</showLabels>
     </diylc.electromechanical.OpenJack1__8>
     <diylc.connectivity.HookupWire>
-      <name>W15</name>
+      <name>W1</name>
       <alpha>127</alpha>
       <controlPoints2>
-        <point x="3.7" y="2.0"/>
-        <point x="3.2" y="2.0"/>
-        <point x="3.2" y="2.6"/>
-        <point x="3.7" y="2.6"/>
+        <point x="0.7" y="0.2"/>
+        <point x="0.3" y="0.2"/>
+        <point x="0.3" y="0.8"/>
+        <point x="0.7" y="0.8"/>
       </controlPoints2>
       <color hex="0033cc"/>
       <pointCount>FOUR</pointCount>
@@ -135,13 +135,13 @@
       <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
-      <name>W16</name>
+      <name>W2</name>
       <alpha>127</alpha>
       <controlPoints2>
-        <point x="3.7" y="2.6"/>
-        <point x="3.2" y="2.6"/>
-        <point x="3.2" y="3.2"/>
-        <point x="3.7" y="3.2"/>
+        <point x="0.7" y="0.8"/>
+        <point x="0.3" y="0.8"/>
+        <point x="0.3" y="1.4"/>
+        <point x="0.7" y="1.4"/>
       </controlPoints2>
       <color hex="0033cc"/>
       <pointCount>FOUR</pointCount>
@@ -153,13 +153,13 @@
       <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
-      <name>W17</name>
+      <name>W3</name>
       <alpha>127</alpha>
       <controlPoints2>
-        <point x="3.7" y="3.2"/>
-        <point x="3.2" y="3.2"/>
-        <point x="3.2" y="3.8"/>
-        <point x="3.7" y="3.8"/>
+        <point x="0.7" y="1.4"/>
+        <point x="0.3" y="1.4"/>
+        <point x="0.3" y="2.0"/>
+        <point x="0.7" y="2.0"/>
       </controlPoints2>
       <color hex="0033cc"/>
       <pointCount>FOUR</pointCount>
@@ -171,13 +171,13 @@
       <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
-      <name>W18</name>
+      <name>W4</name>
       <alpha>127</alpha>
       <controlPoints2>
-        <point x="3.7" y="3.8"/>
-        <point x="3.1" y="3.8"/>
-        <point x="3.1" y="4.5"/>
-        <point x="3.5" y="4.5"/>
+        <point x="0.7" y="2.0"/>
+        <point x="0.3" y="2.0"/>
+        <point x="0.3" y="2.6"/>
+        <point x="0.48349364905389053" y="2.7250000000000005"/>
       </controlPoints2>
       <color hex="0033cc"/>
       <pointCount>FOUR</pointCount>
@@ -189,13 +189,13 @@
       <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
-      <name>W19</name>
+      <name>W6</name>
       <alpha>127</alpha>
       <controlPoints2>
-        <point x="3.7" y="5.0"/>
-        <point x="4.1" y="5.0"/>
-        <point x="4.1" y="4.4"/>
-        <point x="3.7" y="4.4"/>
+        <point x="0.7" y="3.2"/>
+        <point x="0.3" y="3.2"/>
+        <point x="0.3" y="3.8"/>
+        <point x="0.7" y="3.8"/>
       </controlPoints2>
       <color hex="cc00cc"/>
       <pointCount>FOUR</pointCount>
@@ -207,13 +207,13 @@
       <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
-      <name>W20</name>
+      <name>W7</name>
       <alpha>127</alpha>
       <controlPoints2>
-        <point x="3.7" y="5.6"/>
-        <point x="4.1" y="5.6"/>
-        <point x="4.1" y="5.0"/>
-        <point x="3.7" y="5.0"/>
+        <point x="0.7" y="3.8"/>
+        <point x="0.3" y="3.8"/>
+        <point x="0.3" y="4.4"/>
+        <point x="0.7" y="4.4"/>
       </controlPoints2>
       <color hex="cc00cc"/>
       <pointCount>FOUR</pointCount>
@@ -225,31 +225,13 @@
       <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
-      <name>W21</name>
+      <name>W8</name>
       <alpha>127</alpha>
       <controlPoints2>
-        <point x="3.7" y="6.2"/>
-        <point x="4.1" y="6.2"/>
-        <point x="4.1" y="5.6"/>
-        <point x="3.7" y="5.6"/>
-      </controlPoints2>
-      <color hex="cc00cc"/>
-      <pointCount>FOUR</pointCount>
-      <style>SOLID</style>
-      <smooth>true</smooth>
-      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
-      <gauge>_22</gauge>
-      <striped>false</striped>
-      <stripeColor hex="ffff00"/>
-    </diylc.connectivity.HookupWire>
-    <diylc.connectivity.HookupWire>
-      <name>W22</name>
-      <alpha>127</alpha>
-      <controlPoints2>
-        <point x="3.5" y="2.4"/>
-        <point x="3.2" y="2.4"/>
-        <point x="3.2" y="3.0"/>
-        <point x="3.5" y="3.0"/>
+        <point x="0.9" y="2.1"/>
+        <point x="1.2" y="2.1"/>
+        <point x="1.2" y="1.5"/>
+        <point x="0.9" y="1.5"/>
       </controlPoints2>
       <color hex="000000"/>
       <pointCount>FOUR</pointCount>
@@ -261,13 +243,13 @@
       <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
-      <name>W23</name>
+      <name>W9</name>
       <alpha>127</alpha>
       <controlPoints2>
-        <point x="3.5" y="3.0"/>
-        <point x="3.2" y="3.0"/>
-        <point x="3.2" y="3.6"/>
-        <point x="3.5" y="3.6"/>
+        <point x="0.9" y="1.5"/>
+        <point x="1.2" y="1.5"/>
+        <point x="1.2" y="0.9"/>
+        <point x="0.9" y="0.9"/>
       </controlPoints2>
       <color hex="000000"/>
       <pointCount>FOUR</pointCount>
@@ -279,13 +261,13 @@
       <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
-      <name>W24</name>
+      <name>W10</name>
       <alpha>127</alpha>
       <controlPoints2>
-        <point x="3.5" y="3.6"/>
-        <point x="3.2" y="3.6"/>
-        <point x="3.2" y="4.2"/>
-        <point x="3.5" y="4.2"/>
+        <point x="0.9" y="0.9"/>
+        <point x="1.2" y="0.9"/>
+        <point x="1.2" y="0.3"/>
+        <point x="0.9" y="0.3"/>
       </controlPoints2>
       <color hex="000000"/>
       <pointCount>FOUR</pointCount>
@@ -297,13 +279,13 @@
       <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
-      <name>W25</name>
+      <name>W11</name>
       <alpha>127</alpha>
       <controlPoints2>
-        <point x="3.5" y="4.2"/>
-        <point x="3.2" y="4.2"/>
-        <point x="3.2" y="4.8"/>
-        <point x="3.5" y="4.8"/>
+        <point x="0.9" y="2.1"/>
+        <point x="1.2" y="2.3"/>
+        <point x="1.2" y="3.1"/>
+        <point x="0.9" y="3.3"/>
       </controlPoints2>
       <color hex="000000"/>
       <pointCount>FOUR</pointCount>
@@ -315,13 +297,13 @@
       <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
-      <name>W26</name>
+      <name>W12</name>
       <alpha>127</alpha>
       <controlPoints2>
-        <point x="3.5" y="4.8"/>
-        <point x="3.2" y="4.8"/>
-        <point x="3.2" y="5.4"/>
-        <point x="3.5" y="5.4"/>
+        <point x="0.48349364905389053" y="2.9750000000000005"/>
+        <point x="0.6" y="3.2"/>
+        <point x="0.8" y="3.1"/>
+        <point x="0.9" y="3.3"/>
       </controlPoints2>
       <color hex="000000"/>
       <pointCount>FOUR</pointCount>
@@ -333,13 +315,13 @@
       <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
-      <name>W27</name>
+      <name>W13</name>
       <alpha>127</alpha>
       <controlPoints2>
-        <point x="3.5" y="5.4"/>
-        <point x="3.2" y="5.4"/>
-        <point x="3.2" y="6.0"/>
-        <point x="3.5" y="6.0"/>
+        <point x="0.9" y="4.5"/>
+        <point x="1.2" y="4.5"/>
+        <point x="1.2" y="3.9"/>
+        <point x="0.9" y="3.9"/>
       </controlPoints2>
       <color hex="000000"/>
       <pointCount>FOUR</pointCount>
@@ -351,13 +333,13 @@
       <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
-      <name>W28</name>
+      <name>W14</name>
       <alpha>127</alpha>
       <controlPoints2>
-        <point x="3.5" y="6.0"/>
-        <point x="3.2" y="6.0"/>
-        <point x="3.2" y="6.6"/>
-        <point x="3.5" y="6.6"/>
+        <point x="0.9" y="3.9"/>
+        <point x="1.2" y="3.9"/>
+        <point x="1.2" y="3.3"/>
+        <point x="0.9" y="3.3"/>
       </controlPoints2>
       <color hex="000000"/>
       <pointCount>FOUR</pointCount>
@@ -370,14 +352,32 @@
     </diylc.connectivity.HookupWire>
     <diylc.misc.Label>
       <name>LAB1</name>
-      <point x="5.0" y="4.4"/>
-      <text>its literally that simple lol</text>
+      <point x="1.4000000000000006" y="2.5"/>
+      <text>It&apos;s really that simple!</text>
       <font name="Square 721 BT" size="14" style="0"/>
       <color hex="000000"/>
-      <horizontalAlignment>CENTER</horizontalAlignment>
+      <horizontalAlignment>LEFT</horizontalAlignment>
       <verticalAlignment>CENTER</verticalAlignment>
       <orientation>DEFAULT</orientation>
     </diylc.misc.Label>
+    <diylc.connectivity.HookupWire>
+      <name>W5</name>
+      <alpha>127</alpha>
+      <controlPoints2>
+        <point x="0.7" y="3.2"/>
+        <point x="1.0999999999999994" y="3.2"/>
+        <point x="1.0999999999999994" y="2.6000000000000005"/>
+        <point x="0.7" y="2.6000000000000005"/>
+      </controlPoints2>
+      <color hex="cc00cc"/>
+      <pointCount>FOUR</pointCount>
+      <style>SOLID</style>
+      <smooth>true</smooth>
+      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
+      <gauge>_22</gauge>
+      <striped>false</striped>
+      <stripeColor hex="ffff00"/>
+    </diylc.connectivity.HookupWire>
   </components>
   <groups/>
   <lockedLayers/>
