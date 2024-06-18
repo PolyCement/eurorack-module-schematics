@@ -2,13 +2,13 @@
 <project>
   <fileVersion>
     <major>4</major>
-    <minor>36</minor>
+    <minor>37</minor>
     <build>0</build>
   </fileVersion>
   <title>New Project</title>
   <author>freya</author>
-  <width value="29.0" unit="cm"/>
-  <height value="21.0" unit="cm"/>
+  <width value="14.75" unit="cm"/>
+  <height value="14.5" unit="cm"/>
   <gridSpacing value="0.1" unit="in"/>
   <dotSpacing>1</dotSpacing>
   <components>
@@ -17,11 +17,11 @@
       <alpha>127</alpha>
       <value></value>
       <controlPoints>
-        <point x="3.9" y="3.4"/>
-        <point x="7.2" y="4.7"/>
+        <point x="1.3" y="2.9"/>
+        <point x="4.6" y="4.2"/>
       </controlPoints>
-      <firstPoint x="3.9" y="3.4"/>
-      <secondPoint x="7.2" y="4.7"/>
+      <firstPoint x="1.3" y="2.9"/>
+      <secondPoint x="4.6" y="4.2"/>
       <boardColor hex="f8ebb3"/>
       <borderColor hex="ada47d"/>
       <coordinateColor hex="b6b6b6"/>
@@ -45,7 +45,7 @@
       <cutBetweenHoles>false</cutBetweenHoles>
       <orientation>VERTICAL</orientation>
       <holeSpacing value="0.1" unit="in"/>
-      <point x="6.5" y="3.9"/>
+      <point x="3.9" y="3.4"/>
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
       <name>Cut26</name>
@@ -56,7 +56,7 @@
       <cutBetweenHoles>false</cutBetweenHoles>
       <orientation>VERTICAL</orientation>
       <holeSpacing value="0.1" unit="in"/>
-      <point x="5.3" y="3.8"/>
+      <point x="2.7" y="3.3"/>
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
       <name>Cut25</name>
@@ -67,7 +67,7 @@
       <cutBetweenHoles>false</cutBetweenHoles>
       <orientation>VERTICAL</orientation>
       <holeSpacing value="0.1" unit="in"/>
-      <point x="6.5" y="3.8"/>
+      <point x="3.9" y="3.3"/>
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
       <name>Cut12</name>
@@ -78,7 +78,7 @@
       <cutBetweenHoles>false</cutBetweenHoles>
       <orientation>VERTICAL</orientation>
       <holeSpacing value="0.1" unit="in"/>
-      <point x="5.3" y="4.0"/>
+      <point x="2.7" y="3.5"/>
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
       <name>Cut19</name>
@@ -89,7 +89,7 @@
       <cutBetweenHoles>false</cutBetweenHoles>
       <orientation>VERTICAL</orientation>
       <holeSpacing value="0.1" unit="in"/>
-      <point x="5.3" y="4.2"/>
+      <point x="2.7" y="3.7"/>
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
       <name>Cut18</name>
@@ -100,15 +100,15 @@
       <cutBetweenHoles>false</cutBetweenHoles>
       <orientation>VERTICAL</orientation>
       <holeSpacing value="0.1" unit="in"/>
-      <point x="5.3" y="4.1"/>
+      <point x="2.7" y="3.5999999999999996"/>
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.Jumper>
       <name>J62</name>
       <alpha>127</alpha>
       <points>
-        <point x="6.8" y="4.5"/>
-        <point x="4.3" y="4.5"/>
-        <point x="5.55" y="4.5"/>
+        <point x="4.2" y="4.0"/>
+        <point x="1.7" y="4.0"/>
+        <point x="2.95" y="4.0"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -125,9 +125,9 @@
       <name>J1</name>
       <alpha>127</alpha>
       <points>
-        <point x="5.2" y="4.0"/>
-        <point x="4.0" y="4.0"/>
-        <point x="4.6" y="4.0"/>
+        <point x="2.6" y="3.5"/>
+        <point x="1.4" y="3.5"/>
+        <point x="1.9999999999999993" y="3.5"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -144,9 +144,9 @@
       <name>J2</name>
       <alpha>127</alpha>
       <points>
-        <point x="5.2" y="3.8"/>
-        <point x="4.0" y="3.8"/>
-        <point x="4.6" y="3.8"/>
+        <point x="2.6" y="3.3"/>
+        <point x="1.4" y="3.3"/>
+        <point x="1.9999999999999993" y="3.3"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -163,9 +163,9 @@
       <name>J3</name>
       <alpha>127</alpha>
       <points>
-        <point x="5.7" y="3.9"/>
-        <point x="4.7" y="3.9"/>
-        <point x="5.2" y="3.9"/>
+        <point x="3.1" y="3.4"/>
+        <point x="2.1" y="3.4"/>
+        <point x="2.6" y="3.4"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -182,9 +182,9 @@
       <name>J4</name>
       <alpha>127</alpha>
       <points>
-        <point x="4.4" y="3.9"/>
-        <point x="4.0" y="3.9"/>
-        <point x="4.2" y="3.9"/>
+        <point x="1.8000000000000005" y="3.4"/>
+        <point x="1.4" y="3.4"/>
+        <point x="1.6000000000000003" y="3.4"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -201,9 +201,9 @@
       <name>J5</name>
       <alpha>127</alpha>
       <points>
-        <point x="5.2" y="4.2"/>
-        <point x="4.7" y="4.2"/>
-        <point x="4.95" y="4.2"/>
+        <point x="2.6" y="3.7"/>
+        <point x="2.1" y="3.7"/>
+        <point x="2.35" y="3.7"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -220,9 +220,9 @@
       <name>J6</name>
       <alpha>127</alpha>
       <points>
-        <point x="5.2" y="4.1"/>
-        <point x="4.7" y="4.1"/>
-        <point x="4.95" y="4.1"/>
+        <point x="2.6" y="3.5999999999999996"/>
+        <point x="2.1" y="3.5999999999999996"/>
+        <point x="2.35" y="3.5999999999999996"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -239,9 +239,9 @@
       <name>J7</name>
       <alpha>127</alpha>
       <points>
-        <point x="4.4" y="4.2"/>
-        <point x="4.0" y="4.2"/>
-        <point x="4.2" y="4.2"/>
+        <point x="1.8000000000000005" y="3.7"/>
+        <point x="1.4" y="3.7"/>
+        <point x="1.6000000000000003" y="3.7"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -258,9 +258,9 @@
       <name>J8</name>
       <alpha>127</alpha>
       <points>
-        <point x="4.4" y="4.1"/>
-        <point x="4.0" y="4.1"/>
-        <point x="4.2" y="4.1"/>
+        <point x="1.8000000000000005" y="3.5999999999999996"/>
+        <point x="1.4" y="3.5999999999999996"/>
+        <point x="1.6000000000000003" y="3.5999999999999996"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -277,9 +277,9 @@
       <name>J9</name>
       <alpha>127</alpha>
       <points>
-        <point x="4.4" y="3.7"/>
-        <point x="4.0" y="3.7"/>
-        <point x="4.2" y="3.7"/>
+        <point x="1.8000000000000005" y="3.2"/>
+        <point x="1.4" y="3.2"/>
+        <point x="1.6000000000000003" y="3.2"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -296,9 +296,9 @@
       <name>J10</name>
       <alpha>127</alpha>
       <points>
-        <point x="4.4" y="3.6"/>
-        <point x="4.0" y="3.6"/>
-        <point x="4.2" y="3.6"/>
+        <point x="1.8000000000000005" y="3.1"/>
+        <point x="1.4" y="3.1"/>
+        <point x="1.6000000000000003" y="3.1"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -315,9 +315,9 @@
       <name>J11</name>
       <alpha>127</alpha>
       <points>
-        <point x="5.1" y="3.7"/>
-        <point x="4.7" y="3.7"/>
-        <point x="4.9" y="3.7"/>
+        <point x="2.4999999999999996" y="3.2"/>
+        <point x="2.1" y="3.2"/>
+        <point x="2.3000000000000003" y="3.2"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -334,9 +334,9 @@
       <name>J12</name>
       <alpha>127</alpha>
       <points>
-        <point x="5.1" y="3.6"/>
-        <point x="4.7" y="3.6"/>
-        <point x="4.9" y="3.6"/>
+        <point x="2.4999999999999996" y="3.1"/>
+        <point x="2.1" y="3.1"/>
+        <point x="2.3000000000000003" y="3.1"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -353,9 +353,9 @@
       <name>J15</name>
       <alpha>127</alpha>
       <points>
-        <point x="6.0" y="3.6"/>
-        <point x="6.5" y="3.6"/>
-        <point x="6.25" y="3.6"/>
+        <point x="3.4" y="3.1"/>
+        <point x="3.9" y="3.1"/>
+        <point x="3.65" y="3.1"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -372,9 +372,9 @@
       <name>J17</name>
       <alpha>127</alpha>
       <points>
-        <point x="5.3" y="3.7"/>
-        <point x="5.7" y="3.7"/>
-        <point x="5.5" y="3.7"/>
+        <point x="2.7" y="3.2"/>
+        <point x="3.1" y="3.2"/>
+        <point x="2.9" y="3.2"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -391,9 +391,9 @@
       <name>J18</name>
       <alpha>127</alpha>
       <points>
-        <point x="5.4" y="3.8"/>
-        <point x="5.7" y="3.8"/>
-        <point x="5.55" y="3.8"/>
+        <point x="2.8" y="3.3"/>
+        <point x="3.1" y="3.3"/>
+        <point x="2.95" y="3.3"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -410,9 +410,9 @@
       <name>J20</name>
       <alpha>127</alpha>
       <points>
-        <point x="6.0" y="3.9"/>
-        <point x="6.4" y="3.9"/>
-        <point x="6.2" y="3.9"/>
+        <point x="3.4" y="3.4"/>
+        <point x="3.7999999999999994" y="3.4"/>
+        <point x="3.6" y="3.4"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -429,9 +429,9 @@
       <name>J21</name>
       <alpha>127</alpha>
       <points>
-        <point x="6.0" y="3.8"/>
-        <point x="6.4" y="3.8"/>
-        <point x="6.2" y="3.8"/>
+        <point x="3.4" y="3.3"/>
+        <point x="3.7999999999999994" y="3.3"/>
+        <point x="3.6" y="3.3"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -448,9 +448,9 @@
       <name>J23</name>
       <alpha>127</alpha>
       <points>
-        <point x="6.0" y="4.000000000000001"/>
-        <point x="6.4" y="4.0"/>
-        <point x="6.2" y="4.000000000000001"/>
+        <point x="3.4" y="3.5000000000000013"/>
+        <point x="3.7999999999999994" y="3.5"/>
+        <point x="3.6" y="3.5000000000000013"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -467,9 +467,9 @@
       <name>J24</name>
       <alpha>127</alpha>
       <points>
-        <point x="4.6" y="4.3"/>
-        <point x="5.7" y="4.3"/>
-        <point x="5.15" y="4.3"/>
+        <point x="1.9999999999999993" y="3.8"/>
+        <point x="3.1" y="3.8"/>
+        <point x="2.55" y="3.8"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -486,9 +486,9 @@
       <name>J25</name>
       <alpha>127</alpha>
       <points>
-        <point x="5.4" y="4.1"/>
-        <point x="5.7" y="4.1"/>
-        <point x="5.55" y="4.1"/>
+        <point x="2.8" y="3.5999999999999996"/>
+        <point x="3.1" y="3.5999999999999996"/>
+        <point x="2.95" y="3.5999999999999996"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -505,9 +505,9 @@
       <name>J26</name>
       <alpha>127</alpha>
       <points>
-        <point x="5.4" y="4.0"/>
-        <point x="5.7" y="4.000000000000001"/>
-        <point x="5.55" y="4.000000000000001"/>
+        <point x="2.8" y="3.5"/>
+        <point x="3.1" y="3.5000000000000013"/>
+        <point x="2.95" y="3.5000000000000013"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -524,9 +524,9 @@
       <name>J27</name>
       <alpha>127</alpha>
       <points>
-        <point x="5.4" y="4.2"/>
-        <point x="5.7" y="4.2"/>
-        <point x="5.55" y="4.2"/>
+        <point x="2.8" y="3.7"/>
+        <point x="3.1" y="3.7"/>
+        <point x="2.95" y="3.7"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -543,9 +543,9 @@
       <name>J28</name>
       <alpha>127</alpha>
       <points>
-        <point x="6.0" y="4.1"/>
-        <point x="6.4" y="4.1"/>
-        <point x="6.2" y="4.1"/>
+        <point x="3.4" y="3.5999999999999996"/>
+        <point x="3.7999999999999994" y="3.5999999999999996"/>
+        <point x="3.6" y="3.5999999999999996"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -562,9 +562,9 @@
       <name>J29</name>
       <alpha>127</alpha>
       <points>
-        <point x="6.0" y="4.2"/>
-        <point x="6.4" y="4.2"/>
-        <point x="6.2" y="4.2"/>
+        <point x="3.4" y="3.7"/>
+        <point x="3.7999999999999994" y="3.7"/>
+        <point x="3.6" y="3.7"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -581,9 +581,9 @@
       <name>J30</name>
       <alpha>127</alpha>
       <points>
-        <point x="6.0" y="4.3"/>
-        <point x="6.4" y="4.3"/>
-        <point x="6.2" y="4.3"/>
+        <point x="3.4" y="3.8"/>
+        <point x="3.7999999999999994" y="3.8"/>
+        <point x="3.6" y="3.8"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -600,9 +600,9 @@
       <name>J33</name>
       <alpha>127</alpha>
       <points>
-        <point x="6.1" y="4.199999999999999"/>
-        <point x="6.1" y="4.3"/>
-        <point x="6.1" y="4.250000000000001"/>
+        <point x="3.5" y="3.6999999999999993"/>
+        <point x="3.5" y="3.8"/>
+        <point x="3.5" y="3.7500000000000013"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -619,9 +619,9 @@
       <name>J34</name>
       <alpha>127</alpha>
       <points>
-        <point x="5.6" y="4.199999999999999"/>
-        <point x="5.6" y="4.100000000000001"/>
-        <point x="5.6" y="4.15"/>
+        <point x="3.0" y="3.6999999999999993"/>
+        <point x="3.0" y="3.600000000000001"/>
+        <point x="3.0" y="3.6500000000000004"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -638,9 +638,9 @@
       <name>J37</name>
       <alpha>127</alpha>
       <points>
-        <point x="6.6" y="3.8"/>
-        <point x="7.100000000000002" y="3.7999999999999994"/>
-        <point x="6.850000000000001" y="3.8"/>
+        <point x="4.0" y="3.3"/>
+        <point x="4.500000000000003" y="3.2999999999999994"/>
+        <point x="4.250000000000001" y="3.3"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -657,9 +657,9 @@
       <name>J38</name>
       <alpha>127</alpha>
       <points>
-        <point x="6.6" y="4.2"/>
-        <point x="7.100000000000002" y="4.2"/>
-        <point x="6.850000000000001" y="4.2"/>
+        <point x="4.0" y="3.7"/>
+        <point x="4.500000000000003" y="3.7"/>
+        <point x="4.250000000000001" y="3.7"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -676,9 +676,9 @@
       <name>J39</name>
       <alpha>127</alpha>
       <points>
-        <point x="6.6" y="4.1"/>
-        <point x="7.1" y="4.1"/>
-        <point x="6.85" y="4.1"/>
+        <point x="4.0" y="3.5999999999999996"/>
+        <point x="4.5" y="3.5999999999999996"/>
+        <point x="4.25" y="3.5999999999999996"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -695,9 +695,9 @@
       <name>J40</name>
       <alpha>127</alpha>
       <points>
-        <point x="6.6" y="4.0"/>
-        <point x="7.100000000000002" y="4.0"/>
-        <point x="6.850000000000001" y="4.0"/>
+        <point x="4.0" y="3.5"/>
+        <point x="4.500000000000003" y="3.5"/>
+        <point x="4.250000000000001" y="3.5"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -714,9 +714,9 @@
       <name>J41</name>
       <alpha>127</alpha>
       <points>
-        <point x="6.6" y="3.9"/>
-        <point x="7.1" y="3.9"/>
-        <point x="6.85" y="3.9"/>
+        <point x="4.0" y="3.4"/>
+        <point x="4.5" y="3.4"/>
+        <point x="4.25" y="3.4"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -733,9 +733,9 @@
       <name>J32</name>
       <alpha>127</alpha>
       <points>
-        <point x="6.3" y="3.9"/>
-        <point x="6.3" y="4.1"/>
-        <point x="6.3" y="4.0"/>
+        <point x="3.7" y="3.4"/>
+        <point x="3.7" y="3.5999999999999996"/>
+        <point x="3.7" y="3.5"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -752,9 +752,9 @@
       <name>J42</name>
       <alpha>127</alpha>
       <points>
-        <point x="7.1" y="3.6"/>
-        <point x="6.7" y="3.6"/>
-        <point x="6.9" y="3.6"/>
+        <point x="4.5" y="3.1"/>
+        <point x="4.1000000000000005" y="3.1"/>
+        <point x="4.3" y="3.1"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -771,9 +771,9 @@
       <name>J44</name>
       <alpha>127</alpha>
       <points>
-        <point x="7.1" y="4.3"/>
-        <point x="6.6" y="4.3"/>
-        <point x="6.85" y="4.3"/>
+        <point x="4.5" y="3.8"/>
+        <point x="4.0" y="3.8"/>
+        <point x="4.25" y="3.8"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -795,7 +795,7 @@
       <cutBetweenHoles>false</cutBetweenHoles>
       <orientation>VERTICAL</orientation>
       <holeSpacing value="0.1" unit="in"/>
-      <point x="6.5" y="4.0"/>
+      <point x="3.9" y="3.5"/>
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
       <name>Cut2</name>
@@ -806,15 +806,15 @@
       <cutBetweenHoles>false</cutBetweenHoles>
       <orientation>VERTICAL</orientation>
       <holeSpacing value="0.1" unit="in"/>
-      <point x="4.6" y="3.5"/>
+      <point x="1.9999999999999993" y="3.0"/>
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.Jumper>
       <name>J56</name>
       <alpha>127</alpha>
       <points>
-        <point x="5.2" y="3.9"/>
-        <point x="5.2" y="4.3"/>
-        <point x="5.2" y="4.1"/>
+        <point x="2.6" y="3.4"/>
+        <point x="2.6" y="3.8"/>
+        <point x="2.6" y="3.5999999999999996"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -831,9 +831,9 @@
       <name>J57</name>
       <alpha>127</alpha>
       <points>
-        <point x="7.1" y="3.5"/>
-        <point x="5.2" y="3.5"/>
-        <point x="6.15" y="3.5"/>
+        <point x="4.5" y="3.0"/>
+        <point x="2.6" y="3.0"/>
+        <point x="3.55" y="3.0"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -850,9 +850,9 @@
       <name>J61</name>
       <alpha>127</alpha>
       <points>
-        <point x="4.3" y="4.4"/>
-        <point x="6.8" y="4.4"/>
-        <point x="5.55" y="4.4"/>
+        <point x="1.7" y="3.9000000000000004"/>
+        <point x="4.2" y="3.9000000000000004"/>
+        <point x="2.95" y="3.9000000000000004"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -869,9 +869,9 @@
       <name>J68</name>
       <alpha>127</alpha>
       <points>
-        <point x="5.4" y="4.6"/>
-        <point x="5.7" y="4.6"/>
-        <point x="5.55" y="4.6"/>
+        <point x="2.8" y="4.1"/>
+        <point x="3.1" y="4.1"/>
+        <point x="2.95" y="4.1"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -888,9 +888,9 @@
       <name>J69</name>
       <alpha>127</alpha>
       <points>
-        <point x="5.9" y="4.6"/>
-        <point x="6.8" y="4.6"/>
-        <point x="6.35" y="4.6"/>
+        <point x="3.3" y="4.1"/>
+        <point x="4.2" y="4.1"/>
+        <point x="3.75" y="4.1"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -907,9 +907,9 @@
       <name>J13</name>
       <alpha>127</alpha>
       <points>
-        <point x="5.000000000000001" y="3.8"/>
-        <point x="5.000000000000001" y="4.0"/>
-        <point x="5.000000000000001" y="3.9"/>
+        <point x="2.4000000000000012" y="3.3"/>
+        <point x="2.4000000000000012" y="3.5"/>
+        <point x="2.4000000000000012" y="3.4"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -926,9 +926,9 @@
       <name>J16</name>
       <alpha>127</alpha>
       <points>
-        <point x="5.1" y="4.0"/>
-        <point x="5.1" y="4.4"/>
-        <point x="5.1" y="4.2"/>
+        <point x="2.4999999999999996" y="3.5"/>
+        <point x="2.4999999999999996" y="3.9000000000000004"/>
+        <point x="2.4999999999999996" y="3.7"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -945,9 +945,9 @@
       <name>J19</name>
       <alpha>127</alpha>
       <points>
-        <point x="6.7" y="4.1"/>
-        <point x="6.7" y="4.4"/>
-        <point x="6.7" y="4.250000000000001"/>
+        <point x="4.1000000000000005" y="3.5999999999999996"/>
+        <point x="4.1000000000000005" y="3.9000000000000004"/>
+        <point x="4.1000000000000005" y="3.7500000000000013"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -969,15 +969,15 @@
       <cutBetweenHoles>false</cutBetweenHoles>
       <orientation>VERTICAL</orientation>
       <holeSpacing value="0.1" unit="in"/>
-      <point x="6.6" y="3.6"/>
+      <point x="4.0" y="3.1"/>
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.Jumper>
       <name>J31</name>
       <alpha>127</alpha>
       <points>
-        <point x="5.4" y="4.0"/>
-        <point x="5.4" y="3.8"/>
-        <point x="5.4" y="3.9"/>
+        <point x="2.8" y="3.5"/>
+        <point x="2.8" y="3.3"/>
+        <point x="2.8" y="3.4"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -994,9 +994,9 @@
       <name>J22</name>
       <alpha>127</alpha>
       <points>
-        <point x="4.6" y="4.6"/>
-        <point x="4.3" y="4.6"/>
-        <point x="4.45" y="4.6"/>
+        <point x="1.9999999999999993" y="4.1"/>
+        <point x="1.7" y="4.1"/>
+        <point x="1.85" y="4.1"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -1013,9 +1013,9 @@
       <name>J43</name>
       <alpha>127</alpha>
       <points>
-        <point x="5.2" y="4.6"/>
-        <point x="4.8" y="4.6"/>
-        <point x="5.0" y="4.6"/>
+        <point x="2.6" y="4.1"/>
+        <point x="2.2" y="4.1"/>
+        <point x="2.4" y="4.1"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -1032,9 +1032,9 @@
       <name>J63</name>
       <alpha>127</alpha>
       <points>
-        <point x="4.0" y="3.9"/>
-        <point x="4.0" y="4.3"/>
-        <point x="4.0" y="4.1"/>
+        <point x="1.4" y="3.4"/>
+        <point x="1.4" y="3.8"/>
+        <point x="1.4" y="3.5999999999999996"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -1051,9 +1051,9 @@
       <name>J46</name>
       <alpha>127</alpha>
       <points>
-        <point x="4.5" y="3.5"/>
-        <point x="4.0" y="3.5"/>
-        <point x="4.25" y="3.5"/>
+        <point x="1.9000000000000004" y="3.0"/>
+        <point x="1.4" y="3.0"/>
+        <point x="1.65" y="3.0"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -1070,9 +1070,9 @@
       <name>J58</name>
       <alpha>127</alpha>
       <points>
-        <point x="5.1" y="3.5"/>
-        <point x="4.7" y="3.5"/>
-        <point x="4.9" y="3.5"/>
+        <point x="2.4999999999999996" y="3.0"/>
+        <point x="2.1" y="3.0"/>
+        <point x="2.3000000000000003" y="3.0"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -1089,9 +1089,9 @@
       <name>J64</name>
       <alpha>127</alpha>
       <points>
-        <point x="4.8" y="4.6"/>
-        <point x="4.8" y="4.2"/>
-        <point x="4.8" y="4.4"/>
+        <point x="2.2" y="4.1"/>
+        <point x="2.2" y="3.7"/>
+        <point x="2.2" y="3.9000000000000004"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -1108,9 +1108,9 @@
       <name>J70</name>
       <alpha>127</alpha>
       <points>
-        <point x="4.3" y="4.2"/>
-        <point x="4.3" y="4.6"/>
-        <point x="4.3" y="4.400000000000001"/>
+        <point x="1.7" y="3.7"/>
+        <point x="1.7" y="4.1"/>
+        <point x="1.7" y="3.9000000000000012"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -1132,7 +1132,7 @@
       <cutBetweenHoles>false</cutBetweenHoles>
       <orientation>VERTICAL</orientation>
       <holeSpacing value="0.1" unit="in"/>
-      <point x="4.7" y="4.6"/>
+      <point x="2.1" y="4.1"/>
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
       <name>Cut16</name>
@@ -1143,7 +1143,7 @@
       <cutBetweenHoles>false</cutBetweenHoles>
       <orientation>VERTICAL</orientation>
       <holeSpacing value="0.1" unit="in"/>
-      <point x="5.1" y="3.6"/>
+      <point x="2.4999999999999996" y="3.1"/>
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
       <name>Cut17</name>
@@ -1154,7 +1154,7 @@
       <cutBetweenHoles>false</cutBetweenHoles>
       <orientation>VERTICAL</orientation>
       <holeSpacing value="0.1" unit="in"/>
-      <point x="5.2" y="3.7"/>
+      <point x="2.6" y="3.2"/>
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
       <name>Cut20</name>
@@ -1165,7 +1165,7 @@
       <cutBetweenHoles>false</cutBetweenHoles>
       <orientation>VERTICAL</orientation>
       <holeSpacing value="0.1" unit="in"/>
-      <point x="6.5" y="4.1"/>
+      <point x="3.9" y="3.5999999999999996"/>
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
       <name>Cut21</name>
@@ -1176,7 +1176,7 @@
       <cutBetweenHoles>false</cutBetweenHoles>
       <orientation>VERTICAL</orientation>
       <holeSpacing value="0.1" unit="in"/>
-      <point x="6.5" y="4.2"/>
+      <point x="3.9" y="3.7"/>
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
       <name>Cut3</name>
@@ -1187,7 +1187,7 @@
       <cutBetweenHoles>false</cutBetweenHoles>
       <orientation>VERTICAL</orientation>
       <holeSpacing value="0.1" unit="in"/>
-      <point x="5.8" y="4.6"/>
+      <point x="3.2" y="4.1"/>
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
       <name>Cut4</name>
@@ -1198,15 +1198,15 @@
       <cutBetweenHoles>false</cutBetweenHoles>
       <orientation>VERTICAL</orientation>
       <holeSpacing value="0.1" unit="in"/>
-      <point x="5.3" y="4.6"/>
+      <point x="2.7" y="4.1"/>
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.Jumper>
       <name>J35</name>
       <alpha>127</alpha>
       <points>
-        <point x="4.4" y="4.3"/>
-        <point x="4.4" y="4.5"/>
-        <point x="4.4" y="4.4"/>
+        <point x="1.8000000000000005" y="3.8"/>
+        <point x="1.8000000000000005" y="4.0"/>
+        <point x="1.8000000000000005" y="3.9000000000000004"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -1223,9 +1223,9 @@
       <name>J36</name>
       <alpha>127</alpha>
       <points>
-        <point x="4.0" y="4.3"/>
-        <point x="4.4" y="4.3"/>
-        <point x="4.2" y="4.3"/>
+        <point x="1.4" y="3.8"/>
+        <point x="1.8000000000000005" y="3.8"/>
+        <point x="1.6000000000000003" y="3.8"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -1247,7 +1247,7 @@
       <cutBetweenHoles>false</cutBetweenHoles>
       <orientation>VERTICAL</orientation>
       <holeSpacing value="0.1" unit="in"/>
-      <point x="4.5" y="4.3"/>
+      <point x="1.9000000000000004" y="3.8"/>
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
       <name>Cut7</name>
@@ -1258,7 +1258,7 @@
       <cutBetweenHoles>false</cutBetweenHoles>
       <orientation>VERTICAL</orientation>
       <holeSpacing value="0.1" unit="in"/>
-      <point x="5.1" y="3.5"/>
+      <point x="2.4999999999999996" y="3.0"/>
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
       <name>Cut8</name>
@@ -1269,7 +1269,7 @@
       <cutBetweenHoles>false</cutBetweenHoles>
       <orientation>VERTICAL</orientation>
       <holeSpacing value="0.1" unit="in"/>
-      <point x="6.5" y="4.3"/>
+      <point x="3.9" y="3.8"/>
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
       <name>Cut9</name>
@@ -1280,7 +1280,7 @@
       <cutBetweenHoles>false</cutBetweenHoles>
       <orientation>VERTICAL</orientation>
       <holeSpacing value="0.1" unit="in"/>
-      <point x="4.2" y="4.4"/>
+      <point x="1.6" y="3.9000000000000004"/>
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
       <name>Cut10</name>
@@ -1291,7 +1291,7 @@
       <cutBetweenHoles>false</cutBetweenHoles>
       <orientation>VERTICAL</orientation>
       <holeSpacing value="0.1" unit="in"/>
-      <point x="4.2" y="4.5"/>
+      <point x="1.6" y="4.0"/>
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
       <name>Cut11</name>
@@ -1302,7 +1302,7 @@
       <cutBetweenHoles>false</cutBetweenHoles>
       <orientation>VERTICAL</orientation>
       <holeSpacing value="0.1" unit="in"/>
-      <point x="4.2" y="4.6"/>
+      <point x="1.6" y="4.1"/>
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
       <name>Cut22</name>
@@ -1313,7 +1313,7 @@
       <cutBetweenHoles>false</cutBetweenHoles>
       <orientation>VERTICAL</orientation>
       <holeSpacing value="0.1" unit="in"/>
-      <point x="6.9" y="4.4"/>
+      <point x="4.3" y="3.9000000000000004"/>
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
       <name>Cut23</name>
@@ -1324,7 +1324,7 @@
       <cutBetweenHoles>false</cutBetweenHoles>
       <orientation>VERTICAL</orientation>
       <holeSpacing value="0.1" unit="in"/>
-      <point x="6.9" y="4.5"/>
+      <point x="4.3" y="4.0"/>
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
       <name>Cut24</name>
@@ -1335,7 +1335,7 @@
       <cutBetweenHoles>false</cutBetweenHoles>
       <orientation>VERTICAL</orientation>
       <holeSpacing value="0.1" unit="in"/>
-      <point x="6.9" y="4.6"/>
+      <point x="4.3" y="4.1"/>
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
       <name>Cut14</name>
@@ -1346,7 +1346,7 @@
       <cutBetweenHoles>false</cutBetweenHoles>
       <orientation>VERTICAL</orientation>
       <holeSpacing value="0.1" unit="in"/>
-      <point x="7.0" y="4.5"/>
+      <point x="4.4" y="4.0"/>
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
       <name>Cut6</name>
@@ -1357,15 +1357,15 @@
       <cutBetweenHoles>false</cutBetweenHoles>
       <orientation>VERTICAL</orientation>
       <holeSpacing value="0.1" unit="in"/>
-      <point x="4.1" y="4.5"/>
+      <point x="1.4999999999999993" y="4.0"/>
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.Jumper>
       <name>J48</name>
       <alpha>127</alpha>
       <points>
-        <point x="6.6" y="3.7"/>
-        <point x="6.6" y="3.9"/>
-        <point x="6.6" y="3.8000000000000007"/>
+        <point x="4.0" y="3.2"/>
+        <point x="4.0" y="3.4"/>
+        <point x="4.0" y="3.3000000000000007"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -1382,9 +1382,9 @@
       <name>J49</name>
       <alpha>127</alpha>
       <points>
-        <point x="6.0" y="3.7"/>
-        <point x="7.1" y="3.7"/>
-        <point x="6.55" y="3.7"/>
+        <point x="3.4" y="3.2"/>
+        <point x="4.5" y="3.2"/>
+        <point x="3.95" y="3.2"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -1401,9 +1401,9 @@
       <name>J50</name>
       <alpha>127</alpha>
       <points>
-        <point x="5.2" y="3.6"/>
-        <point x="5.2" y="3.8"/>
-        <point x="5.2" y="3.7"/>
+        <point x="2.6" y="3.1"/>
+        <point x="2.6" y="3.3"/>
+        <point x="2.6" y="3.2"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -1420,9 +1420,9 @@
       <name>J51</name>
       <alpha>127</alpha>
       <points>
-        <point x="5.2" y="3.6"/>
-        <point x="5.7" y="3.6"/>
-        <point x="5.45" y="3.6"/>
+        <point x="2.6" y="3.1"/>
+        <point x="3.1" y="3.1"/>
+        <point x="2.85" y="3.1"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -1439,9 +1439,9 @@
       <name>J45</name>
       <alpha>127</alpha>
       <points>
-        <point x="6.2" y="4.0"/>
-        <point x="6.2" y="4.5"/>
-        <point x="6.2" y="4.25"/>
+        <point x="3.6" y="3.5"/>
+        <point x="3.6" y="4.0"/>
+        <point x="3.6" y="3.75"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -1458,9 +1458,9 @@
       <name>J14</name>
       <alpha>127</alpha>
       <points>
-        <point x="6.4" y="3.6"/>
-        <point x="6.4" y="4.0"/>
-        <point x="6.4" y="3.8"/>
+        <point x="3.7999999999999994" y="3.1"/>
+        <point x="3.7999999999999994" y="3.5"/>
+        <point x="3.7999999999999994" y="3.3"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -1477,9 +1477,9 @@
       <name>J59</name>
       <alpha>127</alpha>
       <points>
-        <point x="5.3" y="3.9"/>
-        <point x="5.3" y="3.5"/>
-        <point x="5.3" y="3.7"/>
+        <point x="2.7" y="3.4"/>
+        <point x="2.7" y="3.0"/>
+        <point x="2.7" y="3.2"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -1492,6 +1492,111 @@
       <hideShortLeads>false</hideShortLeads>
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
+    <diylc.electromechanical.OpenJack1__8>
+      <name>J65</name>
+      <alpha>127</alpha>
+      <controlPoints>
+        <point x="0.6" y="1.1"/>
+        <point x="0.7996588775097223" y="1.1995462442092002"/>
+        <point x="0.750105056331471" y="1.5499211646217725"/>
+      </controlPoints>
+      <orientation>DEFAULT</orientation>
+      <angle>0</angle>
+      <type>MONO</type>
+      <showLabels>true</showLabels>
+    </diylc.electromechanical.OpenJack1__8>
+    <diylc.passive.PotentiometerPanel>
+      <name>VR2A</name>
+      <alpha>127</alpha>
+      <controlPoints>
+        <point x="4.999999999999999" y="1.2"/>
+        <point x="5.2" y="1.2"/>
+        <point x="5.4" y="1.2"/>
+      </controlPoints>
+      <resistance value="100.0" unit="K"/>
+      <orientation>DEFAULT</orientation>
+      <taper>LIN</taper>
+      <bodyDiameter value="17.0" unit="mm"/>
+      <spacing value="0.2" unit="in"/>
+      <lugDiameter value="0.15" unit="in"/>
+      <bodyColor hex="c0c0c0"/>
+      <borderColor hex="808080"/>
+      <nutColor hex="cbd5db"/>
+      <waferColor hex="cd8500"/>
+      <type>PCB</type>
+      <showShaft>false</showShaft>
+      <view>ShaftDown</view>
+    </diylc.passive.PotentiometerPanel>
+    <diylc.passive.PotentiometerPanel>
+      <name>VR1A</name>
+      <alpha>127</alpha>
+      <controlPoints>
+        <point x="3.3" y="1.2"/>
+        <point x="3.5" y="1.2"/>
+        <point x="3.6999999999999993" y="1.2"/>
+      </controlPoints>
+      <resistance value="100.0" unit="K"/>
+      <orientation>DEFAULT</orientation>
+      <taper>LIN</taper>
+      <bodyDiameter value="17.0" unit="mm"/>
+      <spacing value="0.2" unit="in"/>
+      <lugDiameter value="0.15" unit="in"/>
+      <bodyColor hex="c0c0c0"/>
+      <borderColor hex="808080"/>
+      <nutColor hex="cbd5db"/>
+      <waferColor hex="cd8500"/>
+      <type>PCB</type>
+      <showShaft>false</showShaft>
+      <view>ShaftDown</view>
+    </diylc.passive.PotentiometerPanel>
+    <diylc.passive.PotentiometerPanel>
+      <name>VR1B</name>
+      <alpha>127</alpha>
+      <controlPoints>
+        <point x="2.5" y="1.2"/>
+        <point x="2.7" y="1.2"/>
+        <point x="2.9" y="1.2"/>
+      </controlPoints>
+      <resistance value="100.0" unit="K"/>
+      <orientation>DEFAULT</orientation>
+      <taper>LIN</taper>
+      <bodyDiameter value="17.0" unit="mm"/>
+      <spacing value="0.2" unit="in"/>
+      <lugDiameter value="0.15" unit="in"/>
+      <bodyColor hex="c0c0c0"/>
+      <borderColor hex="808080"/>
+      <nutColor hex="cbd5db"/>
+      <waferColor hex="cd8500"/>
+      <type>PCB</type>
+      <showShaft>false</showShaft>
+      <view>ShaftDown</view>
+    </diylc.passive.PotentiometerPanel>
+    <diylc.electromechanical.OpenJack1__8>
+      <name>J60</name>
+      <alpha>127</alpha>
+      <controlPoints>
+        <point x="1.6" y="1.0999999999999996"/>
+        <point x="1.3834936490538916" y="1.4750000000000005"/>
+        <point x="1.3834936490538905" y="1.2249999999999996"/>
+      </controlPoints>
+      <orientation>DEFAULT</orientation>
+      <angle>0</angle>
+      <type>SWITCHED</type>
+      <showLabels>true</showLabels>
+    </diylc.electromechanical.OpenJack1__8>
+    <diylc.electromechanical.OpenJack1__8>
+      <name>J47</name>
+      <alpha>127</alpha>
+      <controlPoints>
+        <point x="1.4000000000000006" y="4.8"/>
+        <point x="1.5996588775097234" y="4.8995462442092"/>
+        <point x="1.550105056331472" y="5.249921164621774"/>
+      </controlPoints>
+      <orientation>DEFAULT</orientation>
+      <angle>0</angle>
+      <type>STEREO</type>
+      <showLabels>true</showLabels>
+    </diylc.electromechanical.OpenJack1__8>
     <diylc.semiconductors.DIL__IC>
       <name>IC1</name>
       <alpha>127</alpha>
@@ -1501,20 +1606,20 @@
       <pinSpacing value="0.1" unit="in"/>
       <rowSpacing value="0.3" unit="in"/>
       <controlPoints>
-        <point x="4.7" y="4.2"/>
-        <point x="4.7" y="4.1"/>
-        <point x="4.7" y="4.0"/>
-        <point x="4.7" y="3.9"/>
-        <point x="4.7" y="3.8"/>
-        <point x="4.7" y="3.7"/>
-        <point x="4.7" y="3.6"/>
-        <point x="4.4" y="4.2"/>
-        <point x="4.4" y="4.1"/>
-        <point x="4.4" y="4.0"/>
-        <point x="4.4" y="3.9"/>
-        <point x="4.4" y="3.8"/>
-        <point x="4.4" y="3.7"/>
-        <point x="4.4" y="3.6"/>
+        <point x="2.1" y="3.7"/>
+        <point x="2.1" y="3.5999999999999996"/>
+        <point x="2.1" y="3.5"/>
+        <point x="2.1" y="3.4"/>
+        <point x="2.1" y="3.3"/>
+        <point x="2.1" y="3.2"/>
+        <point x="2.1" y="3.1"/>
+        <point x="1.8000000000000005" y="3.7"/>
+        <point x="1.8000000000000005" y="3.5999999999999996"/>
+        <point x="1.8000000000000005" y="3.5"/>
+        <point x="1.8000000000000005" y="3.4"/>
+        <point x="1.8000000000000005" y="3.3"/>
+        <point x="1.8000000000000005" y="3.2"/>
+        <point x="1.8000000000000005" y="3.1"/>
       </controlPoints>
       <display>BOTH</display>
       <bodyColor hex="808080"/>
@@ -1529,9 +1634,9 @@
       <length value="7.0" unit="mm"/>
       <width value="2.5" unit="mm"/>
       <points>
-        <point x="4.8" y="3.6"/>
-        <point x="4.8" y="3.7"/>
-        <point x="4.8" y="3.65"/>
+        <point x="2.2" y="3.1"/>
+        <point x="2.2" y="3.2"/>
+        <point x="2.2" y="3.15"/>
       </points>
       <bodyColor hex="e0c68b"/>
       <borderColor hex="a59268"/>
@@ -1554,9 +1659,9 @@
       <length value="7.0" unit="mm"/>
       <width value="2.5" unit="mm"/>
       <points>
-        <point x="4.3" y="3.6"/>
-        <point x="4.3" y="3.7"/>
-        <point x="4.3" y="3.65"/>
+        <point x="1.7" y="3.1"/>
+        <point x="1.7" y="3.2"/>
+        <point x="1.7" y="3.15"/>
       </points>
       <bodyColor hex="e0c68b"/>
       <borderColor hex="a59268"/>
@@ -1579,9 +1684,9 @@
       <length value="3.8" unit="mm"/>
       <width value="3.0" unit="mm"/>
       <points>
-        <point x="5.0" y="4.2"/>
-        <point x="5.0" y="4.1"/>
-        <point x="5.0" y="4.15"/>
+        <point x="2.4" y="3.7"/>
+        <point x="2.4" y="3.5999999999999996"/>
+        <point x="2.4" y="3.6500000000000004"/>
       </points>
       <bodyColor hex="f0e68c"/>
       <borderColor hex="a8a162"/>
@@ -1603,9 +1708,9 @@
       <length value="3.8" unit="mm"/>
       <width value="3.0" unit="mm"/>
       <points>
-        <point x="4.1" y="4.2"/>
-        <point x="4.1" y="4.1"/>
-        <point x="4.1" y="4.15"/>
+        <point x="1.4999999999999993" y="3.7"/>
+        <point x="1.4999999999999993" y="3.5999999999999996"/>
+        <point x="1.4999999999999993" y="3.6500000000000004"/>
       </points>
       <bodyColor hex="f0e68c"/>
       <borderColor hex="a8a162"/>
@@ -1627,9 +1732,9 @@
       <length value="7.0" unit="mm"/>
       <width value="2.5" unit="mm"/>
       <points>
-        <point x="3.2" y="1.4"/>
-        <point x="3.6" y="1.4"/>
-        <point x="3.4" y="1.4"/>
+        <point x="0.6" y="1.1"/>
+        <point x="1.0" y="1.1"/>
+        <point x="0.8000000000000002" y="1.1"/>
       </points>
       <bodyColor hex="e0c68b"/>
       <borderColor hex="a59268"/>
@@ -1652,9 +1757,9 @@
       <length value="7.0" unit="mm"/>
       <width value="2.5" unit="mm"/>
       <points>
-        <point x="3.2" y="2.3"/>
-        <point x="3.6" y="2.3"/>
-        <point x="3.4" y="2.3"/>
+        <point x="1.6" y="1.0999999999999996"/>
+        <point x="2.0" y="1.0999999999999996"/>
+        <point x="1.8" y="1.0999999999999996"/>
       </points>
       <bodyColor hex="e0c68b"/>
       <borderColor hex="a59268"/>
@@ -1677,9 +1782,9 @@
       <length value="3.8" unit="mm"/>
       <width value="3.0" unit="mm"/>
       <points>
-        <point x="4.9" y="3.7"/>
-        <point x="4.9" y="3.6"/>
-        <point x="4.9" y="3.65"/>
+        <point x="2.3000000000000007" y="3.2"/>
+        <point x="2.3000000000000007" y="3.1"/>
+        <point x="2.3000000000000007" y="3.15"/>
       </points>
       <bodyColor hex="f0e68c"/>
       <borderColor hex="a8a162"/>
@@ -1701,9 +1806,9 @@
       <length value="3.8" unit="mm"/>
       <width value="3.0" unit="mm"/>
       <points>
-        <point x="4.2" y="3.7"/>
-        <point x="4.2" y="3.6"/>
-        <point x="4.2" y="3.65"/>
+        <point x="1.6" y="3.2"/>
+        <point x="1.6" y="3.1"/>
+        <point x="1.6" y="3.15"/>
       </points>
       <bodyColor hex="f0e68c"/>
       <borderColor hex="a8a162"/>
@@ -1725,9 +1830,9 @@
       <length value="7.0" unit="mm"/>
       <width value="2.5" unit="mm"/>
       <points>
-        <point x="4.9" y="4.1"/>
-        <point x="4.9" y="4.2"/>
-        <point x="4.9" y="4.15"/>
+        <point x="2.3000000000000007" y="3.5999999999999996"/>
+        <point x="2.3000000000000007" y="3.7"/>
+        <point x="2.3000000000000007" y="3.6500000000000004"/>
       </points>
       <bodyColor hex="e0c68b"/>
       <borderColor hex="a59268"/>
@@ -1750,9 +1855,9 @@
       <length value="7.0" unit="mm"/>
       <width value="2.5" unit="mm"/>
       <points>
-        <point x="4.2" y="4.1"/>
-        <point x="4.2" y="4.2"/>
-        <point x="4.2" y="4.15"/>
+        <point x="1.6" y="3.5999999999999996"/>
+        <point x="1.6" y="3.7"/>
+        <point x="1.6" y="3.6500000000000004"/>
       </points>
       <bodyColor hex="e0c68b"/>
       <borderColor hex="a59268"/>
@@ -1775,9 +1880,9 @@
       <length value="7.0" unit="mm"/>
       <width value="2.5" unit="mm"/>
       <points>
-        <point x="6.2" y="2.3"/>
-        <point x="6.2" y="1.9"/>
-        <point x="6.2" y="2.1"/>
+        <point x="3.5" y="1.5999999999999996"/>
+        <point x="3.5" y="1.2"/>
+        <point x="3.5" y="1.4"/>
       </points>
       <bodyColor hex="e0c68b"/>
       <borderColor hex="a59268"/>
@@ -1800,9 +1905,9 @@
       <length value="7.0" unit="mm"/>
       <width value="2.5" unit="mm"/>
       <points>
-        <point x="5.4" y="2.3"/>
-        <point x="5.4" y="1.9"/>
-        <point x="5.4" y="2.1"/>
+        <point x="2.7" y="1.5999999999999996"/>
+        <point x="2.7" y="1.2"/>
+        <point x="2.7" y="1.4"/>
       </points>
       <bodyColor hex="e0c68b"/>
       <borderColor hex="a59268"/>
@@ -1828,14 +1933,14 @@
       <pinSpacing value="0.1" unit="in"/>
       <rowSpacing value="0.3" unit="in"/>
       <controlPoints>
-        <point x="5.995" y="4.3"/>
-        <point x="5.995" y="4.2"/>
-        <point x="5.995" y="4.1"/>
-        <point x="5.995" y="4.0"/>
-        <point x="5.695" y="4.3"/>
-        <point x="5.695" y="4.2"/>
-        <point x="5.695" y="4.1"/>
-        <point x="5.695" y="4.0"/>
+        <point x="3.395" y="3.8"/>
+        <point x="3.395" y="3.7"/>
+        <point x="3.395" y="3.5999999999999996"/>
+        <point x="3.395" y="3.5"/>
+        <point x="3.095" y="3.8"/>
+        <point x="3.095" y="3.7"/>
+        <point x="3.095" y="3.5999999999999996"/>
+        <point x="3.095" y="3.5"/>
       </controlPoints>
       <display>BOTH</display>
       <bodyColor hex="808080"/>
@@ -1850,9 +1955,9 @@
       <length value="7.0" unit="mm"/>
       <width value="2.5" unit="mm"/>
       <points>
-        <point x="8.4" y="2.3"/>
-        <point x="8.4" y="1.9"/>
-        <point x="8.4" y="2.1"/>
+        <point x="5.2" y="1.5999999999999996"/>
+        <point x="5.2" y="1.2"/>
+        <point x="5.2" y="1.4"/>
       </points>
       <bodyColor hex="e0c68b"/>
       <borderColor hex="a59268"/>
@@ -1875,9 +1980,9 @@
       <length value="7.0" unit="mm"/>
       <width value="2.5" unit="mm"/>
       <points>
-        <point x="5.5" y="3.7"/>
-        <point x="5.5" y="3.8"/>
-        <point x="5.5" y="3.75"/>
+        <point x="2.9" y="3.2"/>
+        <point x="2.9" y="3.3"/>
+        <point x="2.9" y="3.25"/>
       </points>
       <bodyColor hex="e0c68b"/>
       <borderColor hex="a59268"/>
@@ -1903,14 +2008,14 @@
       <pinSpacing value="0.1" unit="in"/>
       <rowSpacing value="0.3" unit="in"/>
       <controlPoints>
-        <point x="5.995" y="3.895"/>
-        <point x="5.995" y="3.795"/>
-        <point x="5.995" y="3.695"/>
-        <point x="5.995" y="3.595"/>
-        <point x="5.695" y="3.895"/>
-        <point x="5.695" y="3.795"/>
-        <point x="5.695" y="3.695"/>
-        <point x="5.695" y="3.595"/>
+        <point x="3.395" y="3.395"/>
+        <point x="3.395" y="3.295"/>
+        <point x="3.395" y="3.195"/>
+        <point x="3.395" y="3.095"/>
+        <point x="3.095" y="3.395"/>
+        <point x="3.095" y="3.295"/>
+        <point x="3.095" y="3.195"/>
+        <point x="3.095" y="3.095"/>
       </controlPoints>
       <display>BOTH</display>
       <bodyColor hex="808080"/>
@@ -1925,9 +2030,9 @@
       <length value="7.0" unit="mm"/>
       <width value="2.5" unit="mm"/>
       <points>
-        <point x="7.6" y="2.3"/>
-        <point x="7.6" y="1.9"/>
-        <point x="7.6" y="2.1"/>
+        <point x="4.4" y="1.5999999999999996"/>
+        <point x="4.4" y="1.2"/>
+        <point x="4.4" y="1.4"/>
       </points>
       <bodyColor hex="e0c68b"/>
       <borderColor hex="a59268"/>
@@ -1950,9 +2055,9 @@
       <length value="7.0" unit="mm"/>
       <width value="2.5" unit="mm"/>
       <points>
-        <point x="6.2" y="3.9"/>
-        <point x="6.2" y="3.8"/>
-        <point x="6.2" y="3.85"/>
+        <point x="3.6" y="3.4"/>
+        <point x="3.6" y="3.3"/>
+        <point x="3.6" y="3.35"/>
       </points>
       <bodyColor hex="e0c68b"/>
       <borderColor hex="a59268"/>
@@ -1975,9 +2080,9 @@
       <length value="7.0" unit="mm"/>
       <width value="2.5" unit="mm"/>
       <points>
-        <point x="5.4" y="4.6"/>
-        <point x="5.4" y="4.2"/>
-        <point x="5.4" y="4.4"/>
+        <point x="2.8" y="4.1"/>
+        <point x="2.8" y="3.7"/>
+        <point x="2.8" y="3.9000000000000004"/>
       </points>
       <bodyColor hex="e0c68b"/>
       <borderColor hex="a59268"/>
@@ -2000,9 +2105,9 @@
       <length value="7.0" unit="mm"/>
       <width value="2.5" unit="mm"/>
       <points>
-        <point x="5.5" y="4.6"/>
-        <point x="5.5" y="4.0"/>
-        <point x="5.5" y="4.3"/>
+        <point x="2.9" y="4.1"/>
+        <point x="2.9" y="3.5"/>
+        <point x="2.9" y="3.8"/>
       </points>
       <bodyColor hex="e0c68b"/>
       <borderColor hex="a59268"/>
@@ -2025,9 +2130,9 @@
       <length value="7.0" unit="mm"/>
       <width value="2.5" unit="mm"/>
       <points>
-        <point x="6.4" y="4.6"/>
-        <point x="6.4" y="4.1"/>
-        <point x="6.4" y="4.35"/>
+        <point x="3.7999999999999994" y="4.1"/>
+        <point x="3.7999999999999994" y="3.5999999999999996"/>
+        <point x="3.7999999999999994" y="3.8499999999999996"/>
       </points>
       <bodyColor hex="e0c68b"/>
       <borderColor hex="a59268"/>
@@ -2050,9 +2155,9 @@
       <length value="7.0" unit="mm"/>
       <width value="2.5" unit="mm"/>
       <points>
-        <point x="6.3" y="4.6"/>
-        <point x="6.3" y="4.3"/>
-        <point x="6.3" y="4.45"/>
+        <point x="3.7" y="4.1"/>
+        <point x="3.7" y="3.8"/>
+        <point x="3.7" y="3.95"/>
       </points>
       <bodyColor hex="e0c68b"/>
       <borderColor hex="a59268"/>
@@ -2074,16 +2179,16 @@
       <alpha>127</alpha>
       <orientation>_180</orientation>
       <controlPoints>
-        <point x="7.100000000000002" y="4.2"/>
-        <point x="7.100000000000002" y="4.1"/>
-        <point x="7.100000000000002" y="4.0"/>
-        <point x="7.100000000000002" y="3.9"/>
-        <point x="7.100000000000002" y="3.7999999999999994"/>
-        <point x="7.0" y="4.2"/>
-        <point x="7.0" y="4.1"/>
-        <point x="7.0" y="4.0"/>
-        <point x="7.0" y="3.9"/>
-        <point x="7.0" y="3.7999999999999994"/>
+        <point x="4.500000000000003" y="3.7"/>
+        <point x="4.500000000000003" y="3.5999999999999996"/>
+        <point x="4.500000000000003" y="3.5"/>
+        <point x="4.500000000000003" y="3.4"/>
+        <point x="4.500000000000003" y="3.2999999999999994"/>
+        <point x="4.4" y="3.7"/>
+        <point x="4.4" y="3.5999999999999996"/>
+        <point x="4.4" y="3.5"/>
+        <point x="4.4" y="3.4"/>
+        <point x="4.4" y="3.2999999999999994"/>
       </controlPoints>
       <rowCount>2</rowCount>
       <columnCount>5</columnCount>
@@ -2098,9 +2203,9 @@
       <length value="0.25" unit="in"/>
       <width value="0.125" unit="in"/>
       <points>
-        <point x="6.8" y="3.7999999999999994"/>
-        <point x="6.8" y="3.6"/>
-        <point x="6.8" y="3.7"/>
+        <point x="4.2" y="3.2999999999999994"/>
+        <point x="4.2" y="3.1"/>
+        <point x="4.2" y="3.2"/>
       </points>
       <bodyColor hex="404040"/>
       <borderColor hex="2c2c2c"/>
@@ -2120,9 +2225,9 @@
       <length value="0.25" unit="in"/>
       <width value="0.125" unit="in"/>
       <points>
-        <point x="6.6" y="4.3"/>
-        <point x="6.6" y="4.2"/>
-        <point x="6.6" y="4.25"/>
+        <point x="4.0" y="3.8"/>
+        <point x="4.0" y="3.7"/>
+        <point x="4.0" y="3.75"/>
       </points>
       <bodyColor hex="404040"/>
       <borderColor hex="2c2c2c"/>
@@ -2142,9 +2247,9 @@
       <length value="7.0" unit="mm"/>
       <width value="2.5" unit="mm"/>
       <points>
-        <point x="6.7" y="3.6"/>
-        <point x="6.7" y="3.5"/>
-        <point x="6.7" y="3.55"/>
+        <point x="4.1000000000000005" y="3.1"/>
+        <point x="4.1000000000000005" y="3.0"/>
+        <point x="4.1000000000000005" y="3.05"/>
       </points>
       <bodyColor hex="e0c68b"/>
       <borderColor hex="a59268"/>
@@ -2167,9 +2272,9 @@
       <length value="7.0" unit="mm"/>
       <width value="2.5" unit="mm"/>
       <points>
-        <point x="6.8" y="4.5"/>
-        <point x="6.8" y="4.3"/>
-        <point x="6.8" y="4.4"/>
+        <point x="4.2" y="4.0"/>
+        <point x="4.2" y="3.8"/>
+        <point x="4.2" y="3.9000000000000004"/>
       </points>
       <bodyColor hex="e0c68b"/>
       <borderColor hex="a59268"/>
@@ -2191,9 +2296,9 @@
       <alpha>127</alpha>
       <length value="5.0" unit="mm"/>
       <points>
-        <point x="6.5" y="3.5"/>
-        <point x="6.5" y="3.7"/>
-        <point x="6.5" y="3.6"/>
+        <point x="3.9" y="3.0"/>
+        <point x="3.9" y="3.2"/>
+        <point x="3.9" y="3.1"/>
       </points>
       <bodyColor hex="6b6dce"/>
       <borderColor hex="4a4c90"/>
@@ -2220,9 +2325,9 @@
       <alpha>127</alpha>
       <length value="5.0" unit="mm"/>
       <points>
-        <point x="6.6" y="4.4"/>
-        <point x="6.6" y="4.5"/>
-        <point x="6.6" y="4.45"/>
+        <point x="4.0" y="3.9000000000000004"/>
+        <point x="4.0" y="4.0"/>
+        <point x="4.0" y="3.95"/>
       </points>
       <bodyColor hex="6b6dce"/>
       <borderColor hex="4a4c90"/>
@@ -2250,9 +2355,9 @@
       <length value="3.8" unit="mm"/>
       <width value="3.0" unit="mm"/>
       <points>
-        <point x="4.8" y="4.0"/>
-        <point x="4.8" y="3.9"/>
-        <point x="4.8" y="3.95"/>
+        <point x="2.2" y="3.5"/>
+        <point x="2.2" y="3.4"/>
+        <point x="2.2" y="3.45"/>
       </points>
       <bodyColor hex="f0e68c"/>
       <borderColor hex="a8a162"/>
@@ -2274,9 +2379,9 @@
       <length value="3.8" unit="mm"/>
       <width value="3.0" unit="mm"/>
       <points>
-        <point x="4.3" y="4.0"/>
-        <point x="4.3" y="3.9"/>
-        <point x="4.3" y="3.95"/>
+        <point x="1.7" y="3.5"/>
+        <point x="1.7" y="3.4"/>
+        <point x="1.7" y="3.45"/>
       </points>
       <bodyColor hex="f0e68c"/>
       <borderColor hex="a8a162"/>
@@ -2298,9 +2403,9 @@
       <length value="0.2" unit="in"/>
       <width value="0.09" unit="in"/>
       <points>
-        <point x="5.0" y="4.5"/>
-        <point x="5.0" y="4.6"/>
-        <point x="5.0" y="4.55"/>
+        <point x="2.4" y="4.0"/>
+        <point x="2.4" y="4.1"/>
+        <point x="2.4" y="4.05"/>
       </points>
       <bodyColor hex="e1f0ff"/>
       <borderColor hex="808080"/>
@@ -2321,9 +2426,9 @@
       <length value="0.2" unit="in"/>
       <width value="0.09" unit="in"/>
       <points>
-        <point x="4.9" y="4.6"/>
-        <point x="4.9" y="4.3"/>
-        <point x="4.9" y="4.45"/>
+        <point x="2.3000000000000007" y="4.1"/>
+        <point x="2.3000000000000007" y="3.8"/>
+        <point x="2.3000000000000007" y="3.95"/>
       </points>
       <bodyColor hex="e1f0ff"/>
       <borderColor hex="808080"/>
@@ -2344,9 +2449,9 @@
       <length value="0.2" unit="in"/>
       <width value="0.09" unit="in"/>
       <points>
-        <point x="4.5" y="4.5"/>
-        <point x="4.5" y="4.6"/>
-        <point x="4.5" y="4.55"/>
+        <point x="1.9000000000000004" y="4.0"/>
+        <point x="1.9000000000000004" y="4.1"/>
+        <point x="1.9000000000000004" y="4.05"/>
       </points>
       <bodyColor hex="e1f0ff"/>
       <borderColor hex="808080"/>
@@ -2367,9 +2472,9 @@
       <length value="0.2" unit="in"/>
       <width value="0.09" unit="in"/>
       <points>
-        <point x="4.6" y="4.6"/>
-        <point x="4.6" y="4.3"/>
-        <point x="4.6" y="4.45"/>
+        <point x="1.9999999999999993" y="4.1"/>
+        <point x="1.9999999999999993" y="3.8"/>
+        <point x="1.9999999999999993" y="3.95"/>
       </points>
       <bodyColor hex="e1f0ff"/>
       <borderColor hex="808080"/>
@@ -2390,9 +2495,9 @@
       <length value="3.8" unit="mm"/>
       <width value="3.0" unit="mm"/>
       <points>
-        <point x="5.6" y="3.6"/>
-        <point x="5.6" y="3.9"/>
-        <point x="5.6" y="3.75"/>
+        <point x="3.0" y="3.1"/>
+        <point x="3.0" y="3.4"/>
+        <point x="3.0" y="3.25"/>
       </points>
       <bodyColor hex="f0e68c"/>
       <borderColor hex="a8a162"/>
@@ -2414,9 +2519,9 @@
       <length value="3.8" unit="mm"/>
       <width value="3.0" unit="mm"/>
       <points>
-        <point x="6.2" y="3.6"/>
-        <point x="6.2" y="3.7"/>
-        <point x="6.2" y="3.65"/>
+        <point x="3.6" y="3.1"/>
+        <point x="3.6" y="3.2"/>
+        <point x="3.6" y="3.15"/>
       </points>
       <bodyColor hex="f0e68c"/>
       <borderColor hex="a8a162"/>
@@ -2438,9 +2543,9 @@
       <length value="3.8" unit="mm"/>
       <width value="3.0" unit="mm"/>
       <points>
-        <point x="5.6" y="4.3"/>
-        <point x="5.6" y="4.4"/>
-        <point x="5.6" y="4.35"/>
+        <point x="3.0" y="3.8"/>
+        <point x="3.0" y="3.9000000000000004"/>
+        <point x="3.0" y="3.8499999999999996"/>
       </points>
       <bodyColor hex="f0e68c"/>
       <borderColor hex="a8a162"/>
@@ -2462,9 +2567,9 @@
       <length value="3.8" unit="mm"/>
       <width value="3.0" unit="mm"/>
       <points>
-        <point x="6.1" y="3.7"/>
-        <point x="6.1" y="4.0"/>
-        <point x="6.1" y="3.85"/>
+        <point x="3.5" y="3.2"/>
+        <point x="3.5" y="3.5"/>
+        <point x="3.5" y="3.35"/>
       </points>
       <bodyColor hex="f0e68c"/>
       <borderColor hex="a8a162"/>
@@ -2480,105 +2585,13 @@
       <voltage>_63V</voltage>
       <voltageNew value="50.0" unit="V"/>
     </diylc.passive.RadialCeramicDiskCapacitor>
-    <diylc.electromechanical.OpenJack1__8>
-      <name>J60</name>
-      <alpha>127</alpha>
-      <controlPoints>
-        <point x="3.2" y="2.3"/>
-        <point x="2.9834936490538917" y="2.6750000000000007"/>
-        <point x="2.9834936490538904" y="2.425"/>
-      </controlPoints>
-      <orientation>DEFAULT</orientation>
-      <angle>0</angle>
-      <type>SWITCHED</type>
-      <showLabels>true</showLabels>
-    </diylc.electromechanical.OpenJack1__8>
-    <diylc.electromechanical.OpenJack1__8>
-      <name>J65</name>
-      <alpha>127</alpha>
-      <controlPoints>
-        <point x="3.2" y="1.4"/>
-        <point x="3.3996588775097223" y="1.4995462442092002"/>
-        <point x="3.3501050563314707" y="1.8499211646217726"/>
-      </controlPoints>
-      <orientation>DEFAULT</orientation>
-      <angle>0</angle>
-      <type>MONO</type>
-      <showLabels>true</showLabels>
-    </diylc.electromechanical.OpenJack1__8>
-    <diylc.passive.PotentiometerPanel>
-      <name>VR1A</name>
-      <alpha>127</alpha>
-      <controlPoints>
-        <point x="6.0" y="1.9"/>
-        <point x="6.2" y="1.9"/>
-        <point x="6.4" y="1.9"/>
-      </controlPoints>
-      <resistance value="100.0" unit="K"/>
-      <orientation>DEFAULT</orientation>
-      <taper>LIN</taper>
-      <bodyDiameter value="17.0" unit="mm"/>
-      <spacing value="0.2" unit="in"/>
-      <lugDiameter value="0.15" unit="in"/>
-      <bodyColor hex="c0c0c0"/>
-      <borderColor hex="808080"/>
-      <nutColor hex="cbd5db"/>
-      <waferColor hex="cd8500"/>
-      <type>PCB</type>
-      <showShaft>false</showShaft>
-      <view>ShaftDown</view>
-    </diylc.passive.PotentiometerPanel>
-    <diylc.passive.PotentiometerPanel>
-      <name>VR1B</name>
-      <alpha>127</alpha>
-      <controlPoints>
-        <point x="5.2" y="1.9"/>
-        <point x="5.4" y="1.9"/>
-        <point x="5.6" y="1.9"/>
-      </controlPoints>
-      <resistance value="100.0" unit="K"/>
-      <orientation>DEFAULT</orientation>
-      <taper>LIN</taper>
-      <bodyDiameter value="17.0" unit="mm"/>
-      <spacing value="0.2" unit="in"/>
-      <lugDiameter value="0.15" unit="in"/>
-      <bodyColor hex="c0c0c0"/>
-      <borderColor hex="808080"/>
-      <nutColor hex="cbd5db"/>
-      <waferColor hex="cd8500"/>
-      <type>PCB</type>
-      <showShaft>false</showShaft>
-      <view>ShaftDown</view>
-    </diylc.passive.PotentiometerPanel>
-    <diylc.passive.PotentiometerPanel>
-      <name>VR2A</name>
-      <alpha>127</alpha>
-      <controlPoints>
-        <point x="8.2" y="1.9"/>
-        <point x="8.4" y="1.9"/>
-        <point x="8.6" y="1.9"/>
-      </controlPoints>
-      <resistance value="100.0" unit="K"/>
-      <orientation>DEFAULT</orientation>
-      <taper>LIN</taper>
-      <bodyDiameter value="17.0" unit="mm"/>
-      <spacing value="0.2" unit="in"/>
-      <lugDiameter value="0.15" unit="in"/>
-      <bodyColor hex="c0c0c0"/>
-      <borderColor hex="808080"/>
-      <nutColor hex="cbd5db"/>
-      <waferColor hex="cd8500"/>
-      <type>PCB</type>
-      <showShaft>false</showShaft>
-      <view>ShaftDown</view>
-    </diylc.passive.PotentiometerPanel>
     <diylc.passive.PotentiometerPanel>
       <name>VR2B</name>
       <alpha>127</alpha>
       <controlPoints>
-        <point x="7.4" y="1.9"/>
-        <point x="7.6" y="1.9"/>
-        <point x="7.8" y="1.9"/>
+        <point x="4.199999999999999" y="1.2"/>
+        <point x="4.4" y="1.2"/>
+        <point x="4.6" y="1.2"/>
       </controlPoints>
       <resistance value="100.0" unit="K"/>
       <orientation>DEFAULT</orientation>
@@ -2598,9 +2611,9 @@
       <name>J66</name>
       <alpha>127</alpha>
       <controlPoints>
-        <point x="3.5" y="5.5"/>
-        <point x="3.6996588775097234" y="5.5995462442092006"/>
-        <point x="3.650105056331472" y="5.949921164621774"/>
+        <point x="2.7" y="4.8"/>
+        <point x="2.8996588775097236" y="4.8995462442092"/>
+        <point x="2.850105056331472" y="5.249921164621774"/>
       </controlPoints>
       <orientation>DEFAULT</orientation>
       <angle>0</angle>
@@ -2611,9 +2624,9 @@
       <name>J67</name>
       <alpha>127</alpha>
       <controlPoints>
-        <point x="6.5" y="5.5"/>
-        <point x="6.699658877509723" y="5.5995462442092006"/>
-        <point x="6.650105056331472" y="5.949921164621774"/>
+        <point x="4.0" y="4.8"/>
+        <point x="4.199658877509723" y="4.8995462442092"/>
+        <point x="4.150105056331472" y="5.249921164621774"/>
       </controlPoints>
       <orientation>DEFAULT</orientation>
       <angle>0</angle>
@@ -2626,9 +2639,9 @@
       <length value="7.0" unit="mm"/>
       <width value="2.5" unit="mm"/>
       <points>
-        <point x="4.9" y="5.5"/>
-        <point x="4.9" y="5.1"/>
-        <point x="4.9" y="5.3"/>
+        <point x="1.4000000000000006" y="4.8"/>
+        <point x="1.8" y="4.8"/>
+        <point x="1.6000000000000003" y="4.8"/>
       </points>
       <bodyColor hex="e0c68b"/>
       <borderColor hex="a59268"/>
@@ -2651,9 +2664,9 @@
       <length value="7.0" unit="mm"/>
       <width value="2.5" unit="mm"/>
       <points>
-        <point x="3.5" y="5.5"/>
-        <point x="3.5" y="5.1"/>
-        <point x="3.5" y="5.3"/>
+        <point x="2.7" y="4.8"/>
+        <point x="3.1" y="4.8"/>
+        <point x="2.9" y="4.8"/>
       </points>
       <bodyColor hex="e0c68b"/>
       <borderColor hex="a59268"/>
@@ -2675,9 +2688,9 @@
       <alpha>127</alpha>
       <length value="5.0" unit="mm"/>
       <points>
-        <point x="4.1" y="3.6"/>
-        <point x="4.1" y="3.5"/>
-        <point x="4.1" y="3.55"/>
+        <point x="1.4999999999999993" y="3.1"/>
+        <point x="1.4999999999999993" y="3.0"/>
+        <point x="1.4999999999999993" y="3.05"/>
       </points>
       <bodyColor hex="6b6dce"/>
       <borderColor hex="4a4c90"/>
@@ -2704,9 +2717,9 @@
       <alpha>127</alpha>
       <length value="5.0" unit="mm"/>
       <points>
-        <point x="5.0" y="3.6"/>
-        <point x="5.0" y="3.5"/>
-        <point x="5.0" y="3.55"/>
+        <point x="2.4" y="3.1"/>
+        <point x="2.4" y="3.0"/>
+        <point x="2.4" y="3.05"/>
       </points>
       <bodyColor hex="6b6dce"/>
       <borderColor hex="4a4c90"/>
@@ -2734,9 +2747,9 @@
       <length value="7.0" unit="mm"/>
       <width value="2.5" unit="mm"/>
       <points>
-        <point x="3.7" y="5.9"/>
-        <point x="4.1" y="5.9"/>
-        <point x="3.9" y="5.9"/>
+        <point x="2.845" y="5.25"/>
+        <point x="3.245" y="5.25"/>
+        <point x="3.045" y="5.25"/>
       </points>
       <bodyColor hex="e0c68b"/>
       <borderColor hex="a59268"/>
@@ -2753,28 +2766,15 @@
       <colorCode>_5_BAND</colorCode>
       <shape>Standard</shape>
     </diylc.passive.Resistor>
-    <diylc.electromechanical.OpenJack1__8>
-      <name>J47</name>
-      <alpha>127</alpha>
-      <controlPoints>
-        <point x="4.9" y="5.5"/>
-        <point x="5.099658877509723" y="5.5995462442092006"/>
-        <point x="5.050105056331472" y="5.949921164621774"/>
-      </controlPoints>
-      <orientation>DEFAULT</orientation>
-      <angle>0</angle>
-      <type>STEREO</type>
-      <showLabels>true</showLabels>
-    </diylc.electromechanical.OpenJack1__8>
     <diylc.passive.Resistor>
       <name>R22</name>
       <alpha>127</alpha>
       <length value="7.0" unit="mm"/>
       <width value="2.5" unit="mm"/>
       <points>
-        <point x="5.1" y="5.9"/>
-        <point x="5.5" y="5.9"/>
-        <point x="5.3" y="5.9"/>
+        <point x="1.545" y="5.25"/>
+        <point x="1.945" y="5.25"/>
+        <point x="1.745" y="5.25"/>
       </points>
       <bodyColor hex="e0c68b"/>
       <borderColor hex="a59268"/>
@@ -2791,14 +2791,518 @@
       <colorCode>_5_BAND</colorCode>
       <shape>Standard</shape>
     </diylc.passive.Resistor>
+    <diylc.connectivity.Line>
+      <name>LN7</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="1.2" y="3.1"/>
+        <point x="1.4" y="3.2"/>
+        <point x="0.0" y="0.0"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="cccccc"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <color hex="000000"/>
+      <style>SOLID</style>
+      <thickness value="1.0" unit="px"/>
+      <arrowSize value="5.0" unit="px"/>
+      <arrowTx serialization="custom">
+        <java.awt.geom.AffineTransform>
+          <default>
+            <m00>1.0</m00>
+            <m01>0.0</m01>
+            <m02>0.0</m02>
+            <m10>0.0</m10>
+            <m11>1.0</m11>
+            <m12>0.0</m12>
+          </default>
+        </java.awt.geom.AffineTransform>
+      </arrowTx>
+      <arrowStart>false</arrowStart>
+      <arrowEnd>false</arrowEnd>
+    </diylc.connectivity.Line>
+    <diylc.connectivity.Line>
+      <name>LN1</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="3.0" y="2.6"/>
+        <point x="2.5" y="3.2"/>
+        <point x="0.0" y="0.0"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="cccccc"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <color hex="000000"/>
+      <style>SOLID</style>
+      <thickness value="1.0" unit="px"/>
+      <arrowSize value="5.0" unit="px"/>
+      <arrowTx serialization="custom">
+        <java.awt.geom.AffineTransform>
+          <default>
+            <m00>1.0</m00>
+            <m01>0.0</m01>
+            <m02>0.0</m02>
+            <m10>0.0</m10>
+            <m11>1.0</m11>
+            <m12>0.0</m12>
+          </default>
+        </java.awt.geom.AffineTransform>
+      </arrowTx>
+      <arrowStart>false</arrowStart>
+      <arrowEnd>false</arrowEnd>
+    </diylc.connectivity.Line>
+    <diylc.connectivity.Line>
+      <name>LN2</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="1.3" y="2.8"/>
+        <point x="1.7" y="3.0"/>
+        <point x="0.0" y="0.0"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="cccccc"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <color hex="000000"/>
+      <style>SOLID</style>
+      <thickness value="1.0" unit="px"/>
+      <arrowSize value="5.0" unit="px"/>
+      <arrowTx serialization="custom">
+        <java.awt.geom.AffineTransform>
+          <default>
+            <m00>1.0</m00>
+            <m01>0.0</m01>
+            <m02>0.0</m02>
+            <m10>0.0</m10>
+            <m11>1.0</m11>
+            <m12>0.0</m12>
+          </default>
+        </java.awt.geom.AffineTransform>
+      </arrowTx>
+      <arrowStart>false</arrowStart>
+      <arrowEnd>false</arrowEnd>
+    </diylc.connectivity.Line>
+    <diylc.connectivity.Line>
+      <name>LN3</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="1.2" y="3.3"/>
+        <point x="1.7" y="3.6"/>
+        <point x="0.0" y="0.0"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="cccccc"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <color hex="000000"/>
+      <style>SOLID</style>
+      <thickness value="1.0" unit="px"/>
+      <arrowSize value="5.0" unit="px"/>
+      <arrowTx serialization="custom">
+        <java.awt.geom.AffineTransform>
+          <default>
+            <m00>1.0</m00>
+            <m01>0.0</m01>
+            <m02>0.0</m02>
+            <m10>0.0</m10>
+            <m11>1.0</m11>
+            <m12>0.0</m12>
+          </default>
+        </java.awt.geom.AffineTransform>
+      </arrowTx>
+      <arrowStart>false</arrowStart>
+      <arrowEnd>false</arrowEnd>
+    </diylc.connectivity.Line>
+    <diylc.connectivity.Line>
+      <name>LN4</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="2.0" y="2.8"/>
+        <point x="2.1" y="3.0"/>
+        <point x="0.0" y="0.0"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="cccccc"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <color hex="000000"/>
+      <style>SOLID</style>
+      <thickness value="1.0" unit="px"/>
+      <arrowSize value="5.0" unit="px"/>
+      <arrowTx serialization="custom">
+        <java.awt.geom.AffineTransform>
+          <default>
+            <m00>1.0</m00>
+            <m01>0.0</m01>
+            <m02>0.0</m02>
+            <m10>0.0</m10>
+            <m11>1.0</m11>
+            <m12>0.0</m12>
+          </default>
+        </java.awt.geom.AffineTransform>
+      </arrowTx>
+      <arrowStart>false</arrowStart>
+      <arrowEnd>false</arrowEnd>
+    </diylc.connectivity.Line>
+    <diylc.connectivity.Line>
+      <name>LN5</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="2.6" y="2.8"/>
+        <point x="2.2" y="3.6"/>
+        <point x="0.0" y="0.0"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="cccccc"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <color hex="000000"/>
+      <style>SOLID</style>
+      <thickness value="1.0" unit="px"/>
+      <arrowSize value="5.0" unit="px"/>
+      <arrowTx serialization="custom">
+        <java.awt.geom.AffineTransform>
+          <default>
+            <m00>1.0</m00>
+            <m01>0.0</m01>
+            <m02>0.0</m02>
+            <m10>0.0</m10>
+            <m11>1.0</m11>
+            <m12>0.0</m12>
+          </default>
+        </java.awt.geom.AffineTransform>
+      </arrowTx>
+      <arrowStart>false</arrowStart>
+      <arrowEnd>false</arrowEnd>
+    </diylc.connectivity.Line>
+    <diylc.connectivity.Line>
+      <name>LN6</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="1.6" y="2.6"/>
+        <point x="1.8" y="3.0"/>
+        <point x="0.0" y="0.0"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="cccccc"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <color hex="000000"/>
+      <style>SOLID</style>
+      <thickness value="1.0" unit="px"/>
+      <arrowSize value="5.0" unit="px"/>
+      <arrowTx serialization="custom">
+        <java.awt.geom.AffineTransform>
+          <default>
+            <m00>1.0</m00>
+            <m01>0.0</m01>
+            <m02>0.0</m02>
+            <m10>0.0</m10>
+            <m11>1.0</m11>
+            <m12>0.0</m12>
+          </default>
+        </java.awt.geom.AffineTransform>
+      </arrowTx>
+      <arrowStart>false</arrowStart>
+      <arrowEnd>false</arrowEnd>
+    </diylc.connectivity.Line>
+    <diylc.connectivity.Line>
+      <name>LN8</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="3.9" y="2.8"/>
+        <point x="3.7" y="3.3"/>
+        <point x="0.0" y="0.0"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="cccccc"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <color hex="000000"/>
+      <style>SOLID</style>
+      <thickness value="1.0" unit="px"/>
+      <arrowSize value="5.0" unit="px"/>
+      <arrowTx serialization="custom">
+        <java.awt.geom.AffineTransform>
+          <default>
+            <m00>1.0</m00>
+            <m01>0.0</m01>
+            <m02>0.0</m02>
+            <m10>0.0</m10>
+            <m11>1.0</m11>
+            <m12>0.0</m12>
+          </default>
+        </java.awt.geom.AffineTransform>
+      </arrowTx>
+      <arrowStart>false</arrowStart>
+      <arrowEnd>false</arrowEnd>
+    </diylc.connectivity.Line>
+    <diylc.connectivity.Line>
+      <name>LN9</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="2.3" y="2.6"/>
+        <point x="2.2" y="3.0"/>
+        <point x="0.0" y="0.0"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="cccccc"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <color hex="000000"/>
+      <style>SOLID</style>
+      <thickness value="1.0" unit="px"/>
+      <arrowSize value="5.0" unit="px"/>
+      <arrowTx serialization="custom">
+        <java.awt.geom.AffineTransform>
+          <default>
+            <m00>1.0</m00>
+            <m01>0.0</m01>
+            <m02>0.0</m02>
+            <m10>0.0</m10>
+            <m11>1.0</m11>
+            <m12>0.0</m12>
+          </default>
+        </java.awt.geom.AffineTransform>
+      </arrowTx>
+      <arrowStart>false</arrowStart>
+      <arrowEnd>false</arrowEnd>
+    </diylc.connectivity.Line>
+    <diylc.connectivity.Line>
+      <name>LN10</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="3.3" y="2.8"/>
+        <point x="2.8" y="3.2"/>
+        <point x="0.0" y="0.0"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="cccccc"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <color hex="000000"/>
+      <style>SOLID</style>
+      <thickness value="1.0" unit="px"/>
+      <arrowSize value="5.0" unit="px"/>
+      <arrowTx serialization="custom">
+        <java.awt.geom.AffineTransform>
+          <default>
+            <m00>1.0</m00>
+            <m01>0.0</m01>
+            <m02>0.0</m02>
+            <m10>0.0</m10>
+            <m11>1.0</m11>
+            <m12>0.0</m12>
+          </default>
+        </java.awt.geom.AffineTransform>
+      </arrowTx>
+      <arrowStart>false</arrowStart>
+      <arrowEnd>false</arrowEnd>
+    </diylc.connectivity.Line>
+    <diylc.connectivity.Line>
+      <name>LN11</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="1.8" y="4.1"/>
+        <point x="1.8" y="4.3"/>
+        <point x="0.0" y="0.0"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="cccccc"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <color hex="000000"/>
+      <style>SOLID</style>
+      <thickness value="1.0" unit="px"/>
+      <arrowSize value="5.0" unit="px"/>
+      <arrowTx serialization="custom">
+        <java.awt.geom.AffineTransform>
+          <default>
+            <m00>1.0</m00>
+            <m01>0.0</m01>
+            <m02>0.0</m02>
+            <m10>0.0</m10>
+            <m11>1.0</m11>
+            <m12>0.0</m12>
+          </default>
+        </java.awt.geom.AffineTransform>
+      </arrowTx>
+      <arrowStart>false</arrowStart>
+      <arrowEnd>false</arrowEnd>
+    </diylc.connectivity.Line>
+    <diylc.connectivity.Line>
+      <name>LN12</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="2.4" y="4.3"/>
+        <point x="2.5" y="4.1"/>
+        <point x="0.0" y="0.0"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="cccccc"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <color hex="000000"/>
+      <style>SOLID</style>
+      <thickness value="1.0" unit="px"/>
+      <arrowSize value="5.0" unit="px"/>
+      <arrowTx serialization="custom">
+        <java.awt.geom.AffineTransform>
+          <default>
+            <m00>1.0</m00>
+            <m01>0.0</m01>
+            <m02>0.0</m02>
+            <m10>0.0</m10>
+            <m11>1.0</m11>
+            <m12>0.0</m12>
+          </default>
+        </java.awt.geom.AffineTransform>
+      </arrowTx>
+      <arrowStart>false</arrowStart>
+      <arrowEnd>false</arrowEnd>
+    </diylc.connectivity.Line>
+    <diylc.connectivity.Line>
+      <name>LN13</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="3.1" y="4.1"/>
+        <point x="3.1" y="4.3"/>
+        <point x="0.0" y="0.0"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="cccccc"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <color hex="000000"/>
+      <style>SOLID</style>
+      <thickness value="1.0" unit="px"/>
+      <arrowSize value="5.0" unit="px"/>
+      <arrowTx serialization="custom">
+        <java.awt.geom.AffineTransform>
+          <default>
+            <m00>1.0</m00>
+            <m01>0.0</m01>
+            <m02>0.0</m02>
+            <m10>0.0</m10>
+            <m11>1.0</m11>
+            <m12>0.0</m12>
+          </default>
+        </java.awt.geom.AffineTransform>
+      </arrowTx>
+      <arrowStart>false</arrowStart>
+      <arrowEnd>false</arrowEnd>
+    </diylc.connectivity.Line>
+    <diylc.connectivity.Line>
+      <name>LN14</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="3.4" y="4.1"/>
+        <point x="3.8" y="4.3"/>
+        <point x="0.0" y="0.0"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="cccccc"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <color hex="000000"/>
+      <style>SOLID</style>
+      <thickness value="1.0" unit="px"/>
+      <arrowSize value="5.0" unit="px"/>
+      <arrowTx serialization="custom">
+        <java.awt.geom.AffineTransform>
+          <default>
+            <m00>1.0</m00>
+            <m01>0.0</m01>
+            <m02>0.0</m02>
+            <m10>0.0</m10>
+            <m11>1.0</m11>
+            <m12>0.0</m12>
+          </default>
+        </java.awt.geom.AffineTransform>
+      </arrowTx>
+      <arrowStart>false</arrowStart>
+      <arrowEnd>false</arrowEnd>
+    </diylc.connectivity.Line>
     <diylc.connectivity.HookupWire>
       <name>W9</name>
       <alpha>127</alpha>
       <controlPoints2>
-        <point x="5.6" y="1.9"/>
-        <point x="5.6" y="2.0"/>
-        <point x="5.6" y="2.2"/>
-        <point x="5.6" y="2.3"/>
+        <point x="2.9" y="1.2"/>
+        <point x="2.9" y="1.3"/>
+        <point x="2.9" y="1.5000000000000002"/>
+        <point x="2.9" y="1.5999999999999996"/>
       </controlPoints2>
       <color hex="000000"/>
       <pointCount>FOUR</pointCount>
@@ -2813,10 +3317,10 @@
       <name>W10</name>
       <alpha>127</alpha>
       <controlPoints2>
-        <point x="6.4" y="1.9"/>
-        <point x="6.4" y="2.0"/>
-        <point x="6.4" y="2.2"/>
-        <point x="6.4" y="2.3"/>
+        <point x="3.6999999999999993" y="1.2"/>
+        <point x="3.6999999999999993" y="1.3"/>
+        <point x="3.6999999999999993" y="1.5000000000000002"/>
+        <point x="3.6999999999999993" y="1.5999999999999996"/>
       </controlPoints2>
       <color hex="000000"/>
       <pointCount>FOUR</pointCount>
@@ -2831,10 +3335,10 @@
       <name>W11</name>
       <alpha>127</alpha>
       <controlPoints2>
-        <point x="8.6" y="1.9"/>
-        <point x="8.6" y="2.0"/>
-        <point x="8.6" y="2.2"/>
-        <point x="8.6" y="2.3"/>
+        <point x="5.4" y="1.2"/>
+        <point x="5.4" y="1.3"/>
+        <point x="5.4" y="1.5000000000000002"/>
+        <point x="5.4" y="1.5999999999999996"/>
       </controlPoints2>
       <color hex="000000"/>
       <pointCount>FOUR</pointCount>
@@ -2849,10 +3353,10 @@
       <name>W12</name>
       <alpha>127</alpha>
       <controlPoints2>
-        <point x="7.8" y="1.9"/>
-        <point x="7.8" y="2.0"/>
-        <point x="7.8" y="2.2"/>
-        <point x="7.8" y="2.3"/>
+        <point x="4.6" y="1.2"/>
+        <point x="4.6" y="1.3"/>
+        <point x="4.6" y="1.5000000000000002"/>
+        <point x="4.6" y="1.5999999999999996"/>
       </controlPoints2>
       <color hex="000000"/>
       <pointCount>FOUR</pointCount>
@@ -2867,10 +3371,10 @@
       <name>W18</name>
       <alpha>127</alpha>
       <controlPoints2>
-        <point x="7.4" y="1.9"/>
-        <point x="7.4" y="2.9"/>
-        <point x="4.4" y="2.9"/>
-        <point x="4.4" y="3.5"/>
+        <point x="4.199999999999999" y="1.2"/>
+        <point x="4.2" y="1.3"/>
+        <point x="4.2" y="1.5"/>
+        <point x="4.2" y="1.6"/>
       </controlPoints2>
       <color hex="00ff00"/>
       <pointCount>FOUR</pointCount>
@@ -2885,30 +3389,12 @@
       <name>W20</name>
       <alpha>127</alpha>
       <controlPoints2>
-        <point x="8.2" y="1.9"/>
-        <point x="8.2" y="2.8"/>
-        <point x="4.8" y="2.8"/>
-        <point x="4.8" y="3.5"/>
+        <point x="4.999999999999999" y="1.2"/>
+        <point x="5.0" y="1.3"/>
+        <point x="5.0" y="1.5"/>
+        <point x="5.0" y="1.6"/>
       </controlPoints2>
       <color hex="ffff00"/>
-      <pointCount>FOUR</pointCount>
-      <style>SOLID</style>
-      <smooth>true</smooth>
-      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
-      <gauge>_22</gauge>
-      <striped>false</striped>
-      <stripeColor hex="ffff00"/>
-    </diylc.connectivity.HookupWire>
-    <diylc.connectivity.HookupWire>
-      <name>W26</name>
-      <alpha>127</alpha>
-      <controlPoints2>
-        <point x="3.0" y="2.7"/>
-        <point x="2.9" y="2.7"/>
-        <point x="2.7" y="2.7"/>
-        <point x="2.6" y="2.7"/>
-      </controlPoints2>
-      <color hex="000000"/>
       <pointCount>FOUR</pointCount>
       <style>SOLID</style>
       <smooth>true</smooth>
@@ -2921,10 +3407,10 @@
       <name>W28</name>
       <alpha>127</alpha>
       <controlPoints2>
-        <point x="3.0" y="2.4"/>
-        <point x="2.6" y="2.4"/>
-        <point x="2.6" y="1.4"/>
-        <point x="3.2" y="1.4"/>
+        <point x="1.6" y="1.1"/>
+        <point x="1.6" y="0.6"/>
+        <point x="0.6" y="0.6"/>
+        <point x="0.6" y="1.1"/>
       </controlPoints2>
       <color hex="ffff00"/>
       <pointCount>FOUR</pointCount>
@@ -2939,10 +3425,10 @@
       <name>W30</name>
       <alpha>127</alpha>
       <controlPoints2>
-        <point x="6.0" y="1.9"/>
-        <point x="6.0" y="2.7"/>
-        <point x="4.7" y="2.7"/>
-        <point x="4.7" y="3.5"/>
+        <point x="3.3" y="1.2"/>
+        <point x="3.3" y="1.3"/>
+        <point x="3.3" y="1.5"/>
+        <point x="3.3" y="1.6"/>
       </controlPoints2>
       <color hex="ffff00"/>
       <pointCount>FOUR</pointCount>
@@ -2957,10 +3443,10 @@
       <name>W31</name>
       <alpha>127</alpha>
       <controlPoints2>
-        <point x="5.2" y="1.9"/>
-        <point x="5.2" y="2.4"/>
-        <point x="4.3" y="2.4"/>
-        <point x="4.3" y="3.5"/>
+        <point x="2.5" y="1.2"/>
+        <point x="2.5" y="1.3"/>
+        <point x="2.5" y="1.5"/>
+        <point x="2.5" y="1.6"/>
       </controlPoints2>
       <color hex="00ff00"/>
       <pointCount>FOUR</pointCount>
@@ -2973,8 +3459,8 @@
     </diylc.connectivity.HookupWire>
     <diylc.misc.Label>
       <name>LAB2</name>
-      <point x="3.2" y="2.0"/>
-      <text>Input: Left (Mono)</text>
+      <point x="0.6" y="1.7"/>
+      <text>Left (Mono) Input</text>
       <font name="Square 721 BT" size="14" style="0"/>
       <color hex="000000"/>
       <horizontalAlignment>CENTER</horizontalAlignment>
@@ -2983,8 +3469,8 @@
     </diylc.misc.Label>
     <diylc.misc.Label>
       <name>LAB3</name>
-      <point x="3.2" y="2.9"/>
-      <text>Input: Right</text>
+      <point x="1.7" y="1.7"/>
+      <text>Right Input</text>
       <font name="Square 721 BT" size="14" style="0"/>
       <color hex="000000"/>
       <horizontalAlignment>CENTER</horizontalAlignment>
@@ -2993,8 +3479,8 @@
     </diylc.misc.Label>
     <diylc.misc.Label>
       <name>LAB4</name>
-      <point x="5.8" y="1.0"/>
-      <text>Volume: Line</text>
+      <point x="3.1" y="0.3"/>
+      <text>Line Volume</text>
       <font name="Square 721 BT" size="14" style="0"/>
       <color hex="000000"/>
       <horizontalAlignment>CENTER</horizontalAlignment>
@@ -3003,8 +3489,8 @@
     </diylc.misc.Label>
     <diylc.misc.Label>
       <name>LAB5</name>
-      <point x="8.0" y="1.0"/>
-      <text>Volume: Headphones</text>
+      <point x="4.8" y="0.3"/>
+      <text>Headphones Volume</text>
       <font name="Square 721 BT" size="14" style="0"/>
       <color hex="000000"/>
       <horizontalAlignment>CENTER</horizontalAlignment>
@@ -3013,8 +3499,8 @@
     </diylc.misc.Label>
     <diylc.misc.Label>
       <name>LAB6</name>
-      <point x="3.5" y="6.1"/>
-      <text>Output: Line, Right</text>
+      <point x="2.7" y="5.4"/>
+      <text>Line Out (Right)</text>
       <font name="Square 721 BT" size="14" style="0"/>
       <color hex="000000"/>
       <horizontalAlignment>CENTER</horizontalAlignment>
@@ -3023,8 +3509,8 @@
     </diylc.misc.Label>
     <diylc.misc.Label>
       <name>LAB7</name>
-      <point x="6.5" y="6.1"/>
-      <text>Output: Headphones</text>
+      <point x="4.0" y="5.4"/>
+      <text>Headphones Out</text>
       <font name="Square 721 BT" size="14" style="0"/>
       <color hex="000000"/>
       <horizontalAlignment>CENTER</horizontalAlignment>
@@ -3035,10 +3521,10 @@
       <name>W25</name>
       <alpha>127</alpha>
       <controlPoints2>
-        <point x="3.7" y="1.5"/>
-        <point x="3.6" y="1.5"/>
-        <point x="3.4" y="1.5"/>
-        <point x="3.4" y="1.5"/>
+        <point x="0.8" y="1.6"/>
+        <point x="0.8" y="1.5"/>
+        <point x="0.8" y="1.3"/>
+        <point x="0.8000000000000002" y="1.2"/>
       </controlPoints2>
       <color hex="000000"/>
       <pointCount>FOUR</pointCount>
@@ -3053,10 +3539,10 @@
       <name>W34</name>
       <alpha>127</alpha>
       <controlPoints2>
-        <point x="5.7" y="4.6"/>
-        <point x="5.7" y="5.1"/>
-        <point x="6.5" y="5.1"/>
-        <point x="6.5" y="5.5"/>
+        <point x="4.4" y="4.8"/>
+        <point x="4.3" y="4.8"/>
+        <point x="4.1" y="4.8"/>
+        <point x="4.0" y="4.8"/>
       </controlPoints2>
       <color hex="ffff00"/>
       <pointCount>FOUR</pointCount>
@@ -3071,10 +3557,10 @@
       <name>W35</name>
       <alpha>127</alpha>
       <controlPoints2>
-        <point x="6.0" y="4.6"/>
-        <point x="6.0" y="5.1"/>
-        <point x="7.4" y="5.2"/>
-        <point x="6.7" y="5.9"/>
+        <point x="4.55" y="5.25"/>
+        <point x="4.45" y="5.25"/>
+        <point x="4.25" y="5.25"/>
+        <point x="4.15" y="5.25"/>
       </controlPoints2>
       <color hex="00ff00"/>
       <pointCount>FOUR</pointCount>
@@ -3089,10 +3575,10 @@
       <name>W36</name>
       <alpha>127</alpha>
       <controlPoints2>
-        <point x="8.4" y="2.3"/>
-        <point x="8.4" y="3.0"/>
-        <point x="5.4" y="3.0"/>
-        <point x="5.4" y="3.7"/>
+        <point x="5.2" y="1.5999999999999996"/>
+        <point x="5.2" y="1.7"/>
+        <point x="5.2" y="1.9"/>
+        <point x="5.2" y="2.0"/>
       </controlPoints2>
       <color hex="ffff00"/>
       <pointCount>FOUR</pointCount>
@@ -3107,10 +3593,10 @@
       <name>W37</name>
       <alpha>127</alpha>
       <controlPoints2>
-        <point x="7.6" y="2.3"/>
-        <point x="7.6" y="3.0"/>
-        <point x="6.3" y="3.0"/>
-        <point x="6.3" y="3.8"/>
+        <point x="4.4" y="1.5999999999999996"/>
+        <point x="4.4" y="1.7"/>
+        <point x="4.4" y="1.9"/>
+        <point x="4.4" y="2.0"/>
       </controlPoints2>
       <color hex="00ff00"/>
       <pointCount>FOUR</pointCount>
@@ -3125,10 +3611,10 @@
       <name>W32</name>
       <alpha>127</alpha>
       <controlPoints2>
-        <point x="4.4" y="4.6"/>
-        <point x="4.4" y="4.9"/>
-        <point x="3.5" y="4.9"/>
-        <point x="3.5" y="5.1"/>
+        <point x="3.5" y="4.8"/>
+        <point x="3.4" y="4.8"/>
+        <point x="3.2" y="4.8"/>
+        <point x="3.1000000000000005" y="4.8"/>
       </controlPoints2>
       <color hex="00ff00"/>
       <pointCount>FOUR</pointCount>
@@ -3143,10 +3629,10 @@
       <name>W33</name>
       <alpha>127</alpha>
       <controlPoints2>
-        <point x="5.1" y="4.6"/>
-        <point x="5.1" y="4.9"/>
-        <point x="4.9" y="4.9"/>
-        <point x="4.9" y="5.1"/>
+        <point x="2.2" y="4.8"/>
+        <point x="2.1" y="4.8"/>
+        <point x="1.9" y="4.8"/>
+        <point x="1.8000000000000005" y="4.8"/>
       </controlPoints2>
       <color hex="ffff00"/>
       <pointCount>FOUR</pointCount>
@@ -3161,10 +3647,10 @@
       <name>W1</name>
       <alpha>127</alpha>
       <controlPoints2>
-        <point x="3.6" y="1.4"/>
-        <point x="5.0" y="1.4"/>
-        <point x="5.1" y="3.1"/>
-        <point x="5.1" y="3.7"/>
+        <point x="1.0" y="1.1"/>
+        <point x="1.0" y="1.2"/>
+        <point x="1.0" y="1.4"/>
+        <point x="1.0" y="1.5"/>
       </controlPoints2>
       <color hex="ffff00"/>
       <pointCount>FOUR</pointCount>
@@ -3179,10 +3665,10 @@
       <name>W2</name>
       <alpha>127</alpha>
       <controlPoints2>
-        <point x="3.6" y="2.3"/>
-        <point x="3.8" y="2.3"/>
-        <point x="3.7" y="3.7"/>
-        <point x="4.0" y="3.7"/>
+        <point x="2.0" y="1.0999999999999996"/>
+        <point x="2.0" y="1.2"/>
+        <point x="2.0" y="1.4"/>
+        <point x="2.0" y="1.5"/>
       </controlPoints2>
       <color hex="00ff00"/>
       <pointCount>FOUR</pointCount>
@@ -3197,10 +3683,10 @@
       <name>W3</name>
       <alpha>127</alpha>
       <controlPoints2>
-        <point x="4.0" y="5.6"/>
-        <point x="3.9" y="5.6"/>
-        <point x="3.8" y="5.6"/>
-        <point x="3.7" y="5.6"/>
+        <point x="3.2" y="4.9"/>
+        <point x="3.1" y="4.9"/>
+        <point x="3.0" y="4.9"/>
+        <point x="2.9" y="4.9"/>
       </controlPoints2>
       <color hex="000000"/>
       <pointCount>FOUR</pointCount>
@@ -3215,10 +3701,10 @@
       <name>W4</name>
       <alpha>127</alpha>
       <controlPoints2>
-        <point x="7.0" y="5.6"/>
-        <point x="6.9" y="5.6"/>
-        <point x="6.8" y="5.6"/>
-        <point x="6.7" y="5.6"/>
+        <point x="4.5" y="4.9"/>
+        <point x="4.4" y="4.9"/>
+        <point x="4.3" y="4.9"/>
+        <point x="4.2" y="4.9"/>
       </controlPoints2>
       <color hex="000000"/>
       <pointCount>FOUR</pointCount>
@@ -3233,10 +3719,10 @@
       <name>W15</name>
       <alpha>127</alpha>
       <controlPoints2>
-        <point x="6.2" y="2.3"/>
-        <point x="6.2" y="2.9"/>
-        <point x="4.8" y="2.9"/>
-        <point x="4.8" y="4.1"/>
+        <point x="3.5" y="1.5999999999999996"/>
+        <point x="3.5" y="1.7"/>
+        <point x="3.5" y="1.9"/>
+        <point x="3.5" y="2.0"/>
       </controlPoints2>
       <color hex="ffff00"/>
       <pointCount>FOUR</pointCount>
@@ -3251,10 +3737,10 @@
       <name>W13</name>
       <alpha>127</alpha>
       <controlPoints2>
-        <point x="5.4" y="2.3"/>
-        <point x="5.4" y="2.9"/>
-        <point x="4.3" y="2.2"/>
-        <point x="4.3" y="4.1"/>
+        <point x="2.7" y="1.5999999999999996"/>
+        <point x="2.7" y="1.7"/>
+        <point x="2.7" y="1.9"/>
+        <point x="2.7" y="2.0"/>
       </controlPoints2>
       <color hex="00ff00"/>
       <pointCount>FOUR</pointCount>
@@ -3269,10 +3755,10 @@
       <name>W5</name>
       <alpha>127</alpha>
       <controlPoints2>
-        <point x="4.4" y="5.9"/>
-        <point x="4.3" y="5.9"/>
-        <point x="4.2" y="5.9"/>
-        <point x="4.1" y="5.9"/>
+        <point x="3.545" y="5.25"/>
+        <point x="3.445" y="5.25"/>
+        <point x="3.345" y="5.25"/>
+        <point x="3.245" y="5.25"/>
       </controlPoints2>
       <color hex="000000"/>
       <pointCount>FOUR</pointCount>
@@ -3287,10 +3773,10 @@
       <name>W6</name>
       <alpha>127</alpha>
       <controlPoints2>
-        <point x="5.4" y="5.6"/>
-        <point x="5.3" y="5.6"/>
-        <point x="5.1" y="5.6"/>
-        <point x="5.1" y="5.6"/>
+        <point x="1.9" y="4.9"/>
+        <point x="1.8" y="4.9"/>
+        <point x="1.6" y="4.9"/>
+        <point x="1.6" y="4.9"/>
       </controlPoints2>
       <color hex="000000"/>
       <pointCount>FOUR</pointCount>
@@ -3305,10 +3791,28 @@
       <name>W7</name>
       <alpha>127</alpha>
       <controlPoints2>
-        <point x="5.8" y="5.9"/>
-        <point x="5.7" y="5.9"/>
-        <point x="5.6" y="5.9"/>
-        <point x="5.5" y="5.9"/>
+        <point x="2.245" y="5.25"/>
+        <point x="2.145" y="5.25"/>
+        <point x="2.045" y="5.25"/>
+        <point x="1.945" y="5.25"/>
+      </controlPoints2>
+      <color hex="000000"/>
+      <pointCount>FOUR</pointCount>
+      <style>SOLID</style>
+      <smooth>true</smooth>
+      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
+      <gauge>_22</gauge>
+      <striped>false</striped>
+      <stripeColor hex="ffff00"/>
+    </diylc.connectivity.HookupWire>
+    <diylc.connectivity.HookupWire>
+      <name>W26</name>
+      <alpha>127</alpha>
+      <controlPoints2>
+        <point x="1.385" y="1.475"/>
+        <point x="1.385" y="1.575"/>
+        <point x="1.385" y="1.775"/>
+        <point x="1.385" y="1.875"/>
       </controlPoints2>
       <color hex="000000"/>
       <pointCount>FOUR</pointCount>
@@ -3321,8 +3825,248 @@
     </diylc.connectivity.HookupWire>
     <diylc.misc.Label>
       <name>LAB1</name>
-      <point x="4.9" y="6.1"/>
-      <text>Output: Line, Left</text>
+      <point x="1.4000000000000006" y="5.4"/>
+      <text>Line Out (Left)</text>
+      <font name="Square 721 BT" size="14" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB8</name>
+      <point x="1.1" y="3.1"/>
+      <text>Right Input</text>
+      <font name="Square 721 BT" size="14" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>RIGHT</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB9</name>
+      <point x="3.0" y="2.5"/>
+      <text>Left (Mono) Input</text>
+      <font name="Square 721 BT" size="14" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB10</name>
+      <point x="2.5" y="1.7"/>
+      <text>1A</text>
+      <font name="Square 721 BT" size="14" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB11</name>
+      <point x="1.3" y="2.7"/>
+      <text>Line Vol 1A</text>
+      <font name="Square 721 BT" size="14" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB12</name>
+      <point x="2.7" y="2.1"/>
+      <text>1B</text>
+      <font name="Square 721 BT" size="14" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB13</name>
+      <point x="1.1" y="3.3"/>
+      <text>Line Vol 1B</text>
+      <font name="Square 721 BT" size="14" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>RIGHT</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB14</name>
+      <point x="2.0" y="2.7"/>
+      <text>Line Vol 2A</text>
+      <font name="Square 721 BT" size="14" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB15</name>
+      <point x="3.3" y="1.7"/>
+      <text>2A</text>
+      <font name="Square 721 BT" size="14" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB16</name>
+      <point x="2.6" y="2.7"/>
+      <text>Line Vol 2B</text>
+      <font name="Square 721 BT" size="14" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB17</name>
+      <point x="3.5" y="2.1"/>
+      <text>2B</text>
+      <font name="Square 721 BT" size="14" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB18</name>
+      <point x="1.6" y="2.5"/>
+      <text>Phones Vol 1A</text>
+      <font name="Square 721 BT" size="14" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB19</name>
+      <point x="4.2" y="1.7"/>
+      <text>1A</text>
+      <font name="Square 721 BT" size="14" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB20</name>
+      <point x="3.9" y="2.7"/>
+      <text>Phones Vol 1B</text>
+      <font name="Square 721 BT" size="14" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB21</name>
+      <point x="4.4" y="2.1"/>
+      <text>1B</text>
+      <font name="Square 721 BT" size="14" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB22</name>
+      <point x="2.3" y="2.5"/>
+      <text>Phones Vol 2A</text>
+      <font name="Square 721 BT" size="14" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB23</name>
+      <point x="5.0" y="1.7"/>
+      <text>2A</text>
+      <font name="Square 721 BT" size="14" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB24</name>
+      <point x="3.3" y="2.7"/>
+      <text>Phones Vol 2B</text>
+      <font name="Square 721 BT" size="14" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB25</name>
+      <point x="5.2" y="2.1"/>
+      <text>2B</text>
+      <font name="Square 721 BT" size="14" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB26</name>
+      <point x="1.8" y="4.4"/>
+      <text>Line Out (Right)</text>
+      <font name="Square 721 BT" size="14" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB27</name>
+      <point x="2.4" y="4.4"/>
+      <text>Line Out (Left)</text>
+      <font name="Square 721 BT" size="14" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB28</name>
+      <point x="3.1" y="4.4"/>
+      <text>Headphones Out A</text>
+      <font name="Square 721 BT" size="14" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB29</name>
+      <point x="3.8" y="4.4"/>
+      <text>Headphones Out B</text>
+      <font name="Square 721 BT" size="14" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB30</name>
+      <point x="4.65" y="5.25"/>
+      <text>B</text>
+      <font name="Square 721 BT" size="14" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>LEFT</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB31</name>
+      <point x="4.5" y="4.8"/>
+      <text>A</text>
       <font name="Square 721 BT" size="14" style="0"/>
       <color hex="000000"/>
       <horizontalAlignment>CENTER</horizontalAlignment>
