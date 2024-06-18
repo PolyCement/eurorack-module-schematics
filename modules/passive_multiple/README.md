@@ -2,7 +2,12 @@
 
 ## description
 
-todo
+simple passive multiple inspired by
+[the one available from rakit](https://www.rakits.co.uk/product/passive-multiple-kit/).
+
+inputs are on sockets 1 and 5. it'll work differently depending on which inputs are used:
+- socket 1 plugged = 1x 1-6
+- socket 1 and socket 5 plugged = 2x 1-3
 
 ## schematics
 
