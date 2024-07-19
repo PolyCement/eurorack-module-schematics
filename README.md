@@ -9,6 +9,7 @@ todo: this ;)
 - ["dirty doubler" - dual vco module](./modules/dual_vco)
 - ["green brick" - output module](./modules/output)
 - ["spread thin" - simple 1x 1-6/2x 1-3 passive multiple module](./modules/passive_multiple)
+- ["another shape" - adsr envelope generator module](./modules/envelope_generator)
 - [misc circuit fragments](./modules/fragments)
 
 ### power:
