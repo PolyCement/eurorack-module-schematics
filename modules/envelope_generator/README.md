@@ -81,13 +81,13 @@ i considered trying to add a loop function based on the one shown [here](https:/
   </tr>
   <tr>
     <td>IC1</td>
-    <td>TS555</td>
+    <td>TS555 cmos timer</td>
     <td>1</td>
     <td>any cmos 555 works</td>
   </tr>
   <tr>
     <td>IC2</td>
-    <td>TL072</td>
+    <td>TL072 dual op-amp</td>
     <td>1</td>
     <td></td>
   </tr>
