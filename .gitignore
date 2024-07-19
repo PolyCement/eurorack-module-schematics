@@ -1,0 +1,2 @@
+# exclude raw bom files from diylc since they're missing a bunch of info
+*_BOM.html
