@@ -9,7 +9,7 @@ the core design is inspired by the [mki x erica synths "edu diy vco"](https://ww
 ## schematics
 
 ### dual vco circuit
-!["dirty doubler" dual vco circuit schematic](./dirty_doubler_dual_input_stage_final.png)
+!["dirty doubler" dual vco circuit schematic](./dual_vco_core.png)
 
 ### dual vco bill of materials
 <table cellspacing="0" border="1">
@@ -148,7 +148,7 @@ the core design is inspired by the [mki x erica synths "edu diy vco"](https://ww
 </table>
 
 ### single waveshaper circuit (you'll want two of these, one per core)
-!["dirty doubler" single waveshaper circuit schematic](./dirty_doubler_single_waveshaper_final.png)
+!["dirty doubler" single waveshaper circuit schematic](./dual_vco_waveshaper.png)
 
 ### single waveshaper bill of materials
 

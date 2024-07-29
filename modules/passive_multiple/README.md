@@ -13,7 +13,7 @@ inputs are on sockets 1 and 5. it'll work differently depending on which inputs 
 
 ### passive multiple module
 <img
-  src="./simple_passive_multiple.png"
+  src="./passive_multiple.png"
   height="600"
   title="&quot;spread thin&quot; simple passive multiple module schematic"
 />

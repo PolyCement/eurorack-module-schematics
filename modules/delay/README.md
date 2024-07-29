@@ -16,7 +16,7 @@ this is the first module i made (no idea why i started with this of all things) 
 ## schematics
 
 ### delay module
-!["death rattle" delay module schematic](./delay_module_revised.png)
+!["death rattle" delay module schematic](./delay.png)
 
 ### bill of materials
 

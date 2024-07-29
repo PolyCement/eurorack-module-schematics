@@ -13,7 +13,7 @@ i simplified the design a bit:
 ## schematics
 
 ### output module
-!["green brick" output module schematic](./bargain_bucket_befaco_output_clone_v2.png)
+!["green brick" output module schematic](./output.png)
 
 ### bill of materials
 
