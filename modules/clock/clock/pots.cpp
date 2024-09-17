@@ -46,7 +46,7 @@ int getSubtempoReading(uint8_t subtempoNum) {
 }
 
 int getSwingReading(uint8_t swingNum) {
-  return recordedPotVal[swingNum + 3];
+  return recordedPotVal[swingNum + NUM_SUBTEMPOS + 1];
 }
 
 // map the given pot value to the range described by the given min and max values

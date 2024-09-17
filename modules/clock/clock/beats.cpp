@@ -4,7 +4,7 @@
 unsigned long msSinceLastBeat = 0;
 // stuff for applying swing,
 bool globalSwingBeat = false;
-uint8_t rootBeatsPassed[NUM_SUBTEMPOS] = { 0, 0 };
+uint8_t rootBeatsPassed[NUM_SUBTEMPOS];
 
 // TODO: idk if i wanna keep these im just doin it as part of the restructure
 // probably i'll just switch back to how it was and have the min/max values passed in on init?
@@ -22,11 +22,11 @@ int8_t readingToSwing(int reading) {
 
 // return an array indicating if the pins should be high or not
 bool* pinsShouldBeHigh(unsigned long delta, unsigned long msPerBeat, int8_t *subtempo, int8_t *swing) {
-  static bool pinStates[NUM_SUBTEMPOS + 1];
+  static bool pinStates[NUM_OUTPUTS];
   msSinceLastBeat += delta;
   pinStates[0] = rootShouldBeHigh(msPerBeat, subtempo, swing[0]);
-  for (int subtempoNum = 0; subtempoNum < NUM_SUBTEMPOS; subtempoNum++) {
-    pinStates[subtempoNum + 1] = subtempoShouldBeHigh(msPerBeat, subtempo[subtempoNum], swing[subtempoNum + 1], pinStates[0], rootBeatsPassed[subtempoNum]);
+  for (int subtempoNum = 0, swingNum = 1; subtempoNum < NUM_SUBTEMPOS; subtempoNum++, swingNum++) {
+    pinStates[swingNum] = subtempoShouldBeHigh(msPerBeat, subtempo[subtempoNum], swing[swingNum], pinStates[0], rootBeatsPassed[subtempoNum]);
   }
   return pinStates;
 }
@@ -41,7 +41,7 @@ bool rootShouldBeHigh(unsigned long msPerBeat, int8_t *subtempo, int8_t swing) {
     globalSwingBeat = !globalSwingBeat;
     // for any fractional subtempos (ie. < 0 (actually < -1 since -1 is equivalent to x1)),
     // increment the root beats passed (we're going up to 2x the relative tempo so we know if we're on an odd subtempo beat)
-    for (int subtempoNum = 0; subtempoNum < 2; subtempoNum++) {
+    for (int subtempoNum = 0; subtempoNum < NUM_SUBTEMPOS; subtempoNum++) {
       if (subtempo[subtempoNum] < -1) {
         rootBeatsPassed[subtempoNum] = (rootBeatsPassed[subtempoNum] + 1) % (-2 * subtempo[subtempoNum]);
       }

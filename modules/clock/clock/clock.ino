@@ -21,7 +21,7 @@ int8_t relativeTempo[NUM_SUBTEMPOS];
 // swing ur shit girl !
 // i might wanna make this like +-95 instead of +-100 to stop the swing beat
 // overlapping the flat beat...? idk i'll experiment once it's built
-int8_t swing[NUM_SUBTEMPOS + 1];
+int8_t swing[NUM_SWINGS];
 
 // time delta stuff
 unsigned long millisOnLastLoop = 0;
@@ -61,7 +61,7 @@ void setup() {
   for (int subtempoNum = 0; subtempoNum < NUM_SUBTEMPOS; subtempoNum++) {
     relativeTempo[subtempoNum] = readingToSubtempo(getSubtempoReading(subtempoNum));
   }
-  for (int swingNum = 0; swingNum < NUM_SUBTEMPOS + 1; swingNum++) {
+  for (int swingNum = 0; swingNum < NUM_SWINGS; swingNum++) {
     swing[swingNum] = readingToSwing(getSwingReading(swingNum));
   }
 
@@ -127,7 +127,7 @@ void loop() {
       drawSubtempo(relativeTempo[subtempoNum], subtempoNum);
     }
   }
-  for (uint8_t swingNum = 0; swingNum < NUM_SUBTEMPOS + 1; swingNum++) {
+  for (uint8_t swingNum = 0; swingNum < NUM_SWINGS; swingNum++) {
     int8_t newSwing = readingToSwing(getSwingReading(swingNum));
     if (newSwing != swing[swingNum]) {
       swing[swingNum] = newSwing;
@@ -138,7 +138,7 @@ void loop() {
   // set pin states
   // TODO: track state and only write if we need to update...?
   bool* pinStates = pinsShouldBeHigh(delta, msPerBeat, relativeTempo, swing);
-  for (uint8_t subtempoNum = 0; subtempoNum < NUM_SUBTEMPOS + 1; subtempoNum++) {
+  for (uint8_t subtempoNum = 0; subtempoNum < NUM_OUTPUTS; subtempoNum++) {
     // TODO: cmonnnnnnn....
     digitalWrite(12 - (subtempoNum * 3), pinStates[subtempoNum]);
   }

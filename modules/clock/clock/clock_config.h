@@ -25,6 +25,7 @@
 // basically what i'm saying is that while u can change NUM_SWINGS here directly, u really shouldnt...
 #define NUM_SUBTEMPOS 2
 #define NUM_SWINGS NUM_SUBTEMPOS + 1
+#define NUM_OUTPUTS NUM_SWINGS
 const uint8_t potLookup[] = { A0, A2, A6, A1, A3, A7 };
 
 // bpm config
