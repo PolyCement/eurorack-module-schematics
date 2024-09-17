@@ -6,6 +6,7 @@
 #include <Wire.h>
 #include <U8x8lib.h>
 #include "clock_config.h"
+#include "tap.h"
 #include "pawfont.h"
 
 // TODO: how do i like. make some of these private. is it possible? do i even care?
@@ -16,7 +17,7 @@ void drawStaticElements();
 void drawBpm(int bpm);
 void drawSubtempo(int8_t subtempo, uint8_t idx);
 void drawSwing(int8_t swing, uint8_t idx);
-void drawStyle(uint8_t style);
+void drawState(TapState state);
 __FlashStringHelper* bpmToPrefix(int b);
 __FlashStringHelper* subtempoToPrefix(int s);
 __FlashStringHelper* swingToPrefix(int w);

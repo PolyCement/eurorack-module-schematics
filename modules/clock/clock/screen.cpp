@@ -27,7 +27,7 @@ void initScreen() {
 // print the bits of the display that won't change
 void initUI(int bpm, int8_t *subtempo, int8_t *swing) {
   drawStaticElements();
-  drawStyle(0);
+  drawState(TapState::inactive);
   drawBpm(bpm);
   drawSubtempo(subtempo[0], 0);
   drawSubtempo(subtempo[1], 1);
@@ -92,16 +92,16 @@ void drawSwing(int8_t swing, uint8_t idx) {
 }
 
 // print the swing amount
-void drawStyle(uint8_t style) {
+void drawState(TapState state) {
   u8x8.setCursor(5, 0);
   // this should probably be a case statement,
-  if (style == 0) {
+  if (state == TapState::inactive) {
     u8x8.print(F("NORMAL"));
-  } else if (style == 1) {
+  } else if (state == TapState::tap) {
     u8x8.print(F("TAPPED"));
-  } else if (style == 2) {
+  } else if (state == TapState::tapping) {
     u8x8.print(F("TAP IN"));
-  } else if (style == 3) {
+  } else if (state == TapState::hold) {
     u8x8.print(F(" HOLD "));
   } else {
     u8x8.print(F("SCARY!"));

@@ -20,7 +20,7 @@ bool buttonTapped = false;
 bool buttonHeld = false;
 
 // state management stuff,
-TapState tapState = inactive;
+TapState tapState = TapState::inactive;
 bool wasActiveBeforeTapping = false;
 
 // update and return tap state
@@ -33,18 +33,18 @@ TapState getTapState(unsigned long millisNow) {
   if (buttonHeld) {
     tapTempo = 0;
     totalDiff = 0;
-    tapState = hold;
+    tapState = TapState::hold;
     return tapState;
   }
 
   // if we were in hold state and the button isnt held anymore, set it back to inactive
-  if (tapState == hold && !buttonHeld) {
+  if (tapState == TapState::hold && !buttonHeld) {
     // reset these too so we don't end up triggering the tap state with consecutive holds lmao
     tapIndex = 0;
     tapTempo = 0;
     totalDiff = 0;
     wasActiveBeforeTapping = false;
-    tapState = inactive;
+    tapState = TapState::inactive;
   }
 
   // if it's been longer than TIMEBETWEEN or whatever then reset and revert state to tap/inactive as appropriate
@@ -53,9 +53,9 @@ TapState getTapState(unsigned long millisNow) {
     tapTempo = 0;
     totalDiff = 0;
     if (wasActiveBeforeTapping) {
-      tapState = tap;
+      tapState = TapState::tap;
     } else {
-      tapState = inactive;
+      tapState = TapState::inactive;
     }
   }
 
@@ -68,24 +68,24 @@ TapState getTapState(unsigned long millisNow) {
     tapTimes[0] = millisNow;
     tapIndex = 1;
     totalDiff = 0;
-    wasActiveBeforeTapping = tapState == tap;
+    wasActiveBeforeTapping = tapState == TapState::tap;
     return tapState;
   }
 
   // im not looping the tapIndex (rename to tapCount?) so once its 8 or more we're in tap mode
   if (tapIndex >= TAPS_TO_ACTIVATE - 1) {
     wasActiveBeforeTapping = true;
-    tapState = tap;
+    tapState = TapState::tap;
   } else {
     // if we're here then we're on tap 1 - 7 so activate tapping mode
-    tapState = tapping;
+    tapState = TapState::tapping;
   }
 
   // calculate the average, cap it, and store it
   tapTempo = constrain(calcRollingAverageDifference(millisNow), MIN_BPM, MAX_BPM);
 
   // if we're in tap mode then start updating the stored tempo too
-  if (tapState == tap) {
+  if (tapState == TapState::tap) {
     storedTapTempo = tapTempo;
   }
 

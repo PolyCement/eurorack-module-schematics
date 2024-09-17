@@ -28,8 +28,8 @@ unsigned long millisOnLastLoop = 0;
 unsigned long delta = 0;
 
 // display state tracking
-uint8_t displayStyle = 0;
 int displayBpm = 0;
+TapState displayTapState = TapState::inactive;
 
 void setup() {
   if (DEBUG_ENABLED) Serial.begin(9600);
@@ -81,25 +81,20 @@ void loop() {
   // (its the least confusing way i can think of to do it)
   // i guess if i really wanted i could put a * before it or somethin idk, i got 1 character of space to use there
   int newBpm, newDisplayBpm;
-  uint8_t newDisplayStyle;
-  TapState currentTapState = getTapState(millisNow);
-  if (currentTapState == tap) {
+  TapState newTapState = getTapState(millisNow);
+  if (newTapState == TapState::tap) {
     // if tap state is tap, set bpm and display from pot
-    newDisplayStyle = 1;
     newDisplayBpm = newBpm = getStoredTapTempo();
-  } else if (currentTapState == tapping) {
+  } else if (newTapState == TapState::tapping) {
     // if tap state is tapping, hold bpm but set display bpm from tap
-    newDisplayStyle = 2;
     newBpm = bpm;
     newDisplayBpm = getTapTempo();
-  } else if (currentTapState == hold) {
+  } else if (newTapState == TapState::hold) {
     // if tap state is hold, hold bpm but set display bpm from pot
-    newDisplayStyle = 3;
     newBpm = bpm;
     newDisplayBpm = readingToBpm(getBpmReading());
   } else {
     // tap state is inactive, set bpm and display from pot
-    newDisplayStyle = 0;
     newDisplayBpm = newBpm = readingToBpm(getBpmReading());
   }
 
@@ -114,9 +109,9 @@ void loop() {
     drawBpm(displayBpm);
   }
   // same for style
-  if (newDisplayStyle != displayStyle) {
-    displayStyle = newDisplayStyle;
-    drawStyle(displayStyle);
+  if (newTapState != displayTapState) {
+    displayTapState = newTapState;
+    drawState(displayTapState);
   }
 
   // same type of shit but for subtempo & swing pots
