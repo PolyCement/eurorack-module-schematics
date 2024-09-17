@@ -1,19 +1,6 @@
 // stuff for calculating beat-related stuff
 #include "beats.h"
 
-// TODO: how do i like. share the debug flag. do i really gotta use another header file??
-#define DEBUG_ENABLED false
-
-#define MIN_BPM 40
-#define MAX_BPM 280
-#define MIN_SUBTEMPO -32
-#define MAX_SUBTEMPO 32
-#define MIN_SWING -100
-#define MAX_SWING 100
-
-// TODO: these are defined twice. they shouldn't be!
-const int NUM_SUBTEMPOS = 2;
-
 unsigned long msSinceLastBeat = 0;
 // stuff for applying swing,
 bool globalSwingBeat = false;

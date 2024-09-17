@@ -4,6 +4,8 @@
 // TODO: ...can this be a const?
 U8X8_SSD1306_128X64_NONAME_HW_I2C u8x8(U8X8_PIN_NONE);
 
+// tile for line drawing since i can't find a built-in font that has this one
+// maybe i'll bake it into the custom font at some point,
 const uint8_t verticalLineTile[8] = {0x00, 0x00, 0x00, 0xff, 0xff, 0x00, 0x00, 0x00};
 
 // set up the screen,

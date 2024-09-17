@@ -1,16 +1,6 @@
 // putting this in another file too,
 #include "tap.h"
 
-// yea its got a separate debug flag. whatever.
-#define DEBUG_ENABLED false
-
-// config stuff
-#define TAPS_TO_ACTIVATE 8
-#define RESET_TIMEOUT 2000
-#define MAX_TAP_TEMPO 400
-#define DEBOUNCE_TIMEOUT 0
-#define HOLD_TIME 1000
-
 // bpm calc stuff
 unsigned long tapTimes[TAPS_TO_ACTIVATE];
 uint8_t tapIndex = 0;

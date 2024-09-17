@@ -2,6 +2,7 @@
 #define BEATS_H
 
 #include <Arduino.h>
+#include "clock_config.h"
 #include "pots.h"
 
 int readingToBpm(int reading);

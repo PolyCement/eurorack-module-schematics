@@ -2,6 +2,7 @@
 #define POTS_H
 
 #include <Arduino.h>
+#include "clock_config.h"
 
 void initPots();
 void updatePotReadings();

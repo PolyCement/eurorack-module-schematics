@@ -5,6 +5,7 @@
 #include <Arduino.h>
 #include <Wire.h>
 #include <U8x8lib.h>
+#include "clock_config.h"
 #include "pawfont.h"
 
 // TODO: how do i like. make some of these private. is it possible? do i even care?

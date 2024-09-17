@@ -1,11 +1,6 @@
 // i'm putting all the pot handling code in here cos there's so much of it,
 #include "pots.h"
 
-const int NUM_POTS = 6;
-const int NUM_READINGS = 10;
-const int MAX_POT_VAL = 1024;
-const int POT_VAL_CHANGE_THRESHOLD = 3;
-const uint8_t potLookup[] = { A0, A2, A6, A1, A3, A7 };
 int readings[NUM_POTS][NUM_READINGS];
 uint8_t readIndex = 0;
 int total[NUM_POTS];

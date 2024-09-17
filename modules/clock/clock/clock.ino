@@ -1,5 +1,6 @@
 // my freakeng clock module !
 // the code is bad because i haven't used c in over a decade. plus im just a small dog.
+#include "clock_config.h"
 #include "pots.h"
 #include "tap.h"
 #include "beats.h"
@@ -15,7 +16,6 @@ unsigned long msPerBeat = 0;
 // subtempos. i'm not calculating the bpm for these, instead it's a relative bpm between 1/32 and 32x the root tempo
 // the ms per beat is calculated relative to the root tempo too. i'm gonna do it on the fly for now but maybe i'll
 // add an array for those later too
-const int NUM_SUBTEMPOS = 2;
 int8_t relativeTempo[NUM_SUBTEMPOS];
 
 // swing ur shit girl !

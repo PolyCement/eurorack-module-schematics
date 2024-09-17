@@ -1,7 +1,12 @@
 #ifndef PAWFONT_H
 #define PAWFONT_H
 
-// paw font: http://udumaki.s36.xrea.com/
+// paw font
+// original: http://udumaki.s36.xrea.com/
+// converted to bdf using font2xbdf using the instructions here:
+// http://www.wheel.gr.jp/~dai/pawfont.html (jp only but the relevant commands are in english,)
+// then converted to a u8x8 font with bdfconv using the instructions here:
+// https://github.com/olikraus/u8g2/blob/8cfcc70c35c9c82f6e4723b926401e17053a4152/doc/faq.txt#L255
 const uint8_t pawfont[3588] U8X8_FONT_SECTION("pawfont") =
   " \377\1\2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0|\376\342|\0\0\0\0\70}"
   "e\70\0\0\0n>\34\0n>\34\0\0\0\0\0\0\0\0\0\60\376\376\60\376\376\60\0\14\177\177"

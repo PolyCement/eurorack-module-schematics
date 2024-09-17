@@ -2,6 +2,7 @@
 #define TAP_H
 
 #include <Arduino.h>
+#include "clock_config.h"
 
 enum TapState { inactive, tapping, tap, hold };
 
