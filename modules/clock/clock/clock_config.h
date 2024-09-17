@@ -14,7 +14,7 @@
 #define NUM_POTS 6
 #define MAX_POT_VAL 1024
 #define NUM_READINGS 10
-#define POT_VAL_CHANGE_THRESHOLD 3
+#define POT_VAL_CHANGE_THRESHOLD 2
 
 // pin mappings
 // the code assumes there will be:
@@ -34,12 +34,14 @@ const uint8_t pinLookup[] = { 12, 9, 6 };
 // bpm config
 // negative subtempos are fractional (eg. a value of -16 will be treated as 1/16)
 // if the values seem to "wobble", drop the ranges a bit (or improve ur grounding ;3)
-#define MIN_BPM 40
-#define MAX_BPM 280
-#define MIN_SUBTEMPO -32
-#define MAX_SUBTEMPO 32
+// NOTE: all positive vals and negative subtempo val have to be 1 more due to rounding
+// (i might fix that later so that the config is less confusing....)
+#define MIN_BPM 20
+#define MAX_BPM 301
+#define MIN_SUBTEMPO -33
+#define MAX_SUBTEMPO 33
 #define MIN_SWING -100
-#define MAX_SWING 100
+#define MAX_SWING 101
 
 // tap tempo config. timeouts are in ms
 #define TAPS_TO_ACTIVATE 8
