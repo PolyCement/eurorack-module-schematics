@@ -46,10 +46,10 @@ void setup() {
   }
 
   // set up inputs and outputs
-  pinMode(12, OUTPUT);
-  pinMode(9, OUTPUT);
-  pinMode(6, OUTPUT);
-  pinMode(4, INPUT);
+  for (int pinNum = 0; pinNum < NUM_OUTPUTS; pinNum++) {
+    pinMode(pinLookup[pinNum], OUTPUT);
+  }
+  pinMode(BUTTON_PIN, INPUT);
 
   // get initial pot values
   initPots();
@@ -138,9 +138,8 @@ void loop() {
   // set pin states
   // TODO: track state and only write if we need to update...?
   bool* pinStates = pinsShouldBeHigh(delta, msPerBeat, relativeTempo, swing);
-  for (uint8_t subtempoNum = 0; subtempoNum < NUM_OUTPUTS; subtempoNum++) {
-    // TODO: cmonnnnnnn....
-    digitalWrite(12 - (subtempoNum * 3), pinStates[subtempoNum]);
+  for (uint8_t pinNum = 0; pinNum < NUM_OUTPUTS; pinNum++) {
+    digitalWrite(pinLookup[pinNum], pinStates[pinNum]);
   }
 
   millisOnLastLoop = millisNow;

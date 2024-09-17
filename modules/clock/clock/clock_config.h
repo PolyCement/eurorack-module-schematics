@@ -21,12 +21,15 @@
 // - 1 root tempo pot
 // - n subtempo pots
 // - n + 1 swing pots
-// and that these will be listed in this order in potLookup
+// - n + 1 outputs
+// and that the pots and outputs will be listed in these orders in the relevant lookup arrays
 // basically what i'm saying is that while u can change NUM_SWINGS here directly, u really shouldnt...
 #define NUM_SUBTEMPOS 2
 #define NUM_SWINGS NUM_SUBTEMPOS + 1
 #define NUM_OUTPUTS NUM_SWINGS
+#define BUTTON_PIN 4
 const uint8_t potLookup[] = { A0, A2, A6, A1, A3, A7 };
+const uint8_t pinLookup[] = { 12, 9, 6 };
 
 // bpm config
 // negative subtempos are fractional (eg. a value of -16 will be treated as 1/16)

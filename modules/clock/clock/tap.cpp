@@ -105,7 +105,7 @@ int getStoredTapTempo() {
 
 // TODO: split tap/hold code somehow or rename this
 void updateButtonState(unsigned long millisNow) {
-  bool newState = digitalRead(4);
+  bool newState = digitalRead(BUTTON_PIN);
   buttonTapped = false;
 
   if (newState != lastReadState) {
