@@ -82,7 +82,10 @@ TapState getTapState(unsigned long millisNow) {
   }
 
   // calculate the average, cap it, and store it
-  tapTempo = constrain(calcRollingAverageDifference(millisNow), MIN_BPM, MAX_BPM);
+  // NOTE: i had this as a single line but it caused all kinds of weird bugs,
+  // (see warnings here: https://www.arduino.cc/reference/en/language/functions/math/constrain/)
+  tapTempo = calcRollingAverageDifference(millisNow);
+  tapTempo = constrain(tapTempo, MIN_BPM, MAX_BPM);
 
   // if we're in tap mode then start updating the stored tempo too
   if (tapState == TapState::tap) {
