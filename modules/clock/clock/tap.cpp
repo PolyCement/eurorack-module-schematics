@@ -82,9 +82,7 @@ TapState getTapState(unsigned long millisNow) {
   }
 
   // calculate the average, cap it, and store it
-  tapTempo = calcRollingAverageDifference(millisNow);
-  if (tapTempo > MAX_TAP_TEMPO)
-    tapTempo = MAX_TAP_TEMPO;
+  tapTempo = constrain(calcRollingAverageDifference(millisNow), MIN_BPM, MAX_BPM);
 
   // if we're in tap mode then start updating the stored tempo too
   if (tapState == tap) {
@@ -114,7 +112,7 @@ void updateButtonState(unsigned long millisNow) {
     // on change, just note the new state and when it changed
     timeAtButtonStateChange = millisNow;
     lastReadState = newState;
-  } else if ((millisNow - timeAtButtonStateChange) > DEBOUNCE_TIMEOUT) {
+  } else if ((millisNow - timeAtButtonStateChange) > DEBOUNCE_DELAY) {
     // no change... if the button's been down for longer than the debounce time, update state
     // i considered flipping this so the debouncing happens after the press is registered but this way handles noise better,
     // (having said that i have the debounce time at 0 rn so....)
@@ -125,7 +123,7 @@ void updateButtonState(unsigned long millisNow) {
     } else if (currentState && !newState) {
       buttonDownTime = 0;
       buttonHeld = false;
-    } else if (currentState && millisNow - buttonDownTime > HOLD_TIME) {
+    } else if (currentState && millisNow - buttonDownTime > HOLD_DELAY) {
       buttonHeld = true;
     }
     currentState = newState;

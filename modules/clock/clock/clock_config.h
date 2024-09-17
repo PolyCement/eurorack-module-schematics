@@ -39,9 +39,8 @@ const uint8_t potLookup[] = { A0, A2, A6, A1, A3, A7 };
 
 // tap tempo config. timeouts are in ms
 #define TAPS_TO_ACTIVATE 8
+#define DEBOUNCE_DELAY 0
+#define HOLD_DELAY 1000
 #define RESET_TIMEOUT 2000
-#define MAX_TAP_TEMPO 400
-#define DEBOUNCE_TIMEOUT 0
-#define HOLD_TIME 1000
 
 #endif
