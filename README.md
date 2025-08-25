@@ -12,6 +12,7 @@ todo: this ;)
 - ["another shape" - adsr envelope generator module](./modules/envelope_generator)
 - ["showtime !!" - arduino-based clock module](./modules/clock)
 - ["double negative" - logic module](./modules/logic)
+- ["buck 2 buck" - dual vcf module](./modules/dual_vcf)
 - [misc circuit fragments](./modules/fragments)
 
 ### power:
