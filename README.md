@@ -13,6 +13,7 @@ todo: this ;)
 - ["showtime !!" - arduino-based clock module](./modules/clock)
 - ["double negative" - logic module](./modules/logic)
 - ["buck 2 buck" - dual vcf module](./modules/dual_vcf)
+- ["wormdo" - lfo module](./modules/lfo)
 - [misc circuit fragments](./modules/fragments)
 
 ### power:
