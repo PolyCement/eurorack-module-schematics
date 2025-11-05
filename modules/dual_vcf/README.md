@@ -15,10 +15,16 @@ other notes:
 
 ## schematics
 
-### dual vcf module
+### circuit diagram
+<img
+  src="./dual_vcf.svg"
+  title="&quot;buck 2 buck&quot; dual vcf module circuit diagram"
+/>
+
+### stripboard layout
 <img
   src="./dual_vcf.png"
-  title="&quot;buck 2 buck&quot; dual vcf module schematic"
+  title="&quot;buck 2 buck&quot; dual vcf module stripboard layout"
 />
 
 ### bill of materials
