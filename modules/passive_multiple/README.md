@@ -11,11 +11,18 @@ inputs are on sockets 1 and 5. it'll work differently depending on which inputs 
 
 ## schematics
 
-### passive multiple module
+### circuit diagram
+<img
+  src="./passive_multiple.svg"
+  height="600"
+  title="&quot;spread thin&quot; simple passive multiple module circuit diagram"
+/>
+
+### stripboard layout
 <img
   src="./passive_multiple.png"
   height="600"
-  title="&quot;spread thin&quot; simple passive multiple module schematic"
+  title="&quot;spread thin&quot; simple passive multiple module stripboard layout"
 />
 
 ### bill of materials
