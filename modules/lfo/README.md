@@ -14,10 +14,16 @@ other notes:
 
 ## schematics
 
-### lfo module
+### circuit diagram
+<img
+  src="./lfo.svg"
+  title="&quot;wormdo&quot; lfo module circuit diagram"
+/>
+
+### stripboard layout
 <img
   src="./lfo.png"
-  title="&quot;wormdo&quot; lfo module schematic"
+  title="&quot;wormdo&quot; lfo module stripboard layout"
 />
 
 ### bill of materials
