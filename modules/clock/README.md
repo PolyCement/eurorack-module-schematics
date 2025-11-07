@@ -23,10 +23,16 @@ other notes:
 
 ## schematics
 
-### clock module
+### circuit diagram
+<img
+  src="./clock.svg"
+  title="&quot;showtime !!&quot; clock module circuit diagram"
+/>
+
+### stripboard layout
 <img
   src="./clock.png"
-  title="&quot;showtime !!&quot; clock module schematic"
+  title="&quot;showtime !!&quot; clock module stripboard layout"
 />
 
 ### bill of materials
@@ -80,7 +86,7 @@ other notes:
     <td></td>
   </tr>
   <tr>
-    <td>D3, D4, D8</td>
+    <td>D3, D4, D5</td>
     <td>LED</td>
     <td>3</td>
     <td>i used yellow :)</td>
