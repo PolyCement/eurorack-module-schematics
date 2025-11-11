@@ -14,6 +14,7 @@ todo: this ;)
 - ["double negative" - logic module](./modules/logic)
 - ["buck 2 buck" - dual vcf module](./modules/dual_vcf)
 - ["wormdo" - lfo module](./modules/lfo)
+- ["macro/micro" - 4x passive attenuator module](./modules/passive_attenuator)
 - [misc circuit fragments](./modules/fragments)
 
 ### power:
