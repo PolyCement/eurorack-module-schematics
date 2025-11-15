@@ -21,12 +21,23 @@ other notes:
 - i've noticed sometimes the xor gate flickers on for a split second when the inputs both switch state at the same time (eg. from both on to both off or vice versa). i'm not sure if this is an issue with this module or with my clock module though...
 - as with the clock module the 220Ω resistors on the leds are to match the brightness against other leds in my synth, so you might want to play with those if you're not using ultra-bright yellow leds!
 
+version history:
+
+- v1.0: initial version
+- v1.1: swapped cd40106 for cd4069ub. makes transitions between states much faster/cleaner (i should've really used these in the first place,)
+
 ## schematics
 
-### logic module
+### circuit diagram
+<img
+  src="./logic.svg"
+  title="&quot;double negative&quot; logic module circuit diagram"
+/>
+
+### stripboard layout
 <img
   src="./logic.png"
-  title="&quot;double negative&quot; logic module schematic"
+  title="&quot;double negative&quot; logic module stripboard layout"
 />
 
 ### bill of materials
@@ -69,19 +80,19 @@ other notes:
   </tr>
   <tr>
     <td>D15, D16, D17, D18, D19</td>
-    <td>LED</td>
+    <td>LEDs</td>
     <td>5</td>
     <td>i used yellow :)</td>
   </tr>
   <tr>
     <td>IC1, IC2</td>
-    <td>TL074 quad op-amp</td>
+    <td>TL074 quad op-amps</td>
     <td>2</td>
     <td></td>
   </tr>
   <tr>
     <td>IC3, IC4</td>
-    <td>CD40106 hex schmitt-trigger inverter</td>
+    <td>CD4069UB hex inverters</td>
     <td>2</td>
     <td></td>
   </tr>

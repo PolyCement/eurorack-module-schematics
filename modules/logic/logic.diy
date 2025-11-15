@@ -2,7 +2,7 @@
 <project>
   <fileVersion>
     <major>5</major>
-    <minor>3</minor>
+    <minor>6</minor>
     <build>0</build>
   </fileVersion>
   <title>New Project</title>
@@ -3291,7 +3291,7 @@
     <diylc.semiconductors.DIL__IC>
       <name>IC3</name>
       <alpha>127</alpha>
-      <value>CD40106</value>
+      <value>CD4069UB</value>
       <orientation>DEFAULT</orientation>
       <pinCount>_14</pinCount>
       <pinSpacing value="0.1" unit="in"/>
@@ -5879,7 +5879,7 @@
     <diylc.semiconductors.DIL__IC>
       <name>IC4</name>
       <alpha>127</alpha>
-      <value>CD40106</value>
+      <value>CD4069UB</value>
       <orientation>DEFAULT</orientation>
       <pinCount>_14</pinCount>
       <pinSpacing value="0.1" unit="in"/>
