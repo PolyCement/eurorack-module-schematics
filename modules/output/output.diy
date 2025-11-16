@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <project>
   <fileVersion>
-    <major>4</major>
-    <minor>37</minor>
+    <major>5</major>
+    <minor>6</minor>
     <build>0</build>
   </fileVersion>
   <title>New Project</title>
@@ -32,12 +32,14 @@
       <length value="83.81999999999998" unit="mm"/>
       <width value="33.02" unit="mm"/>
       <mode>TwoPoints</mode>
+      <boardUndersideDisplay>NONE</boardUndersideDisplay>
       <spacing value="0.1" unit="in"/>
       <stripColor hex="da8a67"/>
       <orientation>HORIZONTAL</orientation>
     </diylc.boards.VeroBoard>
     <diylc.connectivity.TraceCut>
       <name>Cut27</name>
+      <alpha>127</alpha>
       <size value="0.08" unit="in"/>
       <fillColor hex="ffffff"/>
       <borderColor hex="ff0000"/>
@@ -49,6 +51,7 @@
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
       <name>Cut26</name>
+      <alpha>127</alpha>
       <size value="0.08" unit="in"/>
       <fillColor hex="ffffff"/>
       <borderColor hex="ff0000"/>
@@ -60,6 +63,7 @@
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
       <name>Cut25</name>
+      <alpha>127</alpha>
       <size value="0.08" unit="in"/>
       <fillColor hex="ffffff"/>
       <borderColor hex="ff0000"/>
@@ -71,6 +75,7 @@
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
       <name>Cut12</name>
+      <alpha>127</alpha>
       <size value="0.08" unit="in"/>
       <fillColor hex="ffffff"/>
       <borderColor hex="ff0000"/>
@@ -82,6 +87,7 @@
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
       <name>Cut19</name>
+      <alpha>127</alpha>
       <size value="0.08" unit="in"/>
       <fillColor hex="ffffff"/>
       <borderColor hex="ff0000"/>
@@ -93,6 +99,7 @@
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
       <name>Cut18</name>
+      <alpha>127</alpha>
       <size value="0.08" unit="in"/>
       <fillColor hex="ffffff"/>
       <borderColor hex="ff0000"/>
@@ -693,6 +700,7 @@
     </diylc.connectivity.Jumper>
     <diylc.connectivity.TraceCut>
       <name>Cut1</name>
+      <alpha>127</alpha>
       <size value="0.08" unit="in"/>
       <fillColor hex="ffffff"/>
       <borderColor hex="ff0000"/>
@@ -704,6 +712,7 @@
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
       <name>Cut2</name>
+      <alpha>127</alpha>
       <size value="0.08" unit="in"/>
       <fillColor hex="ffffff"/>
       <borderColor hex="ff0000"/>
@@ -810,6 +819,7 @@
     </diylc.connectivity.Jumper>
     <diylc.connectivity.TraceCut>
       <name>Cut13</name>
+      <alpha>127</alpha>
       <size value="0.08" unit="in"/>
       <fillColor hex="ffffff"/>
       <borderColor hex="ff0000"/>
@@ -935,6 +945,7 @@
     </diylc.connectivity.Jumper>
     <diylc.connectivity.TraceCut>
       <name>Cut15</name>
+      <alpha>127</alpha>
       <size value="0.08" unit="in"/>
       <fillColor hex="ffffff"/>
       <borderColor hex="ff0000"/>
@@ -946,6 +957,7 @@
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
       <name>Cut16</name>
+      <alpha>127</alpha>
       <size value="0.08" unit="in"/>
       <fillColor hex="ffffff"/>
       <borderColor hex="ff0000"/>
@@ -957,6 +969,7 @@
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
       <name>Cut17</name>
+      <alpha>127</alpha>
       <size value="0.08" unit="in"/>
       <fillColor hex="ffffff"/>
       <borderColor hex="ff0000"/>
@@ -968,6 +981,7 @@
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
       <name>Cut20</name>
+      <alpha>127</alpha>
       <size value="0.08" unit="in"/>
       <fillColor hex="ffffff"/>
       <borderColor hex="ff0000"/>
@@ -979,6 +993,7 @@
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
       <name>Cut21</name>
+      <alpha>127</alpha>
       <size value="0.08" unit="in"/>
       <fillColor hex="ffffff"/>
       <borderColor hex="ff0000"/>
@@ -990,6 +1005,7 @@
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
       <name>Cut3</name>
+      <alpha>127</alpha>
       <size value="0.08" unit="in"/>
       <fillColor hex="ffffff"/>
       <borderColor hex="ff0000"/>
@@ -1001,6 +1017,7 @@
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
       <name>Cut4</name>
+      <alpha>127</alpha>
       <size value="0.08" unit="in"/>
       <fillColor hex="ffffff"/>
       <borderColor hex="ff0000"/>
@@ -1031,6 +1048,7 @@
     </diylc.connectivity.Jumper>
     <diylc.connectivity.TraceCut>
       <name>Cut5</name>
+      <alpha>127</alpha>
       <size value="0.08" unit="in"/>
       <fillColor hex="ffffff"/>
       <borderColor hex="ff0000"/>
@@ -1042,6 +1060,7 @@
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
       <name>Cut7</name>
+      <alpha>127</alpha>
       <size value="0.08" unit="in"/>
       <fillColor hex="ffffff"/>
       <borderColor hex="ff0000"/>
@@ -1053,6 +1072,7 @@
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
       <name>Cut8</name>
+      <alpha>127</alpha>
       <size value="0.08" unit="in"/>
       <fillColor hex="ffffff"/>
       <borderColor hex="ff0000"/>
@@ -1064,6 +1084,7 @@
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
       <name>Cut9</name>
+      <alpha>127</alpha>
       <size value="0.08" unit="in"/>
       <fillColor hex="ffffff"/>
       <borderColor hex="ff0000"/>
@@ -1075,6 +1096,7 @@
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
       <name>Cut10</name>
+      <alpha>127</alpha>
       <size value="0.08" unit="in"/>
       <fillColor hex="ffffff"/>
       <borderColor hex="ff0000"/>
@@ -1086,6 +1108,7 @@
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
       <name>Cut11</name>
+      <alpha>127</alpha>
       <size value="0.08" unit="in"/>
       <fillColor hex="ffffff"/>
       <borderColor hex="ff0000"/>
@@ -1097,6 +1120,7 @@
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
       <name>Cut22</name>
+      <alpha>127</alpha>
       <size value="0.08" unit="in"/>
       <fillColor hex="ffffff"/>
       <borderColor hex="ff0000"/>
@@ -1108,6 +1132,7 @@
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
       <name>Cut23</name>
+      <alpha>127</alpha>
       <size value="0.08" unit="in"/>
       <fillColor hex="ffffff"/>
       <borderColor hex="ff0000"/>
@@ -1119,6 +1144,7 @@
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
       <name>Cut24</name>
+      <alpha>127</alpha>
       <size value="0.08" unit="in"/>
       <fillColor hex="ffffff"/>
       <borderColor hex="ff0000"/>
@@ -1130,6 +1156,7 @@
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
       <name>Cut14</name>
+      <alpha>127</alpha>
       <size value="3.2" unit="mm"/>
       <fillColor hex="ffffff"/>
       <borderColor hex="ff0000"/>
@@ -1141,6 +1168,7 @@
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
       <name>Cut6</name>
+      <alpha>127</alpha>
       <size value="3.2" unit="mm"/>
       <fillColor hex="ffffff"/>
       <borderColor hex="ff0000"/>
@@ -2787,18 +2815,6 @@
       <style>SOLID</style>
       <thickness value="1.0" unit="px"/>
       <arrowSize value="5.0" unit="px"/>
-      <arrowTx serialization="custom">
-        <java.awt.geom.AffineTransform>
-          <default>
-            <m00>1.0</m00>
-            <m01>0.0</m01>
-            <m02>0.0</m02>
-            <m10>0.0</m10>
-            <m11>1.0</m11>
-            <m12>0.0</m12>
-          </default>
-        </java.awt.geom.AffineTransform>
-      </arrowTx>
       <arrowStart>false</arrowStart>
       <arrowEnd>false</arrowEnd>
     </diylc.connectivity.Line>
@@ -2823,18 +2839,6 @@
       <style>SOLID</style>
       <thickness value="1.0" unit="px"/>
       <arrowSize value="5.0" unit="px"/>
-      <arrowTx serialization="custom">
-        <java.awt.geom.AffineTransform>
-          <default>
-            <m00>1.0</m00>
-            <m01>0.0</m01>
-            <m02>0.0</m02>
-            <m10>0.0</m10>
-            <m11>1.0</m11>
-            <m12>0.0</m12>
-          </default>
-        </java.awt.geom.AffineTransform>
-      </arrowTx>
       <arrowStart>false</arrowStart>
       <arrowEnd>false</arrowEnd>
     </diylc.connectivity.Line>
@@ -2859,18 +2863,6 @@
       <style>SOLID</style>
       <thickness value="1.0" unit="px"/>
       <arrowSize value="5.0" unit="px"/>
-      <arrowTx serialization="custom">
-        <java.awt.geom.AffineTransform>
-          <default>
-            <m00>1.0</m00>
-            <m01>0.0</m01>
-            <m02>0.0</m02>
-            <m10>0.0</m10>
-            <m11>1.0</m11>
-            <m12>0.0</m12>
-          </default>
-        </java.awt.geom.AffineTransform>
-      </arrowTx>
       <arrowStart>false</arrowStart>
       <arrowEnd>false</arrowEnd>
     </diylc.connectivity.Line>
@@ -2895,18 +2887,6 @@
       <style>SOLID</style>
       <thickness value="1.0" unit="px"/>
       <arrowSize value="5.0" unit="px"/>
-      <arrowTx serialization="custom">
-        <java.awt.geom.AffineTransform>
-          <default>
-            <m00>1.0</m00>
-            <m01>0.0</m01>
-            <m02>0.0</m02>
-            <m10>0.0</m10>
-            <m11>1.0</m11>
-            <m12>0.0</m12>
-          </default>
-        </java.awt.geom.AffineTransform>
-      </arrowTx>
       <arrowStart>false</arrowStart>
       <arrowEnd>false</arrowEnd>
     </diylc.connectivity.Line>
@@ -2931,18 +2911,6 @@
       <style>SOLID</style>
       <thickness value="1.0" unit="px"/>
       <arrowSize value="5.0" unit="px"/>
-      <arrowTx serialization="custom">
-        <java.awt.geom.AffineTransform>
-          <default>
-            <m00>1.0</m00>
-            <m01>0.0</m01>
-            <m02>0.0</m02>
-            <m10>0.0</m10>
-            <m11>1.0</m11>
-            <m12>0.0</m12>
-          </default>
-        </java.awt.geom.AffineTransform>
-      </arrowTx>
       <arrowStart>false</arrowStart>
       <arrowEnd>false</arrowEnd>
     </diylc.connectivity.Line>
@@ -2967,18 +2935,6 @@
       <style>SOLID</style>
       <thickness value="1.0" unit="px"/>
       <arrowSize value="5.0" unit="px"/>
-      <arrowTx serialization="custom">
-        <java.awt.geom.AffineTransform>
-          <default>
-            <m00>1.0</m00>
-            <m01>0.0</m01>
-            <m02>0.0</m02>
-            <m10>0.0</m10>
-            <m11>1.0</m11>
-            <m12>0.0</m12>
-          </default>
-        </java.awt.geom.AffineTransform>
-      </arrowTx>
       <arrowStart>false</arrowStart>
       <arrowEnd>false</arrowEnd>
     </diylc.connectivity.Line>
@@ -3003,18 +2959,6 @@
       <style>SOLID</style>
       <thickness value="1.0" unit="px"/>
       <arrowSize value="5.0" unit="px"/>
-      <arrowTx serialization="custom">
-        <java.awt.geom.AffineTransform>
-          <default>
-            <m00>1.0</m00>
-            <m01>0.0</m01>
-            <m02>0.0</m02>
-            <m10>0.0</m10>
-            <m11>1.0</m11>
-            <m12>0.0</m12>
-          </default>
-        </java.awt.geom.AffineTransform>
-      </arrowTx>
       <arrowStart>false</arrowStart>
       <arrowEnd>false</arrowEnd>
     </diylc.connectivity.Line>
@@ -3039,18 +2983,6 @@
       <style>SOLID</style>
       <thickness value="1.0" unit="px"/>
       <arrowSize value="5.0" unit="px"/>
-      <arrowTx serialization="custom">
-        <java.awt.geom.AffineTransform>
-          <default>
-            <m00>1.0</m00>
-            <m01>0.0</m01>
-            <m02>0.0</m02>
-            <m10>0.0</m10>
-            <m11>1.0</m11>
-            <m12>0.0</m12>
-          </default>
-        </java.awt.geom.AffineTransform>
-      </arrowTx>
       <arrowStart>false</arrowStart>
       <arrowEnd>false</arrowEnd>
     </diylc.connectivity.Line>
@@ -3075,18 +3007,6 @@
       <style>SOLID</style>
       <thickness value="1.0" unit="px"/>
       <arrowSize value="5.0" unit="px"/>
-      <arrowTx serialization="custom">
-        <java.awt.geom.AffineTransform>
-          <default>
-            <m00>1.0</m00>
-            <m01>0.0</m01>
-            <m02>0.0</m02>
-            <m10>0.0</m10>
-            <m11>1.0</m11>
-            <m12>0.0</m12>
-          </default>
-        </java.awt.geom.AffineTransform>
-      </arrowTx>
       <arrowStart>false</arrowStart>
       <arrowEnd>false</arrowEnd>
     </diylc.connectivity.Line>
@@ -3111,18 +3031,6 @@
       <style>SOLID</style>
       <thickness value="1.0" unit="px"/>
       <arrowSize value="5.0" unit="px"/>
-      <arrowTx serialization="custom">
-        <java.awt.geom.AffineTransform>
-          <default>
-            <m00>1.0</m00>
-            <m01>0.0</m01>
-            <m02>0.0</m02>
-            <m10>0.0</m10>
-            <m11>1.0</m11>
-            <m12>0.0</m12>
-          </default>
-        </java.awt.geom.AffineTransform>
-      </arrowTx>
       <arrowStart>false</arrowStart>
       <arrowEnd>false</arrowEnd>
     </diylc.connectivity.Line>
@@ -3147,18 +3055,6 @@
       <style>SOLID</style>
       <thickness value="1.0" unit="px"/>
       <arrowSize value="5.0" unit="px"/>
-      <arrowTx serialization="custom">
-        <java.awt.geom.AffineTransform>
-          <default>
-            <m00>1.0</m00>
-            <m01>0.0</m01>
-            <m02>0.0</m02>
-            <m10>0.0</m10>
-            <m11>1.0</m11>
-            <m12>0.0</m12>
-          </default>
-        </java.awt.geom.AffineTransform>
-      </arrowTx>
       <arrowStart>false</arrowStart>
       <arrowEnd>false</arrowEnd>
     </diylc.connectivity.Line>
@@ -3183,18 +3079,6 @@
       <style>SOLID</style>
       <thickness value="1.0" unit="px"/>
       <arrowSize value="5.0" unit="px"/>
-      <arrowTx serialization="custom">
-        <java.awt.geom.AffineTransform>
-          <default>
-            <m00>1.0</m00>
-            <m01>0.0</m01>
-            <m02>0.0</m02>
-            <m10>0.0</m10>
-            <m11>1.0</m11>
-            <m12>0.0</m12>
-          </default>
-        </java.awt.geom.AffineTransform>
-      </arrowTx>
       <arrowStart>false</arrowStart>
       <arrowEnd>false</arrowEnd>
     </diylc.connectivity.Line>
@@ -3219,18 +3103,6 @@
       <style>SOLID</style>
       <thickness value="1.0" unit="px"/>
       <arrowSize value="5.0" unit="px"/>
-      <arrowTx serialization="custom">
-        <java.awt.geom.AffineTransform>
-          <default>
-            <m00>1.0</m00>
-            <m01>0.0</m01>
-            <m02>0.0</m02>
-            <m10>0.0</m10>
-            <m11>1.0</m11>
-            <m12>0.0</m12>
-          </default>
-        </java.awt.geom.AffineTransform>
-      </arrowTx>
       <arrowStart>false</arrowStart>
       <arrowEnd>false</arrowEnd>
     </diylc.connectivity.Line>
@@ -3255,18 +3127,6 @@
       <style>SOLID</style>
       <thickness value="1.0" unit="px"/>
       <arrowSize value="5.0" unit="px"/>
-      <arrowTx serialization="custom">
-        <java.awt.geom.AffineTransform>
-          <default>
-            <m00>1.0</m00>
-            <m01>0.0</m01>
-            <m02>0.0</m02>
-            <m10>0.0</m10>
-            <m11>1.0</m11>
-            <m12>0.0</m12>
-          </default>
-        </java.awt.geom.AffineTransform>
-      </arrowTx>
       <arrowStart>false</arrowStart>
       <arrowEnd>false</arrowEnd>
     </diylc.connectivity.Line>
@@ -3407,9 +3267,9 @@
       <name>W28</name>
       <alpha>127</alpha>
       <controlPoints2>
-        <point x="1.6" y="1.1"/>
-        <point x="1.6" y="0.6"/>
-        <point x="0.6" y="0.6"/>
+        <point x="1.4" y="1.2"/>
+        <point x="1.4" y="0.6"/>
+        <point x="0.6" y="0.7"/>
         <point x="0.6" y="1.1"/>
       </controlPoints2>
       <color hex="ffff00"/>

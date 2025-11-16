@@ -12,8 +12,11 @@ i simplified the design a bit:
 
 ## schematics
 
-### output module
-!["green brick" output module schematic](./output.png)
+### circuit diagram
+!["green brick" output module circuit diagram](./output.svg)
+
+### stripboard layout
+!["green brick" output module stripboard layout](./output.png)
 
 ### bill of materials
 
