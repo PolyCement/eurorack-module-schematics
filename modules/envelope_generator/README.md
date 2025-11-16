@@ -11,10 +11,16 @@ i considered trying to add a loop function based on the one shown [here](https:/
 
 ## schematics
 
-### adsr envelope generator module
+### circuit diagram
+<img
+  src="./envelope_generator.svg"
+  title="&quot;another shape&quot; adsr envelope generator module circuit diagram"
+/>
+
+### stripboard layout
 <img
   src="./envelope_generator.png"
-  title="&quot;another shape&quot; adsr envelope generator module schematic"
+  title="&quot;another shape&quot; adsr envelope generator module stripboard layout"
 />
 
 ### bill of materials
@@ -63,7 +69,7 @@ i considered trying to add a loop function based on the one shown [here](https:/
   </tr>
   <tr>
     <td>D1, D2</td>
-    <td>1N4001 rectifier diodes</td>
+    <td>1N4007 rectifier diodes</td>
     <td>2</td>
     <td></td>
   </tr>
