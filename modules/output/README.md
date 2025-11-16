@@ -13,10 +13,16 @@ i simplified the design a bit:
 ## schematics
 
 ### circuit diagram
-!["green brick" output module circuit diagram](./output.svg)
+<img
+  src="./output.svg"
+  title="&quot;green brick&quot; output module circuit diagram"
+/>
 
 ### stripboard layout
-!["green brick" output module stripboard layout](./output.png)
+<img
+  src="./output.png"
+  title="&quot;green brick&quot; output module stripboard layout"
+/>
 
 ### bill of materials
 
