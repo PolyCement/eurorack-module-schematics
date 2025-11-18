@@ -8,10 +8,19 @@ the core design is inspired by the [mki x erica synths "edu diy vco"](https://ww
 
 ## schematics
 
-### dual vco circuit
-!["dirty doubler" dual vco circuit schematic](./dual_vco_core.png)
+### circuit diagram (core)
+<img
+  src="./dual_vco_core.svg"
+  title="&quot;dirty doubler&quot; dual vco module circuit diagram (core)"
+/>
 
-### dual vco bill of materials
+### stripboard layout (core)
+<img
+  src="./dual_vco_core.png"
+  title="&quot;dirty doubler&quot; dual vco module stripboard layout (core)"
+/>
+
+### bill of materials (core)
 <table cellspacing="0" border="1">
   <tr>
     <th>Name</th>
@@ -116,9 +125,15 @@ the core design is inspired by the [mki x erica synths "edu diy vco"](https://ww
     <td></td>
   </tr>
   <tr>
-    <td>R6, R8, R12, R14, R15, R16, R17, R18, R19, R20, R21, R22</td>
+    <td>R6, R8, R12, R14</td>
     <td>10K 0.25W resistors</td>
-    <td>12</td>
+    <td>4</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>R15, R16, R17, R18, R19, R20, R21, R22</td>
+    <td>10K NTC thermistors</td>
+    <td>8</td>
     <td></td>
   </tr>
   <tr>
@@ -147,10 +162,22 @@ the core design is inspired by the [mki x erica synths "edu diy vco"](https://ww
   </tr>
 </table>
 
-### single waveshaper circuit (you'll want two of these, one per core)
-!["dirty doubler" single waveshaper circuit schematic](./dual_vco_waveshaper.png)
+### circuit diagram (waveshaper)
 
-### single waveshaper bill of materials
+(you'll want two of these, one per core)
+
+<img
+  src="./dual_vco_waveshaper.svg"
+  title="&quot;dirty doubler&quot; dual vco module circuit diagram (waveshaper)"
+/>
+
+### stripboard layout (waveshaper)
+<img
+  src="./dual_vco_waveshaper.png"
+  title="&quot;dirty doubler&quot; dual vco module stripboard layout (waveshaper)"
+/>
+
+### bill of materials (waveshaper)
 
 <table cellspacing="0" border="1">
   <tr>
