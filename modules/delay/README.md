@@ -13,10 +13,23 @@ the core of this thing is one of those cheap delay modules you can find for like
 
 this is the first module i made (no idea why i started with this of all things) so the design is pretty rough and seems to have some grounding issues? i think they could be fixed by adding pulldown resistors where the "clear" and "echo out" switches (SW1 and SW2 respectively) are wired into the delay chip, but i've not tried it yet.
 
+version history:
+- v1.0: initial version
+- v1.1: altered power circuitry to match later modules
+
 ## schematics
 
-### delay module
-!["death rattle" delay module schematic](./delay.png)
+### circuit diagram
+<img
+  src="./delay.svg"
+  title="&quot;death rattle&quot; delay module circuit diagram"
+/>
+
+### stripboard layout
+<img
+  src="./delay.png"
+  title="&quot;death rattle&quot; delay module stripboard layout"
+/>
 
 ### bill of materials
 
@@ -35,12 +48,18 @@ this is the first module i made (no idea why i started with this of all things) 
   </tr>
   <tr>
     <td>C1, C2</td>
+    <td>10uF 50V electrolytic capacitors</td>
+    <td>2</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>C3, C4</td>
     <td>100nF 50V ceramic capacitors</td>
     <td>2</td>
     <td></td>
   </tr>
   <tr>
-    <td>C3, C4, C5, C8</td>
+    <td>C5, C8</td>
     <td>1uF 50V ceramic capacitors</td>
     <td>4</td>
     <td></td>
@@ -89,7 +108,7 @@ this is the first module i made (no idea why i started with this of all things) 
   </tr>
   <tr>
     <td>Q1</td>
-    <td>BC337</td>
+    <td>BC337 general purpose transistor</td>
     <td>1</td>
     <td></td>
   </tr>
@@ -155,7 +174,7 @@ this is the first module i made (no idea why i started with this of all things) 
   </tr>
   <tr>
     <td>VR2, VR3, VR4, VR5</td>
-    <td>100K logarithmic potentiometer</td>
+    <td>100K logarithmic potentiometers</td>
     <td>4</td>
     <td></td>
   </tr>
