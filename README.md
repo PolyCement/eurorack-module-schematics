@@ -15,6 +15,7 @@ todo: this ;)
 - ["buck 2 buck" - dual vcf module](./modules/dual_vcf)
 - ["wormdo" - lfo module](./modules/lfo)
 - ["macro/micro" - 4x passive attenuator module](./modules/passive_attenuator)
+- ["monkey puzzle" - 4-in/6-out mixer module](./modules/mixer)
 - [misc circuit fragments](./modules/fragments)
 
 ### power:
