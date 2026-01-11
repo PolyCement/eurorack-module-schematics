@@ -16,6 +16,7 @@ todo: this ;)
 - ["wormdo" - lfo module](./modules/lfo)
 - ["macro/micro" - 4x passive attenuator module](./modules/passive_attenuator)
 - ["monkey puzzle" - 4-in/6-out mixer module](./modules/mixer)
+- ["mersenne rainbow" - noise generator module](./modules/noise)
 - [misc circuit fragments](./modules/fragments)
 
 ### power:
