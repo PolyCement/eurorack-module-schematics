@@ -2,7 +2,7 @@
 <project>
   <fileVersion>
     <major>5</major>
-    <minor>7</minor>
+    <minor>9</minor>
     <build>0</build>
   </fileVersion>
   <title>New Project</title>
@@ -13,6 +13,7 @@
   <dotSpacing>1</dotSpacing>
   <components>
     <diylc.connectivity.HookupWire>
+      <id>779c25c7-4cb3-4749-b9e9-f5877d7ff235</id>
       <name>W4</name>
       <alpha>127</alpha>
       <controlPoints2>
@@ -31,6 +32,7 @@
       <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.boards.VeroBoard>
+      <id>e9b67b60-5d21-4bae-83e0-17d2c1b6ae03</id>
       <name>Board1</name>
       <alpha>101</alpha>
       <value></value>
@@ -58,6 +60,7 @@
       <orientation>HORIZONTAL</orientation>
     </diylc.boards.VeroBoard>
     <diylc.electromechanical.DrillHole>
+      <id>4788f220-2965-483e-9c54-3ad42339fad6</id>
       <name>Hole1</name>
       <alpha>127</alpha>
       <diameter value="3.0" unit="mm"/>
@@ -65,6 +68,7 @@
       <point x="1.1" y="3.0999999999999996"/>
     </diylc.electromechanical.DrillHole>
     <diylc.electromechanical.DrillHole>
+      <id>a8c51bd8-5108-4906-9b42-142fe2ac7a9b</id>
       <name>Hole2</name>
       <alpha>127</alpha>
       <diameter value="3.0" unit="mm"/>
@@ -72,6 +76,7 @@
       <point x="1.1" y="1.1"/>
     </diylc.electromechanical.DrillHole>
     <diylc.connectivity.Jumper>
+      <id>ea996a44-570d-4b28-9b51-871207eb0700</id>
       <name>J66</name>
       <alpha>127</alpha>
       <points>
@@ -91,6 +96,7 @@
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.Jumper>
+      <id>4bff6fb1-a667-4d2a-990b-db62ab581ee0</id>
       <name>J65</name>
       <alpha>127</alpha>
       <points>
@@ -110,6 +116,7 @@
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.Jumper>
+      <id>aa9ca5d6-7c5c-45be-8c5c-fd556adf40fc</id>
       <name>J64</name>
       <alpha>127</alpha>
       <points>
@@ -129,6 +136,7 @@
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.Jumper>
+      <id>718fc25f-c7fb-4d6e-b7d4-51190c99f4bb</id>
       <name>J17</name>
       <alpha>127</alpha>
       <points>
@@ -148,6 +156,7 @@
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.Jumper>
+      <id>7be60b37-7fa4-469f-bd3d-2241553689fb</id>
       <name>J27</name>
       <alpha>127</alpha>
       <points>
@@ -167,6 +176,7 @@
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.TraceCut>
+      <id>ba644708-14b0-4433-9598-c7c8fae93e67</id>
       <name>Cut2</name>
       <alpha>127</alpha>
       <size value="0.08" unit="in"/>
@@ -179,6 +189,7 @@
       <point x="2.8" y="2.9000000000000004"/>
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.Jumper>
+      <id>c6d9cde2-4e44-4e80-a721-987b62e322bd</id>
       <name>J37</name>
       <alpha>127</alpha>
       <points>
@@ -198,6 +209,7 @@
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.Jumper>
+      <id>bab8dbb8-78e2-4487-8a13-3ecfe72af1c4</id>
       <name>J38</name>
       <alpha>127</alpha>
       <points>
@@ -217,6 +229,7 @@
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.Jumper>
+      <id>a19480dc-e4fe-419d-8599-f4d5809ed964</id>
       <name>J39</name>
       <alpha>127</alpha>
       <points>
@@ -236,6 +249,7 @@
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.Jumper>
+      <id>0763ca27-21b6-4cf7-82a2-307a7747c10a</id>
       <name>J40</name>
       <alpha>127</alpha>
       <points>
@@ -255,6 +269,7 @@
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.Jumper>
+      <id>1142b5b7-9f5f-48f7-9ef0-3db77d14cac6</id>
       <name>J41</name>
       <alpha>127</alpha>
       <points>
@@ -274,6 +289,7 @@
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.Jumper>
+      <id>6ac6ae54-82a0-4429-8b76-4e6d42ebfbd6</id>
       <name>J42</name>
       <alpha>127</alpha>
       <points>
@@ -293,6 +309,7 @@
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.Jumper>
+      <id>6611497e-b7e0-4c91-b9b9-e87d33ca797d</id>
       <name>J44</name>
       <alpha>127</alpha>
       <points>
@@ -312,6 +329,7 @@
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.TraceCut>
+      <id>97af9cd3-57bc-4f90-bac4-65bfaf6b77cc</id>
       <name>Cut1</name>
       <alpha>127</alpha>
       <size value="0.08" unit="in"/>
@@ -324,6 +342,7 @@
       <point x="2.6" y="2.7"/>
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
+      <id>17f76096-add5-478f-af5d-4414bd03e2b7</id>
       <name>Cut3</name>
       <alpha>127</alpha>
       <size value="0.08" unit="in"/>
@@ -336,6 +355,7 @@
       <point x="2.6" y="3.0"/>
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.Jumper>
+      <id>320e8ab2-a934-4c6e-99ee-52baee192ee6</id>
       <name>J18</name>
       <alpha>127</alpha>
       <points>
@@ -355,6 +375,7 @@
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.Jumper>
+      <id>a2de19da-4894-44d0-bd77-4823f93a39db</id>
       <name>J19</name>
       <alpha>127</alpha>
       <points>
@@ -374,6 +395,7 @@
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.Jumper>
+      <id>5629e94e-cde3-4ff2-b749-66f6bc67f09f</id>
       <name>J22</name>
       <alpha>127</alpha>
       <points>
@@ -393,6 +415,7 @@
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.Jumper>
+      <id>a9bd2bd7-7405-4dfd-aca6-f67f5af8a983</id>
       <name>J23</name>
       <alpha>127</alpha>
       <points>
@@ -412,6 +435,7 @@
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.Jumper>
+      <id>939f01e3-2313-43e7-97ed-a30733a8b8e8</id>
       <name>J24</name>
       <alpha>127</alpha>
       <points>
@@ -431,6 +455,7 @@
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.Jumper>
+      <id>cdbf8e0c-be88-4f22-a8df-3ab803f32e0a</id>
       <name>J25</name>
       <alpha>127</alpha>
       <points>
@@ -450,6 +475,7 @@
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.Jumper>
+      <id>b5cc61f4-187f-4bc9-a9e6-fb46028b73cb</id>
       <name>J26</name>
       <alpha>127</alpha>
       <points>
@@ -469,6 +495,7 @@
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.Jumper>
+      <id>187d9ef3-2d09-482c-92e5-e44387da10f4</id>
       <name>J28</name>
       <alpha>127</alpha>
       <points>
@@ -488,6 +515,7 @@
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.Jumper>
+      <id>47f033ea-7a99-42d6-a2a0-9709bbf3b625</id>
       <name>J29</name>
       <alpha>127</alpha>
       <points>
@@ -507,6 +535,7 @@
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.Jumper>
+      <id>a620a574-792f-49f7-a199-b8f21776f636</id>
       <name>J30</name>
       <alpha>127</alpha>
       <points>
@@ -526,6 +555,7 @@
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.Jumper>
+      <id>7e5de67c-8d9e-4e09-a2b0-db0b474aa70a</id>
       <name>J33</name>
       <alpha>127</alpha>
       <points>
@@ -545,6 +575,7 @@
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.Jumper>
+      <id>871ceb87-1313-4689-813f-b0b712e8e906</id>
       <name>J34</name>
       <alpha>127</alpha>
       <points>
@@ -564,6 +595,7 @@
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.Jumper>
+      <id>c6f0ec2a-5aec-4488-a1ce-42e8d0ffb59b</id>
       <name>J35</name>
       <alpha>127</alpha>
       <points>
@@ -583,6 +615,7 @@
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.TraceCut>
+      <id>c90c96db-b995-4991-a9b9-bb2da679a1f2</id>
       <name>Cut7</name>
       <alpha>127</alpha>
       <size value="0.08" unit="in"/>
@@ -595,6 +628,7 @@
       <point x="2.4" y="2.1"/>
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
+      <id>810bc7b6-e7df-48d9-a329-7d1ac08bad51</id>
       <name>Cut8</name>
       <alpha>127</alpha>
       <size value="0.08" unit="in"/>
@@ -607,6 +641,7 @@
       <point x="2.7" y="2.1"/>
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.Jumper>
+      <id>7b69008f-5ca6-4b9b-90af-5c7e3ec5622c</id>
       <name>J36</name>
       <alpha>127</alpha>
       <points>
@@ -626,6 +661,7 @@
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.Jumper>
+      <id>4159d645-8673-41e2-bfc4-e787b4cb8769</id>
       <name>J43</name>
       <alpha>127</alpha>
       <points>
@@ -645,6 +681,7 @@
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.Jumper>
+      <id>ce0f33ff-da49-4c6b-874e-b60d88d20460</id>
       <name>J45</name>
       <alpha>127</alpha>
       <points>
@@ -664,6 +701,7 @@
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.TraceCut>
+      <id>82fc438c-6b69-4bd2-a959-0a7c9f9d1756</id>
       <name>Cut10</name>
       <alpha>127</alpha>
       <size value="0.08" unit="in"/>
@@ -676,6 +714,7 @@
       <point x="1.7" y="2.1"/>
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
+      <id>6e01761c-51c7-457e-bbde-e9ab543033b2</id>
       <name>Cut11</name>
       <alpha>127</alpha>
       <size value="0.08" unit="in"/>
@@ -688,6 +727,7 @@
       <point x="2.0" y="2.1"/>
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.Jumper>
+      <id>e8838800-1b37-4a3f-bcf6-b10f6bf6c51d</id>
       <name>J46</name>
       <alpha>127</alpha>
       <points>
@@ -707,6 +747,7 @@
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.Jumper>
+      <id>bff8a634-ccfd-41a9-9d05-402046eccfb8</id>
       <name>J50</name>
       <alpha>127</alpha>
       <points>
@@ -726,6 +767,7 @@
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.Jumper>
+      <id>8b5b90a9-3a60-45b1-8296-4bd5b81198ac</id>
       <name>J55</name>
       <alpha>127</alpha>
       <points>
@@ -745,6 +787,7 @@
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.Jumper>
+      <id>c77e187a-1f00-4cd8-8615-13e093575cb5</id>
       <name>J56</name>
       <alpha>127</alpha>
       <points>
@@ -764,6 +807,7 @@
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.Jumper>
+      <id>7dc6f847-97fc-4eed-8f19-8660c88b16e6</id>
       <name>J58</name>
       <alpha>127</alpha>
       <points>
@@ -783,6 +827,7 @@
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.Jumper>
+      <id>fee8829e-8d1c-4655-b4cb-cd189591ffe5</id>
       <name>J59</name>
       <alpha>127</alpha>
       <points>
@@ -802,6 +847,7 @@
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.Jumper>
+      <id>ec549ba2-d3ec-4965-9cb9-8cb3e38dfe5f</id>
       <name>J60</name>
       <alpha>127</alpha>
       <points>
@@ -821,6 +867,7 @@
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.Jumper>
+      <id>d6287b92-4703-44f2-bbc6-8e9004d246dc</id>
       <name>J31</name>
       <alpha>127</alpha>
       <points>
@@ -840,6 +887,7 @@
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.TraceCut>
+      <id>d165db67-6e3b-45b0-9e9e-54fd2636b64c</id>
       <name>Cut12</name>
       <alpha>127</alpha>
       <size value="0.08" unit="in"/>
@@ -852,6 +900,7 @@
       <point x="1.3" y="3.0"/>
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.Jumper>
+      <id>c18d15de-2036-4bed-addd-1b00a0d23418</id>
       <name>J47</name>
       <alpha>127</alpha>
       <points>
@@ -871,6 +920,7 @@
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.Jumper>
+      <id>aec13525-236f-476c-b333-fcf659e11e2c</id>
       <name>J48</name>
       <alpha>127</alpha>
       <points>
@@ -890,6 +940,7 @@
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.Jumper>
+      <id>37921821-7965-4db9-85b2-f820b36fadc5</id>
       <name>J53</name>
       <alpha>127</alpha>
       <points>
@@ -909,6 +960,7 @@
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.Jumper>
+      <id>fc4c5559-ea75-46bf-bbaa-c07b3288cf06</id>
       <name>J54</name>
       <alpha>127</alpha>
       <points>
@@ -928,6 +980,7 @@
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.TraceCut>
+      <id>5b9bb76f-bfbb-4df9-9342-1d05e8767ee2</id>
       <name>Cut13</name>
       <alpha>127</alpha>
       <size value="0.08" unit="in"/>
@@ -940,6 +993,7 @@
       <point x="1.9" y="2.3"/>
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.Jumper>
+      <id>370cd621-af27-4381-9440-dab9ddc82b57</id>
       <name>J20</name>
       <alpha>127</alpha>
       <points>
@@ -959,6 +1013,7 @@
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.Jumper>
+      <id>da6395cf-6c92-48c3-9858-ffdee13a391e</id>
       <name>J21</name>
       <alpha>127</alpha>
       <points>
@@ -978,6 +1033,7 @@
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.Jumper>
+      <id>c0e53fcb-bb18-43f0-b854-014530c1a70c</id>
       <name>J61</name>
       <alpha>127</alpha>
       <points>
@@ -997,6 +1053,7 @@
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.TraceCut>
+      <id>fae9c47f-8d4e-4503-a7a2-d301adc8ed7e</id>
       <name>Cut6</name>
       <alpha>127</alpha>
       <size value="0.08" unit="in"/>
@@ -1009,6 +1066,7 @@
       <point x="1.3" y="3.2"/>
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.Jumper>
+      <id>2b7fb9be-cdc3-45b6-adef-919276e60163</id>
       <name>J68</name>
       <alpha>127</alpha>
       <points>
@@ -1028,6 +1086,7 @@
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.Jumper>
+      <id>a26c02d3-10c3-48d3-9290-3782ee241f0b</id>
       <name>J69</name>
       <alpha>127</alpha>
       <points>
@@ -1047,6 +1106,7 @@
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.Jumper>
+      <id>811fa148-3c86-4c96-ab00-d03c9580928e</id>
       <name>J51</name>
       <alpha>127</alpha>
       <points>
@@ -1066,6 +1126,7 @@
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.Jumper>
+      <id>6923dd30-435a-4ead-8b96-6cc140f2735d</id>
       <name>J57</name>
       <alpha>127</alpha>
       <points>
@@ -1085,6 +1146,7 @@
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.TraceCut>
+      <id>aebf9ff2-3c69-424f-8608-e7c14c0dad7d</id>
       <name>Cut9</name>
       <alpha>127</alpha>
       <size value="0.08" unit="in"/>
@@ -1097,6 +1159,7 @@
       <point x="2.7" y="2.8"/>
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
+      <id>ec1450e2-26d7-47af-b43f-5c5ab237fd94</id>
       <name>Cut14</name>
       <alpha>127</alpha>
       <size value="0.08" unit="in"/>
@@ -1109,6 +1172,7 @@
       <point x="2.3" y="2.9000000000000004"/>
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
+      <id>05cfb512-ef77-42a4-ab47-7dfa092e784e</id>
       <name>Cut15</name>
       <alpha>127</alpha>
       <size value="0.08" unit="in"/>
@@ -1121,6 +1185,7 @@
       <point x="2.3" y="3.0"/>
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
+      <id>7bd18891-07b0-4db2-a09f-6c66731964e1</id>
       <name>Cut16</name>
       <alpha>127</alpha>
       <size value="0.08" unit="in"/>
@@ -1133,6 +1198,7 @@
       <point x="2.3" y="3.0999999999999996"/>
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
+      <id>fc4bd83b-d872-4738-ac49-ee6803b21d12</id>
       <name>Cut19</name>
       <alpha>127</alpha>
       <size value="0.08" unit="in"/>
@@ -1145,6 +1211,7 @@
       <point x="1.3" y="3.0999999999999996"/>
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
+      <id>44207106-3a7d-4068-8c3b-7f847ad6c4d2</id>
       <name>Cut20</name>
       <alpha>127</alpha>
       <size value="0.08" unit="in"/>
@@ -1157,6 +1224,7 @@
       <point x="1.3" y="1.0"/>
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
+      <id>fb7f637c-a864-4ba2-9973-39fb7dc650bb</id>
       <name>Cut21</name>
       <alpha>127</alpha>
       <size value="0.08" unit="in"/>
@@ -1169,6 +1237,7 @@
       <point x="1.3" y="1.2"/>
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
+      <id>62cca6d7-9b30-4d14-a8cf-5537c5c04730</id>
       <name>Cut22</name>
       <alpha>127</alpha>
       <size value="0.08" unit="in"/>
@@ -1181,6 +1250,7 @@
       <point x="1.3" y="1.1"/>
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
+      <id>1af7e134-1bfd-4b62-a0de-a2c510904f3b</id>
       <name>Cut23</name>
       <alpha>127</alpha>
       <size value="0.08" unit="in"/>
@@ -1193,6 +1263,7 @@
       <point x="2.4" y="2.5"/>
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.Jumper>
+      <id>c95b907b-28dc-4f0e-b990-9eec8d714349</id>
       <name>J70</name>
       <alpha>127</alpha>
       <points>
@@ -1212,6 +1283,7 @@
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.Jumper>
+      <id>2f0a68cf-433e-47e9-9052-93249838a63c</id>
       <name>J71</name>
       <alpha>127</alpha>
       <points>
@@ -1231,6 +1303,7 @@
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.TraceCut>
+      <id>bb8c00f2-0ec5-4216-98a5-40b4f7258b14</id>
       <name>Cut24</name>
       <alpha>127</alpha>
       <size value="0.08" unit="in"/>
@@ -1243,6 +1316,7 @@
       <point x="1.8" y="2.0"/>
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
+      <id>b211e638-e955-4384-b307-f4f482dd7e7d</id>
       <name>Cut25</name>
       <alpha>127</alpha>
       <size value="0.08" unit="in"/>
@@ -1255,6 +1329,7 @@
       <point x="1.8" y="1.9"/>
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
+      <id>68f23ba0-d1b1-4261-b685-a3dcb0df6aa2</id>
       <name>Cut26</name>
       <alpha>127</alpha>
       <size value="0.08" unit="in"/>
@@ -1267,6 +1342,7 @@
       <point x="1.9" y="1.9"/>
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
+      <id>e6ec6e26-be59-4da6-91bb-28dec9242cc1</id>
       <name>Cut27</name>
       <alpha>127</alpha>
       <size value="0.08" unit="in"/>
@@ -1279,6 +1355,7 @@
       <point x="1.9" y="2.0"/>
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
+      <id>6bb66476-c7dc-47a6-9049-e7ddc3d0e042</id>
       <name>Cut28</name>
       <alpha>127</alpha>
       <size value="0.08" unit="in"/>
@@ -1291,6 +1368,7 @@
       <point x="1.9" y="1.7"/>
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
+      <id>8fdecb54-e6eb-4ca5-8a6c-ab74bed3367f</id>
       <name>Cut29</name>
       <alpha>127</alpha>
       <size value="0.08" unit="in"/>
@@ -1303,6 +1381,7 @@
       <point x="1.8" y="1.7"/>
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
+      <id>4b7505ef-2652-428c-988b-6f7fcc89312a</id>
       <name>Cut30</name>
       <alpha>127</alpha>
       <size value="0.08" unit="in"/>
@@ -1315,6 +1394,7 @@
       <point x="1.8" y="1.6"/>
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
+      <id>b8bbaeeb-8d4d-47ea-ad47-b74a4b61f23d</id>
       <name>Cut31</name>
       <alpha>127</alpha>
       <size value="0.08" unit="in"/>
@@ -1327,6 +1407,7 @@
       <point x="1.9" y="1.6"/>
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
+      <id>996be5dd-799f-4190-b579-c3749f49f821</id>
       <name>Cut32</name>
       <alpha>127</alpha>
       <size value="0.08" unit="in"/>
@@ -1339,6 +1420,7 @@
       <point x="1.9" y="1.5"/>
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
+      <id>52ef1a83-f3dc-4905-adc3-e9a8f35937ea</id>
       <name>Cut33</name>
       <alpha>127</alpha>
       <size value="0.08" unit="in"/>
@@ -1351,6 +1433,7 @@
       <point x="1.8" y="1.5"/>
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
+      <id>4c4ffbec-76d4-4177-9e4c-181aa0dcccda</id>
       <name>Cut34</name>
       <alpha>127</alpha>
       <size value="0.08" unit="in"/>
@@ -1363,6 +1446,7 @@
       <point x="1.8" y="1.4"/>
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
+      <id>bbd93e19-5aef-4fac-b086-2cb2e115be7f</id>
       <name>Cut35</name>
       <alpha>127</alpha>
       <size value="0.08" unit="in"/>
@@ -1375,6 +1459,7 @@
       <point x="1.9" y="1.4"/>
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
+      <id>d206e2cc-4fdd-4e2d-a510-3ff2350776b6</id>
       <name>Cut36</name>
       <alpha>127</alpha>
       <size value="0.08" unit="in"/>
@@ -1387,6 +1472,7 @@
       <point x="1.8" y="2.4"/>
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
+      <id>a356735b-10e8-4593-959e-af8c3493a2de</id>
       <name>Cut37</name>
       <alpha>127</alpha>
       <size value="0.08" unit="in"/>
@@ -1399,6 +1485,7 @@
       <point x="1.9" y="2.4"/>
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
+      <id>97d45c4a-b860-4b28-91a8-fd6917e2bf67</id>
       <name>Cut38</name>
       <alpha>127</alpha>
       <size value="0.08" unit="in"/>
@@ -1411,6 +1498,7 @@
       <point x="1.9" y="2.5"/>
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
+      <id>1a820307-c4e9-4d23-bc3e-0ff4e9238566</id>
       <name>Cut39</name>
       <alpha>127</alpha>
       <size value="0.08" unit="in"/>
@@ -1423,6 +1511,7 @@
       <point x="1.8" y="2.5"/>
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
+      <id>d081afbc-1a55-4424-a27e-382410d5b357</id>
       <name>Cut40</name>
       <alpha>127</alpha>
       <size value="0.08" unit="in"/>
@@ -1435,6 +1524,7 @@
       <point x="1.8" y="2.7"/>
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
+      <id>cf2a2aec-f025-4eac-9c98-f70941d7a318</id>
       <name>Cut41</name>
       <alpha>127</alpha>
       <size value="0.08" unit="in"/>
@@ -1447,6 +1537,7 @@
       <point x="1.9" y="2.7"/>
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
+      <id>03a25811-476c-492b-9f53-09c1b5efca3f</id>
       <name>Cut42</name>
       <alpha>127</alpha>
       <size value="0.08" unit="in"/>
@@ -1459,6 +1550,7 @@
       <point x="1.9" y="2.8"/>
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
+      <id>62e35f90-5f83-45e2-9b8f-2ea7481fc2da</id>
       <name>Cut43</name>
       <alpha>127</alpha>
       <size value="0.08" unit="in"/>
@@ -1471,6 +1563,7 @@
       <point x="1.8" y="2.8"/>
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
+      <id>12048cec-a211-48a2-89f9-504c77a6a45c</id>
       <name>Cut44</name>
       <alpha>127</alpha>
       <size value="0.08" unit="in"/>
@@ -1483,6 +1576,7 @@
       <point x="1.8" y="2.9000000000000004"/>
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
+      <id>369faf97-8494-4cd4-a560-eb4ed520fbc3</id>
       <name>Cut45</name>
       <alpha>127</alpha>
       <size value="0.08" unit="in"/>
@@ -1495,6 +1589,7 @@
       <point x="1.9" y="2.9000000000000004"/>
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
+      <id>3543685f-3be9-4c9f-9d81-5aa7d7e273b4</id>
       <name>Cut46</name>
       <alpha>127</alpha>
       <size value="0.08" unit="in"/>
@@ -1507,6 +1602,7 @@
       <point x="1.9" y="3.0"/>
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
+      <id>3d6c422f-1b92-42e3-9336-cc80ad0a5ded</id>
       <name>Cut47</name>
       <alpha>127</alpha>
       <size value="0.08" unit="in"/>
@@ -1519,6 +1615,7 @@
       <point x="1.8" y="3.0"/>
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.Jumper>
+      <id>b71dc085-a4e2-407e-bd98-0e0bb03d0bbb</id>
       <name>J32</name>
       <alpha>127</alpha>
       <points>
@@ -1538,6 +1635,7 @@
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.TraceCut>
+      <id>8a718174-2fa0-4448-b910-2b086cc6f85c</id>
       <name>Cut4</name>
       <alpha>127</alpha>
       <size value="0.08" unit="in"/>
@@ -1550,6 +1648,7 @@
       <point x="2.2" y="1.2"/>
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.Jumper>
+      <id>62f8a7d2-51bd-40dd-94bc-c283b0b9fd24</id>
       <name>J7</name>
       <alpha>127</alpha>
       <points>
@@ -1569,6 +1668,7 @@
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.TraceCut>
+      <id>688ee0a3-c5be-418f-8656-2a454168bc99</id>
       <name>Cut5</name>
       <alpha>127</alpha>
       <size value="0.08" unit="in"/>
@@ -1581,6 +1681,7 @@
       <point x="2.4" y="1.0"/>
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
+      <id>ec1aec78-b74a-4014-8823-7401957d8c15</id>
       <name>Cut17</name>
       <alpha>127</alpha>
       <size value="0.08" unit="in"/>
@@ -1593,6 +1694,7 @@
       <point x="2.2" y="1.1"/>
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
+      <id>c9296e24-1556-4145-8559-aa939df0539c</id>
       <name>Cut18</name>
       <alpha>127</alpha>
       <size value="0.08" unit="in"/>
@@ -1605,6 +1707,7 @@
       <point x="2.2" y="1.0"/>
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.Jumper>
+      <id>7e1d88f5-a4b9-455e-a6aa-3dcd99241f5f</id>
       <name>J49</name>
       <alpha>127</alpha>
       <points>
@@ -1624,6 +1727,7 @@
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.Jumper>
+      <id>4d8d1a28-f419-415c-b00b-8562efd78134</id>
       <name>J8</name>
       <alpha>127</alpha>
       <points>
@@ -1643,6 +1747,7 @@
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.Jumper>
+      <id>f7ca41f7-c5e3-499f-8a75-886262be9065</id>
       <name>J10</name>
       <alpha>127</alpha>
       <points>
@@ -1662,6 +1767,7 @@
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.Jumper>
+      <id>b42f546d-ab5e-4d54-b79f-3fd7da1dcbd2</id>
       <name>J11</name>
       <alpha>127</alpha>
       <points>
@@ -1681,6 +1787,7 @@
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.Jumper>
+      <id>dc297c14-167c-4497-b787-ba93901dd18f</id>
       <name>J14</name>
       <alpha>127</alpha>
       <points>
@@ -1700,6 +1807,7 @@
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.Jumper>
+      <id>3d34872e-18a3-4e45-91c5-799d23526afe</id>
       <name>J15</name>
       <alpha>127</alpha>
       <points>
@@ -1719,6 +1827,7 @@
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.Jumper>
+      <id>bb3dc854-5c48-4ddd-8fa5-7bd7c3286672</id>
       <name>J16</name>
       <alpha>127</alpha>
       <points>
@@ -1738,6 +1847,7 @@
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.Jumper>
+      <id>9d67f900-268b-4959-b74e-a2ba64f8b4ec</id>
       <name>J12</name>
       <alpha>127</alpha>
       <points>
@@ -1757,6 +1867,7 @@
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.Jumper>
+      <id>3a56206d-d326-45f1-b57c-89efb9e34107</id>
       <name>J9</name>
       <alpha>127</alpha>
       <points>
@@ -1776,6 +1887,7 @@
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.Jumper>
+      <id>247958b6-9f41-4c42-bf62-d1247fc66a9f</id>
       <name>J13</name>
       <alpha>127</alpha>
       <points>
@@ -1795,6 +1907,7 @@
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.Jumper>
+      <id>c1e40829-ce28-4b42-9b3d-fcc35b942fff</id>
       <name>J52</name>
       <alpha>127</alpha>
       <points>
@@ -1814,6 +1927,7 @@
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.TraceCut>
+      <id>58b2a9ec-2bbf-48ea-a983-46c86fd9f917</id>
       <name>Cut48</name>
       <alpha>127</alpha>
       <size value="0.08" unit="in"/>
@@ -1826,6 +1940,7 @@
       <point x="2.5" y="1.3"/>
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.Jumper>
+      <id>d9d9e1fe-0c54-4249-b026-a90b00b26f67</id>
       <name>J73</name>
       <alpha>127</alpha>
       <points>
@@ -1845,6 +1960,7 @@
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.Jumper>
+      <id>1cad71cf-8982-48be-843c-e16e6326a2ef</id>
       <name>J74</name>
       <alpha>127</alpha>
       <points>
@@ -1864,6 +1980,7 @@
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.Jumper>
+      <id>54fb1206-f218-4529-85d1-514339ca9403</id>
       <name>J62</name>
       <alpha>127</alpha>
       <points>
@@ -1883,6 +2000,7 @@
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.Jumper>
+      <id>0219a008-7520-4f0f-8aad-67257bf7f4e5</id>
       <name>J67</name>
       <alpha>127</alpha>
       <points>
@@ -1902,6 +2020,7 @@
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.Jumper>
+      <id>89b13117-b262-406a-bbc4-3bef51edc438</id>
       <name>J72</name>
       <alpha>127</alpha>
       <points>
@@ -1921,6 +2040,7 @@
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.Jumper>
+      <id>e24e25ea-0ad7-415a-963b-3b18b933ef12</id>
       <name>J63</name>
       <alpha>127</alpha>
       <points>
@@ -1940,6 +2060,7 @@
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.electromechanical.PinHeader>
+      <id>d8cb1309-3af4-44db-85f2-88bb364d25d5</id>
       <name>PH1</name>
       <alpha>127</alpha>
       <orientation>_180</orientation>
@@ -1963,6 +2084,7 @@
       <shroudColor hex="595959"/>
     </diylc.electromechanical.PinHeader>
     <diylc.semiconductors.DiodePlastic>
+      <id>6293049a-c5ce-4b0d-a8d3-cdb7144b5acc</id>
       <name>D1</name>
       <alpha>127</alpha>
       <length value="0.25" unit="in"/>
@@ -1985,6 +2107,7 @@
       <markerColor hex="dddddd"/>
     </diylc.semiconductors.DiodePlastic>
     <diylc.semiconductors.DiodePlastic>
+      <id>3be15f4d-b8f3-4829-ab10-2918c5b91de9</id>
       <name>D2</name>
       <alpha>127</alpha>
       <length value="0.25" unit="in"/>
@@ -2007,6 +2130,7 @@
       <markerColor hex="dddddd"/>
     </diylc.semiconductors.DiodePlastic>
     <diylc.passive.Resistor>
+      <id>5e74676d-ac5e-44f6-b618-77ce033ad9a5</id>
       <name>R1</name>
       <alpha>127</alpha>
       <length value="7.0" unit="mm"/>
@@ -2032,6 +2156,7 @@
       <shape>Standard</shape>
     </diylc.passive.Resistor>
     <diylc.passive.Resistor>
+      <id>f74442f8-a8ae-40c4-9c58-7b41c4ab86d7</id>
       <name>R2</name>
       <alpha>127</alpha>
       <length value="7.0" unit="mm"/>
@@ -2057,6 +2182,7 @@
       <shape>Standard</shape>
     </diylc.passive.Resistor>
     <diylc.passive.Resistor>
+      <id>d2b6e962-4b96-4f90-8d3d-301e2f3e84f3</id>
       <name>R24</name>
       <alpha>127</alpha>
       <length value="7.0" unit="mm"/>
@@ -2082,6 +2208,7 @@
       <shape>Standard</shape>
     </diylc.passive.Resistor>
     <diylc.passive.Resistor>
+      <id>c9f0f8a1-e6d7-4d94-9582-9598eea32ed9</id>
       <name>R25</name>
       <alpha>127</alpha>
       <length value="7.0" unit="mm"/>
@@ -2107,6 +2234,7 @@
       <shape>Standard</shape>
     </diylc.passive.Resistor>
     <diylc.passive.PotentiometerPanel>
+      <id>81159445-db80-4fd4-87aa-6c22d6a0c7e9</id>
       <name>VR2</name>
       <alpha>127</alpha>
       <controlPoints>
@@ -2114,7 +2242,7 @@
         <point x="4.4" y="1.3"/>
         <point x="4.6" y="1.3"/>
       </controlPoints>
-      <resistance value="47.0" unit="K"/>
+      <resistance value="50.0" unit="K"/>
       <orientation>DEFAULT</orientation>
       <taper>LIN</taper>
       <bodyDiameter value="16.0" unit="mm"/>
@@ -2127,8 +2255,11 @@
       <type>PCB</type>
       <showShaft>false</showShaft>
       <view>ShaftDown</view>
+      <showMarkers>false</showMarkers>
+      <markerColor hex="808080"/>
     </diylc.passive.PotentiometerPanel>
     <diylc.passive.Resistor>
+      <id>6bb02dc3-c941-48c9-b11b-dec00350a686</id>
       <name>R28</name>
       <alpha>127</alpha>
       <length value="7.0" unit="mm"/>
@@ -2154,6 +2285,7 @@
       <shape>Standard</shape>
     </diylc.passive.Resistor>
     <diylc.passive.Resistor>
+      <id>3befe545-97b8-4f41-a804-3d760b7c3d17</id>
       <name>R26</name>
       <alpha>127</alpha>
       <length value="7.0" unit="mm"/>
@@ -2179,6 +2311,7 @@
       <shape>Standard</shape>
     </diylc.passive.Resistor>
     <diylc.passive.Resistor>
+      <id>a920bf3e-fece-446b-b093-fed97fcb391c</id>
       <name>R27</name>
       <alpha>127</alpha>
       <length value="7.0" unit="mm"/>
@@ -2204,6 +2337,7 @@
       <shape>Standard</shape>
     </diylc.passive.Resistor>
     <diylc.electromechanical.OpenJack1__8>
+      <id>286c8f47-d86d-43fe-b642-2b9345a6b7f8</id>
       <name>J1</name>
       <alpha>127</alpha>
       <controlPoints>
@@ -2217,6 +2351,7 @@
       <showLabels>true</showLabels>
     </diylc.electromechanical.OpenJack1__8>
     <diylc.semiconductors.DiodeGlass>
+      <id>64e26b97-95a5-47d7-ba96-9fdfd48c5c72</id>
       <name>D4</name>
       <alpha>127</alpha>
       <length value="0.2" unit="in"/>
@@ -2240,6 +2375,7 @@
       <insideColor hex="e66e31"/>
     </diylc.semiconductors.DiodeGlass>
     <diylc.semiconductors.DiodeGlass>
+      <id>d6a10a0c-e524-4b0d-9b77-ef60d69a88ca</id>
       <name>D3</name>
       <alpha>127</alpha>
       <length value="0.2" unit="in"/>
@@ -2263,6 +2399,7 @@
       <insideColor hex="e66e31"/>
     </diylc.semiconductors.DiodeGlass>
     <diylc.passive.Resistor>
+      <id>b11b406b-a405-410b-a9f5-f67b5ebf87fa</id>
       <name>R29</name>
       <alpha>127</alpha>
       <length value="7.0" unit="mm"/>
@@ -2288,6 +2425,7 @@
       <shape>Standard</shape>
     </diylc.passive.Resistor>
     <diylc.passive.Resistor>
+      <id>94d59dd2-8b46-4cbb-9f03-d92346326459</id>
       <name>R30</name>
       <alpha>127</alpha>
       <length value="7.0" unit="mm"/>
@@ -2313,6 +2451,7 @@
       <shape>Standard</shape>
     </diylc.passive.Resistor>
     <diylc.passive.Resistor>
+      <id>8da2491b-e8a6-4daf-94f6-6a2d09355ec3</id>
       <name>R22</name>
       <alpha>127</alpha>
       <length value="7.0" unit="mm"/>
@@ -2338,6 +2477,7 @@
       <shape>Standard</shape>
     </diylc.passive.Resistor>
     <diylc.passive.Resistor>
+      <id>61aed4e4-d38b-42b9-979b-9dba8c10be30</id>
       <name>R18</name>
       <alpha>127</alpha>
       <length value="7.0" unit="mm"/>
@@ -2363,6 +2503,7 @@
       <shape>Standard</shape>
     </diylc.passive.Resistor>
     <diylc.passive.RadialCeramicDiskCapacitor>
+      <id>f7845a40-cb0d-4ce9-9404-2c9c95730bcb</id>
       <name>C20</name>
       <alpha>127</alpha>
       <length value="0.25" unit="in"/>
@@ -2387,6 +2528,7 @@
       <voltageNew value="50.0" unit="V"/>
     </diylc.passive.RadialCeramicDiskCapacitor>
     <diylc.passive.Resistor>
+      <id>a271e68b-b0b9-4809-8b50-fda1339bbb54</id>
       <name>R23</name>
       <alpha>127</alpha>
       <length value="7.0" unit="mm"/>
@@ -2412,6 +2554,7 @@
       <shape>Standard</shape>
     </diylc.passive.Resistor>
     <diylc.passive.RadialCeramicDiskCapacitor>
+      <id>5c3ad403-e814-44cb-b593-76490ca95e4a</id>
       <name>C17</name>
       <alpha>127</alpha>
       <length value="0.25" unit="in"/>
@@ -2436,6 +2579,7 @@
       <voltageNew value="50.0" unit="V"/>
     </diylc.passive.RadialCeramicDiskCapacitor>
     <diylc.passive.RadialCeramicDiskCapacitor>
+      <id>73a20279-775d-41f4-a887-55ad41b0a08d</id>
       <name>C18</name>
       <alpha>127</alpha>
       <length value="0.25" unit="in"/>
@@ -2460,6 +2604,7 @@
       <voltageNew value="50.0" unit="V"/>
     </diylc.passive.RadialCeramicDiskCapacitor>
     <diylc.passive.RadialCeramicDiskCapacitor>
+      <id>6f39f29e-7081-44e3-842c-149616703c6c</id>
       <name>C19</name>
       <alpha>127</alpha>
       <length value="0.25" unit="in"/>
@@ -2484,6 +2629,7 @@
       <voltageNew value="50.0" unit="V"/>
     </diylc.passive.RadialCeramicDiskCapacitor>
     <diylc.passive.Resistor>
+      <id>2f8370a5-0fa5-46d8-8837-2e60346a2fa4</id>
       <name>R19</name>
       <alpha>127</alpha>
       <length value="7.0" unit="mm"/>
@@ -2509,6 +2655,7 @@
       <shape>Standard</shape>
     </diylc.passive.Resistor>
     <diylc.passive.Resistor>
+      <id>b1651f89-2cbb-48a4-b318-3a5e97f343aa</id>
       <name>R17</name>
       <alpha>127</alpha>
       <length value="7.0" unit="mm"/>
@@ -2534,6 +2681,7 @@
       <shape>Standard</shape>
     </diylc.passive.Resistor>
     <diylc.passive.RadialCeramicDiskCapacitor>
+      <id>2411da20-8812-415c-a0c9-5674f050761f</id>
       <name>C13</name>
       <alpha>127</alpha>
       <length value="0.25" unit="in"/>
@@ -2558,6 +2706,7 @@
       <voltageNew value="50.0" unit="V"/>
     </diylc.passive.RadialCeramicDiskCapacitor>
     <diylc.passive.Resistor>
+      <id>21fefffb-d1f4-4931-8690-f0e69e6a9c20</id>
       <name>R15</name>
       <alpha>127</alpha>
       <length value="7.0" unit="mm"/>
@@ -2583,6 +2732,7 @@
       <shape>Standard</shape>
     </diylc.passive.Resistor>
     <diylc.passive.Resistor>
+      <id>89ce271f-4cbc-4f77-9e10-3207a1ec73b1</id>
       <name>R16</name>
       <alpha>127</alpha>
       <length value="7.0" unit="mm"/>
@@ -2608,6 +2758,7 @@
       <shape>Standard</shape>
     </diylc.passive.Resistor>
     <diylc.passive.Resistor>
+      <id>e88b7e04-997a-45e3-97c0-bf1a29e766dd</id>
       <name>R14</name>
       <alpha>127</alpha>
       <length value="7.0" unit="mm"/>
@@ -2633,6 +2784,7 @@
       <shape>Standard</shape>
     </diylc.passive.Resistor>
     <diylc.passive.RadialCeramicDiskCapacitor>
+      <id>db2a5a19-bdf2-442b-a53a-1aeb4c51897f</id>
       <name>C11</name>
       <alpha>127</alpha>
       <length value="0.25" unit="in"/>
@@ -2657,6 +2809,7 @@
       <voltageNew value="50.0" unit="V"/>
     </diylc.passive.RadialCeramicDiskCapacitor>
     <diylc.passive.Resistor>
+      <id>eac26bb9-5075-4752-8d8f-653509c2dc29</id>
       <name>R9</name>
       <alpha>127</alpha>
       <length value="7.0" unit="mm"/>
@@ -2682,6 +2835,7 @@
       <shape>Standard</shape>
     </diylc.passive.Resistor>
     <diylc.passive.Resistor>
+      <id>9bb7d076-3659-491b-8603-3d75f931b460</id>
       <name>R11</name>
       <alpha>127</alpha>
       <length value="7.0" unit="mm"/>
@@ -2707,6 +2861,7 @@
       <shape>Standard</shape>
     </diylc.passive.Resistor>
     <diylc.passive.RadialCeramicDiskCapacitor>
+      <id>331b3a1f-bd19-4b06-a74f-2397b18a8f6e</id>
       <name>C3</name>
       <alpha>127</alpha>
       <length value="0.25" unit="in"/>
@@ -2731,6 +2886,7 @@
       <voltageNew value="50.0" unit="V"/>
     </diylc.passive.RadialCeramicDiskCapacitor>
     <diylc.passive.RadialCeramicDiskCapacitor>
+      <id>3ed74475-d77e-4f66-9609-c86c903bd701</id>
       <name>C4</name>
       <alpha>127</alpha>
       <length value="0.25" unit="in"/>
@@ -2755,6 +2911,7 @@
       <voltageNew value="50.0" unit="V"/>
     </diylc.passive.RadialCeramicDiskCapacitor>
     <diylc.passive.RadialCeramicDiskCapacitor>
+      <id>184e08b9-e5cf-41d0-b610-c7a3639d8f3d</id>
       <name>C5</name>
       <alpha>127</alpha>
       <length value="0.25" unit="in"/>
@@ -2779,6 +2936,7 @@
       <voltageNew value="50.0" unit="V"/>
     </diylc.passive.RadialCeramicDiskCapacitor>
     <diylc.passive.RadialCeramicDiskCapacitor>
+      <id>a40d3f22-12a4-4a8b-b96b-95839f906623</id>
       <name>C6</name>
       <alpha>127</alpha>
       <length value="0.25" unit="in"/>
@@ -2803,6 +2961,7 @@
       <voltageNew value="50.0" unit="V"/>
     </diylc.passive.RadialCeramicDiskCapacitor>
     <diylc.passive.RadialCeramicDiskCapacitor>
+      <id>858b0c26-f244-4a41-913b-0380cc554497</id>
       <name>C15</name>
       <alpha>127</alpha>
       <length value="0.25" unit="in"/>
@@ -2827,6 +2986,7 @@
       <voltageNew value="50.0" unit="V"/>
     </diylc.passive.RadialCeramicDiskCapacitor>
     <diylc.passive.RadialCeramicDiskCapacitor>
+      <id>42cf929b-78c9-411a-ad7b-b4cdce2d7da1</id>
       <name>C14</name>
       <alpha>127</alpha>
       <length value="0.25" unit="in"/>
@@ -2851,6 +3011,7 @@
       <voltageNew value="50.0" unit="V"/>
     </diylc.passive.RadialCeramicDiskCapacitor>
     <diylc.passive.RadialElectrolytic>
+      <id>2145e62c-0759-41b0-8ffa-f7c0c294c694</id>
       <name>C2</name>
       <alpha>127</alpha>
       <length value="5.0" unit="mm"/>
@@ -2880,6 +3041,7 @@
       <invert>false</invert>
     </diylc.passive.RadialElectrolytic>
     <diylc.passive.Resistor>
+      <id>dcf89fed-4d0d-4e93-bfb8-6ce419b6368d</id>
       <name>R10</name>
       <alpha>127</alpha>
       <length value="7.0" unit="mm"/>
@@ -2905,6 +3067,7 @@
       <shape>Standard</shape>
     </diylc.passive.Resistor>
     <diylc.passive.Resistor>
+      <id>f3deff82-cd94-4096-9c3c-3f67dd73c98e</id>
       <name>R13</name>
       <alpha>127</alpha>
       <length value="7.0" unit="mm"/>
@@ -2930,6 +3093,7 @@
       <shape>Standard</shape>
     </diylc.passive.Resistor>
     <diylc.passive.Resistor>
+      <id>32ce8fc4-9e2f-498f-85f4-4c0c53893cb1</id>
       <name>R12</name>
       <alpha>127</alpha>
       <length value="7.0" unit="mm"/>
@@ -2955,6 +3119,7 @@
       <shape>Standard</shape>
     </diylc.passive.Resistor>
     <diylc.passive.Resistor>
+      <id>9d5e62da-060a-47ce-b767-0eb5309fbfb5</id>
       <name>R21</name>
       <alpha>127</alpha>
       <length value="7.0" unit="mm"/>
@@ -2980,6 +3145,7 @@
       <shape>Standard</shape>
     </diylc.passive.Resistor>
     <diylc.passive.Resistor>
+      <id>5ca5417a-044d-4ca5-a9f2-1fca0437fa5e</id>
       <name>R20</name>
       <alpha>127</alpha>
       <length value="7.0" unit="mm"/>
@@ -3005,6 +3171,7 @@
       <shape>Standard</shape>
     </diylc.passive.Resistor>
     <diylc.passive.RadialElectrolytic>
+      <id>659d91ce-08ca-4354-b44c-b44e85ecc33c</id>
       <name>C1</name>
       <alpha>127</alpha>
       <length value="5.0" unit="mm"/>
@@ -3034,6 +3201,7 @@
       <invert>false</invert>
     </diylc.passive.RadialElectrolytic>
     <diylc.connectivity.HookupWire>
+      <id>151dd296-f2b5-4a6a-887c-d6937ec5e390</id>
       <name>W1</name>
       <alpha>127</alpha>
       <controlPoints2>
@@ -3052,6 +3220,7 @@
       <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
+      <id>6253d7ba-3da1-45d2-8f24-445d7167dcb1</id>
       <name>W2</name>
       <alpha>127</alpha>
       <controlPoints2>
@@ -3070,6 +3239,7 @@
       <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
+      <id>760d1860-3151-4d5f-8a36-10861cddb483</id>
       <name>W3</name>
       <alpha>127</alpha>
       <controlPoints2>
@@ -3088,6 +3258,7 @@
       <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.electromechanical.OpenJack1__8>
+      <id>a4dcebe1-7bcb-40a2-8cde-5e507531ef0d</id>
       <name>J2</name>
       <alpha>127</alpha>
       <controlPoints>
@@ -3101,6 +3272,7 @@
       <showLabels>true</showLabels>
     </diylc.electromechanical.OpenJack1__8>
     <diylc.passive.Resistor>
+      <id>8eb68a12-8fa0-471f-81e2-72b48fa056d0</id>
       <name>R31</name>
       <alpha>127</alpha>
       <length value="7.0" unit="mm"/>
@@ -3126,6 +3298,7 @@
       <shape>Standard</shape>
     </diylc.passive.Resistor>
     <diylc.electromechanical.OpenJack1__8>
+      <id>5e7f15f5-5f12-42cf-9a70-efe53becafbc</id>
       <name>J3</name>
       <alpha>127</alpha>
       <controlPoints>
@@ -3139,6 +3312,7 @@
       <showLabels>true</showLabels>
     </diylc.electromechanical.OpenJack1__8>
     <diylc.passive.Resistor>
+      <id>a7d888fd-1643-47d6-8fdc-ea3cbeb95e21</id>
       <name>R32</name>
       <alpha>127</alpha>
       <length value="7.0" unit="mm"/>
@@ -3164,6 +3338,7 @@
       <shape>Standard</shape>
     </diylc.passive.Resistor>
     <diylc.electromechanical.OpenJack1__8>
+      <id>3f960db8-b6ad-46fe-a117-31aacfe5320e</id>
       <name>J4</name>
       <alpha>127</alpha>
       <controlPoints>
@@ -3177,6 +3352,7 @@
       <showLabels>true</showLabels>
     </diylc.electromechanical.OpenJack1__8>
     <diylc.passive.Resistor>
+      <id>bac0b18d-52ea-459a-9dff-0fcbaf61022e</id>
       <name>R33</name>
       <alpha>127</alpha>
       <length value="7.0" unit="mm"/>
@@ -3202,6 +3378,7 @@
       <shape>Standard</shape>
     </diylc.passive.Resistor>
     <diylc.electromechanical.OpenJack1__8>
+      <id>080a5102-9873-4d05-92c1-8bdf7ab8d8d6</id>
       <name>J5</name>
       <alpha>127</alpha>
       <controlPoints>
@@ -3215,6 +3392,7 @@
       <showLabels>true</showLabels>
     </diylc.electromechanical.OpenJack1__8>
     <diylc.passive.Resistor>
+      <id>bb5a07e1-0c83-4aa6-a48b-3a4406f7a354</id>
       <name>R34</name>
       <alpha>127</alpha>
       <length value="7.0" unit="mm"/>
@@ -3240,6 +3418,7 @@
       <shape>Standard</shape>
     </diylc.passive.Resistor>
     <diylc.electromechanical.OpenJack1__8>
+      <id>624d52ad-866d-4b66-98c4-9137e82fdbaf</id>
       <name>J6</name>
       <alpha>127</alpha>
       <controlPoints>
@@ -3253,6 +3432,7 @@
       <showLabels>true</showLabels>
     </diylc.electromechanical.OpenJack1__8>
     <diylc.passive.Resistor>
+      <id>4187805a-033d-47ff-b2f1-f4198de017a4</id>
       <name>R35</name>
       <alpha>127</alpha>
       <length value="7.0" unit="mm"/>
@@ -3278,6 +3458,7 @@
       <shape>Standard</shape>
     </diylc.passive.Resistor>
     <diylc.semiconductors.DIL__IC>
+      <id>b3cc78c4-224c-4ddf-8be7-90e7cac5216e</id>
       <name>IC2</name>
       <alpha>76</alpha>
       <value>TL074</value>
@@ -3309,6 +3490,7 @@
       <displayNumbers>NO</displayNumbers>
     </diylc.semiconductors.DIL__IC>
     <diylc.connectivity.Line>
+      <id>4c4f3524-2d26-4a9e-8bcf-a22116efd8d6</id>
       <name>LN1</name>
       <alpha>127</alpha>
       <points>
@@ -3333,6 +3515,7 @@
       <arrowEnd>false</arrowEnd>
     </diylc.connectivity.Line>
     <diylc.connectivity.Line>
+      <id>cb66671c-242b-40e1-ba44-f714846419cd</id>
       <name>LN2</name>
       <alpha>127</alpha>
       <points>
@@ -3357,6 +3540,7 @@
       <arrowEnd>false</arrowEnd>
     </diylc.connectivity.Line>
     <diylc.connectivity.Line>
+      <id>d64eea28-aafc-4911-9fb4-5a21cc1d8bbd</id>
       <name>LN3</name>
       <alpha>127</alpha>
       <points>
@@ -3381,6 +3565,7 @@
       <arrowEnd>false</arrowEnd>
     </diylc.connectivity.Line>
     <diylc.connectivity.Line>
+      <id>64bd8f6d-860f-4814-acb3-a690edcf28a9</id>
       <name>LN4</name>
       <alpha>127</alpha>
       <points>
@@ -3405,6 +3590,7 @@
       <arrowEnd>false</arrowEnd>
     </diylc.connectivity.Line>
     <diylc.connectivity.Line>
+      <id>e9546b65-6629-4f1e-9f18-e429e8fb87ea</id>
       <name>LN5</name>
       <alpha>127</alpha>
       <points>
@@ -3429,6 +3615,7 @@
       <arrowEnd>false</arrowEnd>
     </diylc.connectivity.Line>
     <diylc.connectivity.Line>
+      <id>422db1e9-7c88-42ea-913f-a324277d322e</id>
       <name>LN6</name>
       <alpha>127</alpha>
       <points>
@@ -3453,6 +3640,7 @@
       <arrowEnd>false</arrowEnd>
     </diylc.connectivity.Line>
     <diylc.connectivity.Line>
+      <id>07c1e03a-3aa6-46c0-8334-742b89fd5ca5</id>
       <name>LN7</name>
       <alpha>127</alpha>
       <points>
@@ -3477,6 +3665,7 @@
       <arrowEnd>false</arrowEnd>
     </diylc.connectivity.Line>
     <diylc.connectivity.Line>
+      <id>5f59d1d8-12b9-4762-b729-08d604a9c784</id>
       <name>LN8</name>
       <alpha>127</alpha>
       <points>
@@ -3501,6 +3690,7 @@
       <arrowEnd>false</arrowEnd>
     </diylc.connectivity.Line>
     <diylc.semiconductors.DIL__IC>
+      <id>778b2497-4ca3-4ffc-ae8f-a3cbdb968bc6</id>
       <name>IC1</name>
       <alpha>76</alpha>
       <value>TL074</value>
@@ -3532,6 +3722,7 @@
       <displayNumbers>NO</displayNumbers>
     </diylc.semiconductors.DIL__IC>
     <diylc.semiconductors.TransistorTO92>
+      <id>a7ae1acb-2725-4319-9f1e-459b1679dbc9</id>
       <name>Q1</name>
       <alpha>100</alpha>
       <value>BC337</value>
@@ -3550,6 +3741,7 @@
       <pinSpacing value="0.1" unit="in"/>
     </diylc.semiconductors.TransistorTO92>
     <diylc.passive.Resistor>
+      <id>42b91b38-efd5-4534-8c88-4c71d7ef9b3f</id>
       <name>R4</name>
       <alpha>127</alpha>
       <length value="7.0" unit="mm"/>
@@ -3575,6 +3767,7 @@
       <shape>Standard</shape>
     </diylc.passive.Resistor>
     <diylc.passive.RadialCeramicDiskCapacitor>
+      <id>df9f7672-d3e7-4ee1-80e7-2de62a45d0a6</id>
       <name>C7</name>
       <alpha>127</alpha>
       <length value="0.25" unit="in"/>
@@ -3599,6 +3792,7 @@
       <voltageNew value="50.0" unit="V"/>
     </diylc.passive.RadialCeramicDiskCapacitor>
     <diylc.passive.Resistor>
+      <id>6210cde6-3ea6-4270-bdf5-c518baf6c625</id>
       <name>R3</name>
       <alpha>127</alpha>
       <length value="7.0" unit="mm"/>
@@ -3624,6 +3818,7 @@
       <shape>Standard</shape>
     </diylc.passive.Resistor>
     <diylc.passive.RadialCeramicDiskCapacitor>
+      <id>cc83396f-1967-4b65-b8f2-43dcbd668557</id>
       <name>C8</name>
       <alpha>127</alpha>
       <length value="0.25" unit="in"/>
@@ -3648,6 +3843,7 @@
       <voltageNew value="50.0" unit="V"/>
     </diylc.passive.RadialCeramicDiskCapacitor>
     <diylc.passive.Resistor>
+      <id>11e8cf39-7bd8-4425-a4aa-2fd64c7175b9</id>
       <name>R5</name>
       <alpha>127</alpha>
       <length value="7.0" unit="mm"/>
@@ -3673,6 +3869,7 @@
       <shape>Standard</shape>
     </diylc.passive.Resistor>
     <diylc.passive.Resistor>
+      <id>bd1ba9eb-d1ec-4b17-9401-3a97ee984da5</id>
       <name>R6</name>
       <alpha>127</alpha>
       <length value="7.0" unit="mm"/>
@@ -3698,6 +3895,7 @@
       <shape>Standard</shape>
     </diylc.passive.Resistor>
     <diylc.passive.Resistor>
+      <id>aff4d40c-43af-40e9-a57b-009c971abb1b</id>
       <name>R7</name>
       <alpha>127</alpha>
       <length value="7.0" unit="mm"/>
@@ -3723,6 +3921,7 @@
       <shape>Standard</shape>
     </diylc.passive.Resistor>
     <diylc.passive.RadialCeramicDiskCapacitor>
+      <id>9e4254dd-bc6c-4c3f-8d75-ae9ebb4a45ef</id>
       <name>C10</name>
       <alpha>127</alpha>
       <length value="0.25" unit="in"/>
@@ -3747,6 +3946,7 @@
       <voltageNew value="50.0" unit="V"/>
     </diylc.passive.RadialCeramicDiskCapacitor>
     <diylc.passive.Resistor>
+      <id>d8ba07d0-6f10-4a5b-808b-90c53c0bde7b</id>
       <name>R8</name>
       <alpha>127</alpha>
       <length value="7.0" unit="mm"/>
@@ -3772,6 +3972,7 @@
       <shape>Standard</shape>
     </diylc.passive.Resistor>
     <diylc.passive.TrimmerPotentiometer>
+      <id>ab955a45-3a60-44e3-985d-903220dd0ae3</id>
       <name>VR1</name>
       <alpha>127</alpha>
       <controlPoints>
@@ -3788,6 +3989,7 @@
       <type>FLAT_XSMALL</type>
     </diylc.passive.TrimmerPotentiometer>
     <diylc.passive.RadialCeramicDiskCapacitor>
+      <id>5efc4ba1-24ce-4bdc-9a73-5eb5cfe0bb2d</id>
       <name>C9</name>
       <alpha>127</alpha>
       <length value="0.25" unit="in"/>
@@ -3812,6 +4014,7 @@
       <voltageNew value="50.0" unit="V"/>
     </diylc.passive.RadialCeramicDiskCapacitor>
     <diylc.passive.RadialCeramicDiskCapacitor>
+      <id>5d50ff42-7e8a-42de-a0b1-263edd5509fd</id>
       <name>C12</name>
       <alpha>127</alpha>
       <length value="0.25" unit="in"/>
@@ -3836,6 +4039,7 @@
       <voltageNew value="50.0" unit="V"/>
     </diylc.passive.RadialCeramicDiskCapacitor>
     <diylc.passive.RadialCeramicDiskCapacitor>
+      <id>c751189e-0947-46a6-9576-8e65edb9ec85</id>
       <name>C16</name>
       <alpha>127</alpha>
       <length value="0.25" unit="in"/>
@@ -3860,6 +4064,7 @@
       <voltageNew value="50.0" unit="V"/>
     </diylc.passive.RadialCeramicDiskCapacitor>
     <diylc.connectivity.HookupWire>
+      <id>efc1b72f-97b5-418b-be83-10bbe30c04b0</id>
       <name>W5</name>
       <alpha>127</alpha>
       <controlPoints2>
@@ -3878,6 +4083,7 @@
       <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
+      <id>10be8166-3a6f-4221-8d63-25e6707df239</id>
       <name>W6</name>
       <alpha>127</alpha>
       <controlPoints2>
@@ -3896,6 +4102,7 @@
       <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
+      <id>f0763031-2198-44ca-8194-f0825478558b</id>
       <name>W7</name>
       <alpha>127</alpha>
       <controlPoints2>
@@ -3914,6 +4121,7 @@
       <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
+      <id>f55cf079-9045-4fe0-bb64-dcb27091db27</id>
       <name>W8</name>
       <alpha>127</alpha>
       <controlPoints2>
@@ -3932,6 +4140,7 @@
       <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
+      <id>a8c99405-b066-4390-82ac-a941b9eed223</id>
       <name>W9</name>
       <alpha>127</alpha>
       <controlPoints2>
@@ -3950,6 +4159,7 @@
       <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
+      <id>8d5758dd-d92d-4cf9-b475-da841f2d53c1</id>
       <name>W10</name>
       <alpha>127</alpha>
       <controlPoints2>
@@ -3968,6 +4178,7 @@
       <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
+      <id>3c96393d-f696-4295-8f5b-f57861401fc7</id>
       <name>W11</name>
       <alpha>127</alpha>
       <controlPoints2>
@@ -3986,6 +4197,7 @@
       <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
+      <id>ea3b8233-f4d0-4bff-a9e3-efb14806145d</id>
       <name>W12</name>
       <alpha>127</alpha>
       <controlPoints2>
@@ -4004,6 +4216,7 @@
       <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
+      <id>8f351948-8feb-401c-995a-20d146ff96ef</id>
       <name>W13</name>
       <alpha>127</alpha>
       <controlPoints2>
@@ -4022,6 +4235,7 @@
       <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
+      <id>138be9b3-927c-40d7-8338-3a65d2e0afba</id>
       <name>W14</name>
       <alpha>127</alpha>
       <controlPoints2>
@@ -4040,6 +4254,7 @@
       <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.misc.Label>
+      <id>96c8d0d8-838f-4a0c-90fa-464179456e41</id>
       <name>LAB1</name>
       <point x="1.1" y="4.4"/>
       <text>Notes:&lt;br&gt;- Choose Q1 for optimal noise. VR1 can compensate for the noise being too quiet, so focus on flatness!&lt;br&gt;  All but one of the BC547s I tested started to roll off hard around 3kHz - 5kHz as if they were being low-passed,&lt;br&gt;  but every BC337 I tested was nice and flat up to ~12kHz and had only rolled off by ~2dB at 20kHz.&lt;br&gt;- R4 is significantly higher than in (most) other designs as I found that the lower the current going into Q1 was,&lt;br&gt;  the flatter its noise output would be. I&apos;d advise experimenting with this yourself.&lt;br&gt;- C10 is also much higher than the MFOS design I was referencing for the noise amplification circuit as&lt;br&gt;  the 100nF cap used there was causing the noise to get bass boosted...? Not sure why,&lt;br&gt;- The grainy noise comparator circuit seems to clip a lot, and the output likes stay high or low for a few ms at a time.&lt;br&gt;  I&apos;m not sure why but suspect it&apos;s due to different noise characteristics between transistors?</text>
@@ -4050,6 +4265,7 @@
       <orientation>DEFAULT</orientation>
     </diylc.misc.Label>
     <diylc.misc.Label>
+      <id>e50528bc-853d-46cc-aebe-6c63725b59c8</id>
       <name>LAB2</name>
       <point x="0.7000000000000006" y="1.4"/>
       <text>White Out</text>
@@ -4060,6 +4276,7 @@
       <orientation>DEFAULT</orientation>
     </diylc.misc.Label>
     <diylc.misc.Label>
+      <id>c6c22340-83bb-4411-a8d8-a270d8cdf751</id>
       <name>LAB3</name>
       <point x="3.5" y="2.0"/>
       <text>Pink Out</text>
@@ -4070,6 +4287,7 @@
       <orientation>DEFAULT</orientation>
     </diylc.misc.Label>
     <diylc.misc.Label>
+      <id>4b0794cd-db88-45b4-aaf2-58f84d6b63d0</id>
       <name>LAB4</name>
       <point x="3.5" y="2.4"/>
       <text>Violet Out</text>
@@ -4080,6 +4298,7 @@
       <orientation>DEFAULT</orientation>
     </diylc.misc.Label>
     <diylc.misc.Label>
+      <id>61225b38-d412-4d28-90b4-77e592f3c72b</id>
       <name>LAB5</name>
       <point x="1.8" y="3.5"/>
       <text>Grainy Out</text>
@@ -4090,6 +4309,7 @@
       <orientation>DEFAULT</orientation>
     </diylc.misc.Label>
     <diylc.misc.Label>
+      <id>482ee693-3c1c-495c-b651-a88c5a5472f3</id>
       <name>LAB6</name>
       <point x="0.7000000000000006" y="2.4"/>
       <text>Blue Out</text>
@@ -4100,6 +4320,7 @@
       <orientation>DEFAULT</orientation>
     </diylc.misc.Label>
     <diylc.misc.Label>
+      <id>813779a1-eae0-43c4-b0cb-6f17b50bb946</id>
       <name>LAB7</name>
       <point x="0.7000000000000006" y="2.0"/>
       <text>Red Out</text>
@@ -4110,6 +4331,7 @@
       <orientation>DEFAULT</orientation>
     </diylc.misc.Label>
     <diylc.misc.Label>
+      <id>a18dcbb8-01c9-4550-9969-dc1f84c6f27d</id>
       <name>LAB8</name>
       <point x="2.4" y="3.5"/>
       <text>Graininess A</text>
@@ -4120,6 +4342,7 @@
       <orientation>DEFAULT</orientation>
     </diylc.misc.Label>
     <diylc.misc.Label>
+      <id>274eae1e-09f7-4b6e-b6ee-22bc2b87e0b3</id>
       <name>LAB9</name>
       <point x="0.7000000000000006" y="2.9000000000000004"/>
       <text>Graininess B</text>
@@ -4130,6 +4353,7 @@
       <orientation>DEFAULT</orientation>
     </diylc.misc.Label>
     <diylc.misc.Label>
+      <id>0103b154-7927-43fe-958b-63f87a7dd542</id>
       <name>LAB10</name>
       <point x="4.4" y="0.4"/>
       <text>Graininess</text>
@@ -4140,6 +4364,7 @@
       <orientation>DEFAULT</orientation>
     </diylc.misc.Label>
     <diylc.misc.Label>
+      <id>b2750879-a141-4929-96f3-7e2b02c99834</id>
       <name>LAB11</name>
       <point x="4.2" y="1.8"/>
       <text>A</text>
@@ -4150,6 +4375,7 @@
       <orientation>DEFAULT</orientation>
     </diylc.misc.Label>
     <diylc.misc.Label>
+      <id>ad3613f2-29ac-4515-a91d-a38bfbb5dc8c</id>
       <name>LAB12</name>
       <point x="4.6" y="1.8"/>
       <text>B</text>
@@ -4160,6 +4386,7 @@
       <orientation>DEFAULT</orientation>
     </diylc.misc.Label>
     <diylc.misc.Label>
+      <id>373dd94a-5f02-4841-9e10-52bd300172a4</id>
       <name>LAB13</name>
       <point x="5.500000000000001" y="0.3"/>
       <text>Grainy Out</text>
@@ -4170,6 +4397,7 @@
       <orientation>DEFAULT</orientation>
     </diylc.misc.Label>
     <diylc.misc.Label>
+      <id>43a7b1e1-3c41-4fda-8449-f8ead7c48508</id>
       <name>LAB14</name>
       <point x="5.5" y="1.2"/>
       <text>White Out</text>
@@ -4180,6 +4408,7 @@
       <orientation>DEFAULT</orientation>
     </diylc.misc.Label>
     <diylc.misc.Label>
+      <id>e11b5372-4c28-4a78-9df4-2855740e2e92</id>
       <name>LAB15</name>
       <point x="4.5" y="2.1"/>
       <text>Blue Out</text>
@@ -4190,6 +4419,7 @@
       <orientation>DEFAULT</orientation>
     </diylc.misc.Label>
     <diylc.misc.Label>
+      <id>3165b353-b7a6-4424-b145-1734a413cad9</id>
       <name>LAB16</name>
       <point x="5.5" y="2.1"/>
       <text>Violet Out</text>
@@ -4200,6 +4430,7 @@
       <orientation>DEFAULT</orientation>
     </diylc.misc.Label>
     <diylc.misc.Label>
+      <id>7396f926-9348-4014-a4d7-7df64ee61ba7</id>
       <name>LAB17</name>
       <point x="4.5" y="3.0"/>
       <text>Pink Out</text>
@@ -4210,6 +4441,7 @@
       <orientation>DEFAULT</orientation>
     </diylc.misc.Label>
     <diylc.misc.Label>
+      <id>1cf3af2d-ead7-42df-9d90-42360f9b38d4</id>
       <name>LAB18</name>
       <point x="5.5" y="3.0"/>
       <text>Red Out</text>
@@ -4220,12 +4452,15 @@
       <orientation>DEFAULT</orientation>
     </diylc.misc.Label>
   </components>
-  <groups>
-    <set>
-      <diylc.semiconductors.TransistorTO92 reference="../../../components/diylc.semiconductors.TransistorTO92"/>
-      <diylc.connectivity.TraceCut reference="../../../components/diylc.connectivity.TraceCut[45]"/>
-    </set>
-  </groups>
+  <groups/>
+  <groupsEx>
+    <group>
+      <componentIds>
+        <uuid>a7ae1acb-2725-4319-9f1e-459b1679dbc9</uuid>
+        <uuid>688ee0a3-c5be-418f-8656-2a454168bc99</uuid>
+      </componentIds>
+    </group>
+  </groupsEx>
   <lockedLayers/>
   <lockedComponents/>
   <hiddenLayers/>

@@ -230,7 +230,7 @@ oh, and the grainy noise generator is based on the [mfos noise cornucopia](https
   </tr>
   <tr>
     <td>VR2</td>
-    <td>47K linear potentiometer</td>
+    <td>50K linear potentiometer</td>
     <td>1</td>
     <td></td>
   </tr>
