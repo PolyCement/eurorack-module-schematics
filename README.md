@@ -18,6 +18,7 @@ todo: this ;)
 - ["monkey puzzle" - 4-in/6-out mixer module](./modules/mixer)
 - ["mersenne rainbow" - noise generator module](./modules/noise)
 - ["free samples" - sample & hold module](./modules/sample_and_hold)
+- ["the module known only as sir" - distortion module](./modules/distortion)
 - [misc circuit fragments](./modules/fragments)
 
 ### power:
