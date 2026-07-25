@@ -122,7 +122,7 @@ i'm really happy with the resulting sound, but something i'd maybe consider if i
   </tr>
   <tr>
     <td>IC1</td>
-    <td>TL074 dual op-amp</td>
+    <td>TL072 dual op-amp</td>
     <td>1</td>
     <td></td>
   </tr>
